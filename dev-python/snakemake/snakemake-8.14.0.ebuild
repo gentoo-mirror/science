@@ -1,9 +1,9 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{10..12} )
+PYTHON_COMPAT=( python3_{11..12} )
 DISTUTILS_USE_PEP517=setuptools
 
 inherit distutils-r1
@@ -33,6 +33,7 @@ BDEPEND="
 
 RDEPEND="
 	dev-python/appdirs[${PYTHON_USEDEP}]
+	dev-python/immutables[${PYTHON_USEDEP}]
 	dev-python/ConfigArgParse[${PYTHON_USEDEP}]
 	dev-python/connection_pool[${PYTHON_USEDEP}]
 	dev-python/datrie[${PYTHON_USEDEP}]
@@ -48,20 +49,26 @@ RDEPEND="
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/reretry[${PYTHON_USEDEP}]
 	dev-python/smart-open[${PYTHON_USEDEP}]
+	dev-python/snakemake-interface-executor-plugins[${PYTHON_USEDEP}]
+	dev-python/snakemake-interface-common[${PYTHON_USEDEP}]
+	dev-python/snakemake-interface-storage-plugins[${PYTHON_USEDEP}]
+	dev-python/snakemake-interface-report-plugins[${PYTHON_USEDEP}]
 	dev-python/stopit[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/throttler[${PYTHON_USEDEP}]
 	dev-python/toposort[${PYTHON_USEDEP}]
 	dev-python/wrapt[${PYTHON_USEDEP}]
 	dev-python/yte[${PYTHON_USEDEP}]
-	<sci-mathematics/pulp-2.8[${PYTHON_USEDEP}]
+	dev-python/dpath[${PYTHON_USEDEP}]
+	dev-python/conda-inject[${PYTHON_USEDEP}]
+	sci-mathematics/pulp[${PYTHON_USEDEP}]
 "
 
-distutils_enable_sphinx docs \
-	dev-python/sphinxcontrib-napoleon \
-	dev-python/sphinx-argparse \
-	dev-python/sphinx-rtd-theme \
-	dev-python/docutils \
-	dev-python/recommonmark \
-	dev-python/myst-parser
+# distutils_enable_sphinx docs \
+# 	dev-python/sphinxcontrib-napoleon \
+# 	dev-python/sphinx-argparse \
+# 	dev-python/sphinx-rtd-theme \
+# 	dev-python/docutils \
+# 	dev-python/recommonmark \
+# 	dev-python/myst-parser
 distutils_enable_tests pytest
