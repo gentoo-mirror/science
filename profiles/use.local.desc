@@ -140,6 +140,16 @@ sci-physics/photos:hepmc2 - Build with hepmc 2
 sci-physics/photos:hepmc3 - Build with hepmc 3
 sci-physics/photos:pythia - Build with pythia
 sci-physics/photos:tauola - Build with tauola
+sci-physics/sherpa:analysis - analysis support
+sci-physics/sherpa:fastjet - Build with FastJet
+sci-physics/sherpa:hepmc2 - Build with HepMC2
+sci-physics/sherpa:lhole - lhole support
+sci-physics/sherpa:openloops - Openloops support
+sci-physics/sherpa:pythia6 - Build with Pythia6
+sci-physics/sherpa:pythia8 - Build with Pythia8
+sci-physics/sherpa:rivet - Build with Rivet
+sci-physics/sherpa:root - Build with Root
+sci-physics/sherpa:ufo - UFO python interface
 sci-physics/tauola:hepmc - Compile with sci-physics/hepmc version 2 interface
 sci-physics/tauola:hepmc2 - Compile with sci-physics/hepmc version 2 interface
 sci-physics/tauola:hepmc3 - Compile with sci-physics/hepmc version 3 interface
