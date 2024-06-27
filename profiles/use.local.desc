@@ -108,7 +108,13 @@ sci-misc/elmer-fem:post - Build ElmerPOST
 sci-physics/atompaw:libxc - Enable support for libxc, an exchange-correlation potentials library
 sci-physics/atompaw:longplot - Patch the sources to plot functions all over the space considered, not just up to the matching radius plus 50 grid points. May be useless or even harmful.
 sci-physics/cernlib:free - Use free sources
+sci-physics/cuttools:dummy - Add dummy module for OpenLoops
+sci-physics/evtgen:hepmc3 - Build with hepmc version 3 support, else hepmc version2 is used
+sci-physics/evtgen:photos - Build with photos
+sci-physics/evtgen:pythia - Build with pythia
+sci-physics/evtgen:tauola - Build with tauola
 sci-physics/feyncalc:FCtraditionalFormOutput - Use TraditionalForm typesetting.
+sci-physics/herwig:pythia - Build with pythia support
 sci-physics/madgraph5:collier - USE system collier
 sci-physics/madgraph5:fastjet - USE system FASTJET
 sci-physics/madgraph5:hepmc2 - USE system hepmc version 2
@@ -117,7 +123,28 @@ sci-physics/madgraph5:pythia - USE system PYTHIA
 sci-physics/madgraph5:thepeg - USE system thepeg
 sci-physics/mc-tester:hepmc - Compile sci-physics/hepmc interface
 sci-physics/mc-tester:pythia - Compile sci-physics/pythia interface
-sci-physics/tauola:hepmc - Compile sci-physics/hepmc interface
+sci-physics/oneloop:arprec - use sci-libs/arprec
+sci-physics/oneloop:cppintf - enable cppintf
+sci-physics/oneloop:ddcpp - double use sci-libs/qd
+sci-physics/oneloop:dpkind - double precision
+sci-physics/oneloop:dpkind16 - double16 precision
+sci-physics/oneloop:mpfun90 - use sci-libs/mpfun90
+sci-physics/oneloop:qdcpp - quad use sci-libs/qd
+sci-physics/oneloop:qpkind - quad precision
+sci-physics/oneloop:qpkind16 - quad16 precision
+sci-physics/oneloop:tlevel - enable tlevel
+sci-physics/openloops:collier - Build with collier
+sci-physics/openloops:cuttools - Build with cuttools
+sci-physics/openloops:extra - Build libs with extra
+sci-physics/photos:hepmc2 - Build with hepmc 2
+sci-physics/photos:hepmc3 - Build with hepmc 3
+sci-physics/photos:pythia - Build with pythia
+sci-physics/photos:tauola - Build with tauola
+sci-physics/tauola:hepmc - Compile with sci-physics/hepmc version 2 interface
+sci-physics/tauola:hepmc2 - Compile with sci-physics/hepmc version 2 interface
+sci-physics/tauola:hepmc3 - Compile with sci-physics/hepmc version 3 interface
+sci-physics/tauola:lhapdf - Compile with sci-physics/lhapdf connection
+sci-physics/tauola:pythia - Compile with sci-physics/pythia connection
 sci-physics/tauola:tau-spinner - Compile with TauSpinner library
 sci-visualization/mricrogl:dicom - Adds limited read support for the DICOM imaging format.
 sys-cluster/modules:compat - Build Modules version 3 compat support

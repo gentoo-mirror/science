@@ -1,0 +1,16 @@
+BDEPEND=virtual/fortran python_single_target_python3_10? ( >=dev-build/scons-4.4.0[python_targets_python3_10(-)] ) python_single_target_python3_11? ( >=dev-build/scons-4.4.0[python_targets_python3_11(-)] ) python_single_target_python3_12? ( >=dev-build/scons-4.4.0[python_targets_python3_12(-)] ) python_single_target_python3_10? ( dev-lang/python:3.10 ) python_single_target_python3_11? ( dev-lang/python:3.11 ) python_single_target_python3_12? ( dev-lang/python:3.12 )
+DEFINED_PHASES=compile install postinst prepare setup
+DEPEND=sci-physics/qcdloop sci-physics/oneloop[dpkind,qpkind16,-qpkind,-cppintf] collier? ( sci-physics/collier[-static-libs] ) cuttools? ( sci-physics/cuttools[dummy] ) python_single_target_python3_10? ( dev-lang/python:3.10 ) python_single_target_python3_11? ( dev-lang/python:3.11 ) python_single_target_python3_12? ( dev-lang/python:3.12 ) virtual/fortran
+DESCRIPTION=Evaluation of tree and one-loop matrix elements for any Standard Model.
+EAPI=8
+HOMEPAGE=https://openloops.hepforge.org/index.html
+INHERIT=fortran-2 python-single-r1 scons-utils toolchain-funcs
+IUSE=+collier +cuttools +extra python_single_target_python3_10 python_single_target_python3_11 python_single_target_python3_12
+KEYWORDS=~amd64
+LICENSE=GPL-3+
+RDEPEND=sci-physics/qcdloop sci-physics/oneloop[dpkind,qpkind16,-qpkind,-cppintf] collier? ( sci-physics/collier[-static-libs] ) cuttools? ( sci-physics/cuttools[dummy] ) python_single_target_python3_10? ( dev-lang/python:3.10 ) python_single_target_python3_11? ( dev-lang/python:3.11 ) python_single_target_python3_12? ( dev-lang/python:3.12 ) virtual/fortran
+REQUIRED_USE=^^ ( python_single_target_python3_10 python_single_target_python3_11 python_single_target_python3_12 )
+SLOT=0
+SRC_URI=https://gitlab.com/openloops/OpenLoops/-/archive/OpenLoops-2.1.3/OpenLoops-OpenLoops-2.1.3.tar.bz2
+_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	fortran-2	40c4450f1c4ecb2ee694d96e1958d4ea	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	python-utils-r1	8b220bbce5c119fb1d4d5c2f5588f3ea	python-single-r1	75118e916668a74c660a13b0ecb22562	scons-utils	b3544637c85286a19000d59461d3a7a5
+_md5_=e0fd4d158809abe90dd25b90b7cf940e

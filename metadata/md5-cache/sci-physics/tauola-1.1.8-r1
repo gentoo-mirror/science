@@ -1,0 +1,16 @@
+BDEPEND=doc? ( app-text/doxygen[dot] app-text/ghostscript-gpl app-text/texlive ) virtual/fortran
+DEFINED_PHASES=compile configure install setup
+DEPEND=hepmc2? ( sci-physics/hepmc:2=[-cm(-),gev(+)] ) hepmc3? ( sci-physics/hepmc:3=[-cm(-),gev(+)] ) pythia? ( sci-physics/pythia:8= ) lhapdf? ( sci-physics/lhapdf ) virtual/fortran
+DESCRIPTION=Tau decay Monte Carlo generator
+EAPI=8
+HOMEPAGE=http://tauolapp.web.cern.ch/
+INHERIT=fortran-2
+IUSE=+hepmc3 +lhapdf doc examples hepmc2 pythia tau-spinner
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3+
+RDEPEND=hepmc2? ( sci-physics/hepmc:2=[-cm(-),gev(+)] ) hepmc3? ( sci-physics/hepmc:3=[-cm(-),gev(+)] ) pythia? ( sci-physics/pythia:8= ) lhapdf? ( sci-physics/lhapdf ) virtual/fortran
+REQUIRED_USE=|| ( hepmc2 hepmc3 ) tau-spinner? ( lhapdf )
+SLOT=0
+SRC_URI=https://tauolapp.web.cern.ch/resources/TAUOLA.1.1.8/TAUOLA.1.1.8.tar.gz
+_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	fortran-2	40c4450f1c4ecb2ee694d96e1958d4ea
+_md5_=f66142bb023660f2945e57d58f4dce98
