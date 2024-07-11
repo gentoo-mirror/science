@@ -148,11 +148,11 @@ dev-python/rich-click 1.8.3: Format click help output nicely with rich
 dev-python/ripser 0.6.4: python frontend for the fast ripser tda tool
 dev-python/scooby 0.5.7: Easily report Python package versions and hardware resources
 dev-python/smart-open 6.3.0: Utils for streaming large files (S3, HDFS, gzip, bz2...)
-dev-python/snakemake 7.32.4 8.14.0: Make-like task language
+dev-python/snakemake 7.32.4 8.16.0: Make-like task language
 dev-python/snakemake-interface-common 1.17.2: Common functions and classes for Snakemake and its plugins
-dev-python/snakemake-interface-executor-plugins 9.1.1: Stable interface for interactions between Snakemake and its executor plugins
+dev-python/snakemake-interface-executor-plugins 9.2.0: Stable interface for interactions between Snakemake and its executor plugins
 dev-python/snakemake-interface-report-plugins 1.0.0: The interface for Snakemake report plugins
-dev-python/snakemake-interface-storage-plugins 3.2.2: Stable interface for interactions between Snakemake and its storage plugins
+dev-python/snakemake-interface-storage-plugins 3.2.3: Stable interface for interactions between Snakemake and its storage plugins
 dev-python/snuggs 1.4.7: S-expressions for numpy
 dev-python/spectra 0.0.11: Easy color scales and color conversion for Python
 dev-python/specutils 1.9.1: Package for spectroscopic astronomical data
