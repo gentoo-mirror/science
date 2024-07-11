@@ -66,7 +66,7 @@ dev-python/datrie 0.8.2-r1: Implements a topological sort algorithm
 dev-python/delegator 0.1.1: Subprocesses for Humans 2.0.
 dev-python/distinctipy 1.2.2: Lightweight package for generating visually distinct colours
 dev-python/docstring-parser 0.16: Parse Python docstrings in various flavors
-dev-python/dpath 2.1.6: Accessing and searching dictionaries via /slashed/paths
+dev-python/dpath 2.2.0: Accessing and searching dictionaries via /slashed/paths
 dev-python/dpctl 0.14.1_rc2 0.14.5: Data Parallel Control
 dev-python/dpnp 0.11.1_rc1: Data Parallel Extension for NumPy
 dev-python/extension-helpers 1.0.0: Utilities for building and installing packages in the Astropy ecosystem
@@ -118,7 +118,7 @@ dev-python/panel 0.14.2-r1: High-level app and dashboarding solution for Python
 dev-python/param 1.10.1 1.12.3: Make Python code clearer and more reliable by declaring Parameters
 dev-python/persim 0.3.1: Distances and representations of persistence diagrams
 dev-python/photutils 1.6.0: Affiliated package for image photometry utilities
-dev-python/plac 1.4.2: Parsing the Command Line the Easy Way
+dev-python/plac 1.4.3: Parsing the Command Line the Easy Way
 dev-python/probeinterface 0.2.14 0.2.16 0.2.20: Python package to handle probe layout, geometry and wiring to device
 dev-python/prov 2.0.0: W3C provenance data dodel library
 dev-python/py2bit 0.3.0 0.3.1 9999: Python library for accessing 2bit files
@@ -144,7 +144,7 @@ dev-python/regions 0.7: Astropy affilated package for region handling
 dev-python/reproject 0.8: Reproject astronomical images
 dev-python/repsep_utils 0.2 0.3 0.3.1: Utilities Supporting RepSeP-style documents
 dev-python/reretry 0.11.8: An easy-to-use but functional retry decorator in python
-dev-python/rich-click 1.7.2: Format click help output nicely with rich
+dev-python/rich-click 1.8.3: Format click help output nicely with rich
 dev-python/ripser 0.6.4: python frontend for the fast ripser tda tool
 dev-python/scooby 0.5.7: Easily report Python package versions and hardware resources
 dev-python/smart-open 6.3.0: Utils for streaming large files (S3, HDFS, gzip, bz2...)
