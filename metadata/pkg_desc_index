@@ -256,7 +256,7 @@ sci-biology/brkraw 0.3.11: Fast and easy statistical learning on NeuroImaging da
 sci-biology/bru2nii 1.0.20180303: Converts Bruker ParaVision MRI data to the NIfTI file format
 sci-biology/bruker2nifti 1.0.4: Medical image converter, from raw Bruker ParaVision to NIfTI
 sci-biology/btl_bloomfilter 1.2.1: BTL C/C common bloom filters
-sci-biology/bx-python 0.8.9 0.9.0 9999: Library for rapid implementation of genome scale analyses
+sci-biology/bx-python 0.12.0: Library for rapid implementation of genome scale analyses
 sci-biology/cast-bin 20080813: Predict low-complexity regions in putative proteins
 sci-biology/cdbfasta 0.1: FASTA record indexing/retrievieng utility
 sci-biology/cluster 1.59: Hierarchical, k-means, k-medians clustering for expression/microarray analysis
