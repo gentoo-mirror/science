@@ -124,9 +124,11 @@ dev-python/prov 2.0.0: W3C provenance data dodel library
 dev-python/py2bit 0.3.0 0.3.1 9999: Python library for accessing 2bit files
 dev-python/pyBigWig 0.3.17 0.3.18 9999: quick access to and creation of bigWig files
 dev-python/pyaml-env 1.2.1: Parse YAML configuration with environment variables in Python
+dev-python/pybedtools 0.10.0: Use BED and GFF files from python using BEDtools
 dev-python/pybind11-stubgen 0.10.4: PEP 561 type stubs generator for pybind11 modules
 dev-python/pyct 0.4.8: Python packaging Common Tasks
 dev-python/pyerfa 2.0.0.1-r2: Python bindings for ERFA
+dev-python/pyfaidx 0.8.1.1: Efficient pythonic random access to fasta subsequences
 dev-python/pynrrd 0.4.2 0.4.3 1.0.0: Simple pure-python module for reading and writing nrrd files
 dev-python/pynwb 2.5.0 2.6.0: A Python API for working with Neurodata stored in the NWB Format
 dev-python/pyout 0.7.2-r1 0.7.3: Terminal styling for structured data
@@ -290,7 +292,7 @@ sci-biology/genomeview-bin 2450: Genome browser and annotation tool
 sci-biology/germline 1.5.3: Find shared segments of Identity by Descent (IBD) between pairs of individuals
 sci-biology/gffcompare 0.12.2: Compare, classify, merge, track, annotate GFF files
 sci-biology/gffread 0.12.7: GFF/GTF utility providing format conversions, filter/extract regions from FASTA
-sci-biology/gffutils 0.11.1: GFF and GTF file manipulation and interconversion
+sci-biology/gffutils 0.13: GFF and GTF file manipulation and interconversion
 sci-biology/glean 1.0.1: Merge various gene prediction into one (unsupervised learning system)
 sci-biology/grabix 9999: Provide random access to text files BGZF compressed with bgzip
 sci-biology/graf-bin 2.4: Find closely related subjects using SNP genotype data, validate pedigree file
@@ -347,8 +349,6 @@ sci-biology/portrait 1.1: Ab initio ncRNA prediction
 sci-biology/prinseq-lite 0.20.4: Describe, trim, reformat and convert to or form FASTA/FASTQ files
 sci-biology/proda 1.0: Multiple alignment of protein sequences with repeated and shuffled elements
 sci-biology/psx 0.1: parallel multi-FASTA file processing tool from TIGR Gene Indices project tools
-sci-biology/pybedtools 0.8.2 0.9.0: Use BED and GFF files from python using BEDtools
-sci-biology/pyfaidx 0.5.9.2 0.7.2.1: Efficient pythonic random access to fasta subsequences
 sci-biology/quicktree 2.5: Rapid reconstruction of phylogenies by the Neighbor-Joining method
 sci-biology/rat-brain-templates 0.2: A collection of rat brain templates in NIfTI format
 sci-biology/rnaplex 0.2: RNA-RNA interaction search
