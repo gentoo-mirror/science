@@ -112,6 +112,7 @@ dev-python/neo 0.11.0 0.11.1 0.12.0: Read and represent a wide range of neurophy
 dev-python/nptyping 2.5.0: Type hints for Numpy
 dev-python/num2words 0.5.10: Modules to convert numbers to words.
 dev-python/numcodecs 0.11.0 0.12.1-r2: Data storage buffer compression and transformation codecs
+dev-python/nwb2bids 0.0.3: Next-generation file format (NGFF) for storing bioimaging data in the cloud
 dev-python/nwbinspector 0.4.19 0.4.26-r1: Inspect NWB files for compliance with NWB Best Practices
 dev-python/pandas-stubs 2.1.1.230928: Public type stubs for pandas
 dev-python/panel 0.14.2-r1: High-level app and dashboarding solution for Python
@@ -130,7 +131,7 @@ dev-python/pyct 0.4.8: Python packaging Common Tasks
 dev-python/pyerfa 2.0.0.1-r2: Python bindings for ERFA
 dev-python/pyfaidx 0.8.1.1: Efficient pythonic random access to fasta subsequences
 dev-python/pynrrd 0.4.2 0.4.3 1.0.0: Simple pure-python module for reading and writing nrrd files
-dev-python/pynwb 2.5.0 2.6.0 2.8.1: A Python API for working with Neurodata stored in the NWB Format
+dev-python/pynwb 2.6.0 2.8.1: A Python API for working with Neurodata stored in the NWB Format
 dev-python/pyout 0.7.2-r1 0.7.3: Terminal styling for structured data
 dev-python/pysolar 0.10: Collection of Python libraries for simulating the irradiation by the sun
 dev-python/pytest-doctestplus 0.12.1: Pytest plugin with advanced doctest features
