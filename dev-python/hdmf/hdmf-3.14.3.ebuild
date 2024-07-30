@@ -24,8 +24,8 @@ RDEPEND="
 	dev-python/scipy[${PYTHON_USEDEP}]
 	"
 
-PATCHES=(
-	"${FILESDIR}/${PN}-3.11.0-no_test_coverage.patch"
-	)
+#PATCHES=(
+#	"${FILESDIR}/${PN}-3.11.0-no_test_coverage.patch"
+#	)
 
 distutils_enable_tests pytest
