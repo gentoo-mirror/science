@@ -7,5 +7,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=all-rights-reserved
 SLOT=0
 SRC_URI=x86? ( ftp://ftp.sanger.ac.uk/pub4/resources/software/ssaha2/ssaha2_v2.5.5_i686.tgz ) amd64? ( ftp://ftp.sanger.ac.uk/pub4/resources/software/ssaha2/ssaha2_v2.5.5_x86_64.tgz ) ftp://ftp.sanger.ac.uk/pub4/resources/software/ssaha2/samflag.c ftp://ftp.sanger.ac.uk/pub4/resources/software/ssaha2/ssaha2-manual.pdf
-_eclasses_=toolchain-funcs	e7e7331166166e7a516d19e264b098c2	multilib	c19072c3cd7ac5cb21de013f7e9832e0
+_eclasses_=toolchain-funcs	0c713337f7872f1a002cecaaea9bef73	multilib	c19072c3cd7ac5cb21de013f7e9832e0
 _md5_=e70d1d46e4b240c5d0f5dae3ce6f34f5
