@@ -10,5 +10,5 @@ LICENSE=|| ( BSD-2 noweb ) emacs? ( GPL-2 )
 RDEPEND=dev-lang/icon sys-apps/debianutils virtual/tex-base emacs? ( app-editors/emacs:= )
 SLOT=0
 SRC_URI=https://github.com/nrnrnr/noweb/archive/v2_12.tar.gz -> noweb-2.12.tar.gz
-_eclasses_=toolchain-funcs	5f8f1dc0c94e007fa08af4e98a19d0e5	multilib	c19072c3cd7ac5cb21de013f7e9832e0	elisp-common	abb2dda42f680fce87602c8273f832c7
+_eclasses_=toolchain-funcs	333970c740aa7b1a92e4fcdc52f612bd	multilib	c19072c3cd7ac5cb21de013f7e9832e0	elisp-common	abb2dda42f680fce87602c8273f832c7
 _md5_=0e60af6c393494e05f6fc4fb5bb1d28b
