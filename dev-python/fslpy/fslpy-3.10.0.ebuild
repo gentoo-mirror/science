@@ -13,7 +13,7 @@ SRC_URI="https://git.fmrib.ox.ac.uk/fsl/${PN}/-/archive/${PV}/${P}.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64"
 
 RDEPEND="
 	dev-python/dill[${PYTHON_USEDEP}]
@@ -23,7 +23,7 @@ RDEPEND="
 	>=dev-python/pillow-3.2.0[${PYTHON_USEDEP}]
 	>=dev-python/trimesh-2.37.29[${PYTHON_USEDEP}]
 	=dev-python/wxpython-4*[${PYTHON_USEDEP}]
-	>=sci-libs/rtree-0.8.3[${PYTHON_USEDEP}]
+	>=dev-python/rtree-0.8.3[${PYTHON_USEDEP}]
 	>=sci-libs/nibabel-2.4[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.18[${PYTHON_USEDEP}]
 "
