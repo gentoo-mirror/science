@@ -1,4 +1,4 @@
-DEFINED_PHASES=compile install preinst prepare setup
+DEFINED_PHASES=install preinst prepare setup
 DEPEND=>=virtual/jdk-1.7 >=dev-java/java-config-2.2.0-r3
 DESCRIPTION=Exome annotation tool (upstream jar binaries)
 EAPI=7
@@ -9,5 +9,5 @@ LICENSE=BSD-2
 RDEPEND=>=virtual/jre-1.7 >=dev-java/java-config-2.2.0-r3
 SLOT=0
 SRC_URI=https://search.maven.org/remotecontent?filepath=de/charite/compbio/jannovar-cli/0.35/jannovar-cli-0.35.jar https://search.maven.org/remotecontent?filepath=de/charite/compbio/jannovar-vardbs/0.35/jannovar-vardbs-0.35.jar https://search.maven.org/remotecontent?filepath=de/charite/compbio/jannovar-htsjdk/0.35/jannovar-htsjdk-0.35.jar https://search.maven.org/remotecontent?filepath=de/charite/compbio/jannovar-core/0.35/jannovar-core-0.35.jar https://search.maven.org/remotecontent?filepath=de/charite/compbio/jannovar-hgvs/0.35/jannovar-hgvs-0.35.jar
-_eclasses_=java-utils-2	505f237da61d30569dcc6d5df8c51262	java-pkg-2	72587187cd548a5dcdb6a13453a3614d
+_eclasses_=java-utils-2	f1da644b1cb86c9aca40b31a544a9906	java-pkg-2	cc4b7c2e885aaf57a8bbea685bd9fbe3
 _md5_=15ed5f9dd7defecaace7fe10bb843f69
