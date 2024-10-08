@@ -10,5 +10,5 @@ LICENSE=all-rights-reserved
 RDEPEND=>=virtual/jre-1.5:* java? ( >=dev-java/java-config-2.2.0-r3 )
 SLOT=0
 SRC_URI=https://spin.niddk.nih.gov/bax/software/MICS/mics.tar.Z -> mics-1.00.2011.327.12.00.tgz
-_eclasses_=java-utils-2	f1da644b1cb86c9aca40b31a544a9906	java-pkg-opt-2	28044ae40e7846886b6f5eca24661629
+_eclasses_=java-utils-2	4b88d12e899778ff681b67d7bcbb54f0	java-pkg-opt-2	28044ae40e7846886b6f5eca24661629
 _md5_=6cd0c0ce6823c837698f2978eab8adbd

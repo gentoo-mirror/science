@@ -8,5 +8,5 @@ LICENSE=BSD
 RDEPEND=sys-libs/libstdc++-v3 dev-lang/perl
 SLOT=0
 SRC_URI=http://bioinformatics.cenargen.embrapa.br/portrait/download/angle.tar.gz -> ANGLE-bin-20080813.tar.gz
-_eclasses_=perl-functions	4deb7a19ff2e0a466d6f4c6c57099296
+_eclasses_=perl-functions	1863acf0982afafc67797e3ce7275b4c
 _md5_=646f080ac1f2cff250c70d8b9947cbcd
