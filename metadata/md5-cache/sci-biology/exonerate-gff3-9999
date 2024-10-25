@@ -12,5 +12,5 @@ RDEPEND=!sci-biology/exonerate dev-libs/glib:2
 REQUIRED_USE=test? ( utils )
 RESTRICT=!test? ( test )
 SLOT=0
-_eclasses_=toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	multilib	b2a329026f2e404e9e371097dda47f96	git-r3	875eb471682d3e1f18da124be97dcc81
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	multilib	b2a329026f2e404e9e371097dda47f96
 _md5_=12cef98af2a4af9f15bd1c1060f01bf3
