@@ -1,0 +1,14 @@
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=install preinst prepare setup
+DEPEND=>=virtual/jre-1.7:* dev-java/maven-bin:* dev-java/antlr:* >=virtual/jdk-1.7:* >=dev-java/java-config-2.2.0-r3
+DESCRIPTION=SnpEff, SnpSift: Annotate SNP changes and predict effect in HGVS-compliant VCF
+EAPI=7
+HOMEPAGE=https://pcingola.github.io/SnpEff/
+INHERIT=java-pkg-2
+KEYWORDS=~amd64
+LICENSE=LGPL-3
+RDEPEND=>=virtual/jre-1.7:* dev-java/maven-bin:* dev-java/antlr:* >=dev-java/java-config-2.2.0-r3
+SLOT=0
+SRC_URI=https://downloads.sourceforge.net/project/snpeff/snpEff_v4_3t_core.zip
+_eclasses_=java-utils-2	df5a29aeeb243804a2f5ef024c8467a9	java-pkg-2	6e6478d8b78f18251c008bad32994df9
+_md5_=4a883abeda19b598c764757e3a198620
