@@ -531,7 +531,7 @@ sci-physics/qcdloop 2.0.5 2.0.9: An object-oriented one-loop scalar Feynman inte
 sci-physics/qcl 0.6.4-r2: Quantum Computation Language with an emulator of a quantum computer
 sci-physics/qgraf 3.4.2 3.5.2 3.6.7 4.0.1: qgraf generates Feynman diagrams for various types of QFT models
 sci-physics/scikit-hep-testdata 0.4.39 0.4.48: A package to provide example files for testing and developing packages against.
-sci-physics/sherpa 3.0.0_beta1 9999: Simulation of High-Energy Reactions of PArticles
+sci-physics/sherpa 3.0.1 9999: Simulation of High-Energy Reactions of PArticles
 sci-physics/spheno 3.3.8-r1 4.0.5: SPheno stands for S(upersymmetric) Pheno(menology)
 sci-physics/tauola 1.1.8 1.1.8-r1: Tau decay Monte Carlo generator
 sci-physics/uproot 5.3.1 5.4.1: ROOT I/O in pure Python and Numpy.
