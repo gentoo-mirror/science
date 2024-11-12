@@ -11,5 +11,5 @@ LICENSE=CPC GPL-2+
 RDEPEND=sci-physics/root:= hepmc? ( sci-physics/hepmc ) pythia? ( sci-physics/pythia:8 )
 SLOT=0
 SRC_URI=http://mc-tester.web.cern.ch/MC-TESTER/MC-TESTER-1.25.0.tar.gz
-_eclasses_=docs	7f3c0d47338743498c69f1887a139f57
+_eclasses_=docs	006125f2158d2f16904ebd9114336058
 _md5_=85a2c6bae01cc362213152b54ed386ed
