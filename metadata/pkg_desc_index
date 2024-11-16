@@ -466,7 +466,7 @@ sci-libs/pfft 1.0.8_alpha 9999: Parallel 3d FFT
 sci-libs/pg2plplot 5.13.1: Assist the transition from PGPlot to PLplot in Fortran programs
 sci-libs/pybids 0.6.5 0.10.2 0.12.4: Python package to access BIDS datasets
 sci-libs/pydicom 2.2.2 2.3.1: A pure python package for parsing DICOM files
-sci-libs/rdkit 2024.03.4: Cheminformatics and machine-learning software written in C++ and Python
+sci-libs/rdkit 2024.09.2: Cheminformatics and machine-learning software written in C++ and Python
 sci-libs/scikit-learn-intelx 2023.0.2: Seamless way to speed up your Scikit-learn application
 sci-libs/simpleitk 1.2.4: Layer on top of ITK for rapid prototyping, education and interpreted languages.
 sci-libs/spyking-circus 1.1.0: Fast spike sorting by template matching
