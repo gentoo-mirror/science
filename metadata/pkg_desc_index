@@ -74,12 +74,12 @@ dev-python/dpctl 0.14.1_rc2 0.14.5: Data Parallel Control
 dev-python/dpnp 0.11.1_rc1: Data Parallel Extension for NumPy
 dev-python/extension-helpers 1.0.0: Utilities for building and installing packages in the Astropy ecosystem
 dev-python/ezdxf 0.16.5: Python interface to DXF
-dev-python/fiona 1.9.0: API for reading/writing vector geospatial data
+dev-python/fiona 1.9.6 1.10.1: API for reading/writing vector geospatial data
 dev-python/fscacher 0.1.4 0.2.0: Cache results of operations on heavy file trees
 dev-python/fslpy 3.10.0: The FSL Python Library
 dev-python/fusepy 3.0.1: Simple ctypes bindings for FUSE
 dev-python/gammapy 1.0: A Python package for gamma-ray astronomy
-dev-python/geopandas 0.13.2: Python tools for geographic data
+dev-python/geopandas 0.13.2 1.0.1: Python tools for geographic data
 dev-python/gffpandas 1.2.0: Python library to Filter and sort GFF3 annotations
 dev-python/gmsh_interop 2021.1.1: Interoperability with Gmsh for Python
 dev-python/google-cloud-storage 2.17.0: Google Cloud Storage API client library
@@ -478,7 +478,6 @@ sci-libs/wannier90 3.1.0: Calculates maximally localized Wannier functions (MLWF
 sci-libs/zarja 2.2.0: Scientific multi-agent simulation library
 sci-mathematics/Oid 4.0-r1: An interactive, extensible software system for experimenting with matroids
 sci-mathematics/cipi 1.0 1.0-r1: Computing information projections iteratively
-sci-mathematics/frama-c 22.0: Framework for analysis of source codes written in C
 sci-mathematics/freefem++ 4.10: Solve PDEs using FEM on 2d and 3d domains
 sci-mathematics/libsfmt 1.3.0: SIMD-oriented Fast Mersenne Twister
 sci-mathematics/lie 2.2.2: A Computer algebra package for Lie group computations
