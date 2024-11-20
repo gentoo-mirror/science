@@ -499,7 +499,7 @@ sci-physics/apfelxx 4.8.0: Object oriented rewriting of the APFEL evolution code
 sci-physics/atompaw 4.1.1.0: PAW atomic data generator
 sci-physics/cernlib 2023.10.31.0-r2 2024.06.12.0: CERN program library for High Energy Physics
 sci-physics/collier 1.2.8: A Complex One-Loop LIbrary with Extended Regularizations
-sci-physics/cuttools 1.8.2 1.9.3: Computing 1-loop amplitudes at the integrand level
+sci-physics/cuttools 1.8.2 1.9.3 1.9.3-r1: Computing 1-loop amplitudes at the integrand level
 sci-physics/decaylanguage 0.18.5: DecayLanguage: describe, manipulate and convert particle decays
 sci-physics/evtgen 02.02.01: EvtGen is a Monte Carlo event generator that simulates the decays
 sci-physics/feynarts 3.11: FeynArts renders Feynman diagrams and generates their topologies.
