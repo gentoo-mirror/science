@@ -109,7 +109,8 @@ sci-misc/elmer-fem:post - Build ElmerPOST
 sci-physics/atompaw:libxc - Enable support for libxc, an exchange-correlation potentials library
 sci-physics/atompaw:longplot - Patch the sources to plot functions all over the space considered, not just up to the matching radius plus 50 grid points. May be useless or even harmful.
 sci-physics/cernlib:free - Use free sources
-sci-physics/cuttools:dummy - Add dummy module for OpenLoops
+sci-physics/cuttools:dummy - Add dummy module for sci-physics/openloops
+sci-physics/cuttools:mpfun90 - Use sci-libs/mpfun90
 sci-physics/evtgen:hepmc3 - Build with hepmc version 3 support, else hepmc version2 is used
 sci-physics/evtgen:photos - Build with photos
 sci-physics/evtgen:pythia - Build with pythia
