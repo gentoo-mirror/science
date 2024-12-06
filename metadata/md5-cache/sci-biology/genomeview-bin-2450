@@ -11,5 +11,5 @@ LICENSE=GPL-2
 RDEPEND=>=virtual/jre-1.7:* java? ( >=dev-java/java-config-2.2.0-r3 )
 SLOT=0
 SRC_URI=https://downloads.sourceforge.net/project/genomeview/GenomeView/genomeview-2450.zip
-_eclasses_=java-utils-2	df5a29aeeb243804a2f5ef024c8467a9	java-pkg-opt-2	28044ae40e7846886b6f5eca24661629
+_eclasses_=java-utils-2	c610b1541a10e37cb26ab5b707a744f1	java-pkg-opt-2	28044ae40e7846886b6f5eca24661629
 _md5_=249ffeb7fa54627e7eb0fa6da6de33e7
