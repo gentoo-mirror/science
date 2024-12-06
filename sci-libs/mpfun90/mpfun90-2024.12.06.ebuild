@@ -11,12 +11,17 @@ HOMEPAGE="
 	https://github.com/APN-Pucky/mpfun90
 "
 MY_PV=$(ver_rs 1- '-')
-SRC_URI="https://github.com/APN-Pucky/mpfun90/archive/refs/tags/${MY_PV}.tar.gz"
-S="${WORKDIR}/mpfun90-${MY_PV}"
+if [[ ${PV} == 9999 ]]; then
+	inherit git-r3
+	EGIT_REPO_URI="https://github.com/APN-Pucky/mpfun90"
+else
+	SRC_URI="https://github.com/APN-Pucky/mpfun90/archive/refs/tags/${MY_PV}.tar.gz"
+	S="${WORKDIR}/mpfun90-${MY_PV}"
+	KEYWORDS="~amd64"
+fi
 
 LICENSE="DHBBSD"
 SLOT="0"
-KEYWORDS="~amd64"
 
 src_compile() {
 	emake -j1 dynamic
