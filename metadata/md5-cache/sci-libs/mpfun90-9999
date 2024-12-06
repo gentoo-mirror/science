@@ -1,0 +1,13 @@
+BDEPEND=virtual/fortran >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install setup unpack
+DEPEND=virtual/fortran
+DESCRIPTION=High-Precision Software
+EAPI=8
+HOMEPAGE=https://www.davidhbailey.com/dhbsoftware/ https://github.com/APN-Pucky/mpfun90
+INHERIT=fortran-2 git-r3
+LICENSE=DHBBSD
+PROPERTIES=live
+RDEPEND=virtual/fortran
+SLOT=0
+_eclasses_=toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	multilib	b2a329026f2e404e9e371097dda47f96	fortran-2	54fcb693257134adae26819685891ecc	git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=4a2dbc52fe6ebdc4b24bb3d85b582790
