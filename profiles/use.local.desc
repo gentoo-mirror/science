@@ -138,6 +138,10 @@ sci-physics/oneloop:tlevel - enable tlevel
 sci-physics/openloops:collier - Build with collier
 sci-physics/openloops:cuttools - Build with cuttools
 sci-physics/openloops:extra - Build libs with extra
+sci-physics/openloops:ppllj - Build pp to llj process
+sci-physics/openloops:pplljj - Build pp to lljj process
+sci-physics/openloops:pplnj-ckm - Build pp to lnj process with ckm matrix
+sci-physics/openloops:pplnjj-ckm - Build pp to lljj process with ckm matrix
 sci-physics/photos:hepmc2 - Build with hepmc 2
 sci-physics/photos:hepmc3 - Build with hepmc 3
 sci-physics/photos:pythia - Build with pythia
