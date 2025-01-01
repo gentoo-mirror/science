@@ -252,7 +252,6 @@ sci-biology/bambus 2.33-r2: Scaffolding Polymorphic Genomes and Metagenomes, a p
 sci-biology/bamql 1.6.1 9999: Extract reads from BAM files
 sci-biology/barrnap 0.9: Predict Bacterial and Archaeal rRNA genes and output in GFF3 format
 sci-biology/beagle 5.1: Genotype calling/phasing, imputation of ungenotyped markers
-sci-biology/beaglecall 20101115: Simultaneous genotype calling and haplotype phasing for unrelated individuals
 sci-biology/bedops 2.4.26 2.4.39: Manipulate BED file (alternative to bedtools)
 sci-biology/bidsschematools 0.6.0 0.7.0 0.7.1: A Python library for working with the BIDS schema
 sci-biology/biobambam2 2.0.146 9999: Tools for bam file processing (using libmaus2)
@@ -323,7 +322,6 @@ sci-biology/lumpy-sv 0.3.1: Probabilistic framework for structural variant disco
 sci-biology/mappy 2.24 2.26: Minimap2 python binding
 sci-biology/megahit 1.2.9: Metagenome assembler using succinct de Bruijn graph approach with CUDA
 sci-biology/merlin 1.1.2: Statistical analysis of gene flow in pedigrees
-sci-biology/minced 0.4.2: Short Palindromic Repeat finder tool (for CRISPRs)
 sci-biology/minimap2 2.24: splice-aware sequence aligner with SSE2 and SSE4.1
 sci-biology/mip-scaffolder 0.6: Scaffold contigs using ABI Solid or Illumina mate pair info
 sci-biology/miranda 3.3a: An algorithm for finding genomic targets for microRNAs
