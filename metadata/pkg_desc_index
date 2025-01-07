@@ -513,7 +513,7 @@ sci-physics/scikit-hep-testdata 0.4.39 0.4.48: A package to provide example file
 sci-physics/sherpa 3.0.1 9999: Simulation of High-Energy Reactions of PArticles
 sci-physics/spheno 3.3.8-r1 4.0.5: SPheno stands for S(upersymmetric) Pheno(menology)
 sci-physics/tauola 1.1.8 1.1.8-r1: Tau decay Monte Carlo generator
-sci-physics/uproot 5.3.1 5.4.1: ROOT I/O in pure Python and Numpy.
+sci-physics/uproot 5.3.1 5.4.1 5.5.1: ROOT I/O in pure Python and Numpy.
 sci-visualization/clip 0.7-r1: command line chart creator
 sci-visualization/forge 1.0.5 1.0.7 9999: High Performance Visualizations for ArrayFire
 sci-visualization/fsleyes 1.5.0: The new FSL image viewer, released with FSL 5.0.10
