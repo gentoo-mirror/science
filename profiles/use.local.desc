@@ -98,6 +98,8 @@ sci-libs/nexus:hdf5 - Support the standard representation (HDF5)
 sci-libs/nexus:java - Build the Java bindings
 sci-libs/nexus:xml - Allow using the verbose XML representation of NeXus data
 sci-libs/nibabel:dicom - Adds limited read support for the DICOM imaging format.
+sci-libs/torchaudio:rnnt - Enable custom RNN-T loss function
+sci-libs/torchaudio:rocm - Enable ROCm gpu computing support
 sci-libs/torchvision:rocm - Enable ROCm gpu computing support
 sci-mathematics/ripser:progress - print progress of calculations in console
 sci-mathematics/ripser:sparsehash - use google sparsehash for storage

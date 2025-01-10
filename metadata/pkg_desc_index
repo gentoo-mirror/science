@@ -72,6 +72,7 @@ dev-python/docstring-parser 0.16: Parse Python docstrings in various flavors
 dev-python/dpath 2.2.0: Accessing and searching dictionaries via /slashed/paths
 dev-python/dpctl 0.14.1_rc2 0.14.5: Data Parallel Control
 dev-python/dpnp 0.11.1_rc1: Data Parallel Extension for NumPy
+dev-python/expecttest 0.3.0: This library implements expect tests (also known as "golden" tests)
 dev-python/extension-helpers 1.0.0: Utilities for building and installing packages in the Astropy ecosystem
 dev-python/ezdxf 0.16.5: Python interface to DXF
 dev-python/fiona 1.9.6 1.10.1: API for reading/writing vector geospatial data
@@ -161,6 +162,7 @@ dev-python/snakemake-interface-executor-plugins 9.2.0: Stable interface for inte
 dev-python/snakemake-interface-report-plugins 1.0.0: The interface for Snakemake report plugins
 dev-python/snakemake-interface-storage-plugins 3.2.3: Stable interface for interactions between Snakemake and its storage plugins
 dev-python/snuggs 1.4.7: S-expressions for numpy
+dev-python/soundfile 0.12.1: SoundFile is an audio library based on libsndfile, CFFI, and NumPy
 dev-python/spectra 0.0.11: Easy color scales and color conversion for Python
 dev-python/specutils 1.9.1: Package for spectroscopic astronomical data
 dev-python/sphinx-astropy 1.8.0: Sphinx extensions and configuration specific to the Astropy project
@@ -469,6 +471,7 @@ sci-libs/scikit-learn-intelx 2023.0.2: Seamless way to speed up your Scikit-lear
 sci-libs/simpleitk 1.2.4: Layer on top of ITK for rapid prototyping, education and interpreted languages.
 sci-libs/spyking-circus 1.1.0: Fast spike sorting by template matching
 sci-libs/starparse 0.9-r1: Library for parsing NMR star files (peak-list format) and CIF files
+sci-libs/torchaudio 2.4.1: Data manipulation and transformation for audio signal processing
 sci-libs/torchvision 0.19.1: Datasets, transforms and models to specific to computer vision
 sci-libs/vegas 6.0.1: Adaptive multidimensional Monte Carlo integration.
 sci-libs/vxl 2.0.2: C++ computer vision research libraries
