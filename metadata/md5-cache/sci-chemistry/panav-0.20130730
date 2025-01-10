@@ -1,0 +1,14 @@
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=compile install preinst prepare setup
+DEPEND=>=virtual/jre-1.7:* >=dev-java/java-config-2.2.0-r3
+DESCRIPTION=Probabilistic approach for validating protein NMR chemical shift assignments
+EAPI=8
+HOMEPAGE=https://link.springer.com/article/10.1007%2Fs10858-010-9407-y/fulltext.html
+INHERIT=java-pkg-2
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=>=virtual/jre-1.7:* >=dev-java/java-config-2.2.0-r3
+SLOT=0
+SRC_URI=https://www.wishartlab.com/download/PANAV.zip -> panav-0.20130730.zip
+_eclasses_=java-utils-2	c610b1541a10e37cb26ab5b707a744f1	java-pkg-2	38fd81c7880666a00a638ca8deb64d72
+_md5_=f48216b951f34d811ea1e2525eecd597

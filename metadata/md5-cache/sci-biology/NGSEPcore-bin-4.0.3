@@ -1,0 +1,13 @@
+DEFINED_PHASES=install preinst prepare setup unpack
+DEPEND=!sci-biology/NGSEPcore >=virtual/jdk-1.8:* >=dev-java/java-config-2.2.0-r3
+DESCRIPTION=NGSEP (CNV and indel discovery)
+EAPI=8
+HOMEPAGE=https://sourceforge.net/p/ngsep/wiki/Home https://github.com/NGSEP/NGSEPcore
+INHERIT=java-pkg-2
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=!sci-biology/NGSEPcore >=virtual/jdk-1.8:* >=dev-java/java-config-2.2.0-r3
+SLOT=0
+SRC_URI=https://sourceforge.net/projects/ngsep/files/Library/NGSEPcore_4.0.3.jar https://sourceforge.net/projects/ngsep/files/training/ManualNGSEP_v4.0.3.pdf -> NGSEPcore-bin-4.0.3_UserManual.pdf https://sourceforge.net/projects/ngsep/files/training/Tutorial.txt -> NGSEPcore-bin-4.0.3_Tutorial.txt https://sourceforge.net/projects/ngsep/files/training/QuickStart.txt -> NGSEPcore-bin-4.0.3_QuickStart.txt
+_eclasses_=java-utils-2	c610b1541a10e37cb26ab5b707a744f1	java-pkg-2	38fd81c7880666a00a638ca8deb64d72
+_md5_=da00488d4a82d43fd2eabfd61d2a8def
