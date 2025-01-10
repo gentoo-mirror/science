@@ -156,7 +156,6 @@ sci-physics/sherpa:pythia8 - Build with Pythia8
 sci-physics/sherpa:rivet - Build with Rivet
 sci-physics/sherpa:root - Build with Root
 sci-physics/sherpa:ufo - UFO python interface
-sci-physics/tauola:hepmc - Compile with sci-physics/hepmc version 2 interface
 sci-physics/tauola:hepmc2 - Compile with sci-physics/hepmc version 2 interface
 sci-physics/tauola:hepmc3 - Compile with sci-physics/hepmc version 3 interface
 sci-physics/tauola:lhapdf - Compile with sci-physics/lhapdf connection

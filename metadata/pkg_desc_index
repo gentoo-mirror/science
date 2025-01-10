@@ -499,7 +499,7 @@ sci-physics/cernlib 2023.10.31.0-r2 2024.06.12.0: CERN program library for High 
 sci-physics/collier 1.2.8: A Complex One-Loop LIbrary with Extended Regularizations
 sci-physics/cuttools 1.8.2 1.9.3 1.9.3-r1: Computing 1-loop amplitudes at the integrand level
 sci-physics/decaylanguage 0.18.5: DecayLanguage: describe, manipulate and convert particle decays
-sci-physics/evtgen 02.02.01: EvtGen is a Monte Carlo event generator that simulates the decays
+sci-physics/evtgen 02.02.01 02.02.03: EvtGen is a Monte Carlo event generator that simulates the decays
 sci-physics/feynarts 3.11: FeynArts renders Feynman diagrams and generates their topologies.
 sci-physics/feyncalc 9.3.1 9999: FeynCalc is a Mathematica package for computing Feynman diagrams.
 sci-physics/formcalc 9.9-r1 9.10-r1: FormCalc can be used for automatic Feynman diagram computation.
@@ -530,7 +530,7 @@ sci-physics/qgraf 3.4.2 3.5.2 3.6.7 4.0.1: qgraf generates Feynman diagrams for 
 sci-physics/scikit-hep-testdata 0.4.39 0.4.48: A package to provide example files for testing and developing packages against.
 sci-physics/sherpa 3.0.1 9999: Simulation of High-Energy Reactions of PArticles
 sci-physics/spheno 3.3.8-r1 4.0.5: SPheno stands for S(upersymmetric) Pheno(menology)
-sci-physics/tauola 1.1.8 1.1.8-r1: Tau decay Monte Carlo generator
+sci-physics/tauola 1.1.8-r1: Tau decay Monte Carlo generator
 sci-physics/uproot 5.3.1 5.4.1 5.5.1: ROOT I/O in pure Python and Numpy.
 sci-visualization/clip 0.7-r1: command line chart creator
 sci-visualization/forge 1.0.5 1.0.7 9999: High Performance Visualizations for ArrayFire
