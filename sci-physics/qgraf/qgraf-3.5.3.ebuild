@@ -11,10 +11,10 @@ SRC_URI="http://anonymous:anonymous@qgraf.tecnico.ulisboa.pt/v$(ver_cut 1-2)/qgr
 S="${WORKDIR}"
 
 LICENSE="all-rights-reserved"
-RESTRICT="bindist mirror"
 SLOT="0"
 KEYWORDS="~amd64"
 IUSE="doc examples"
+RESTRICT="bindist mirror"
 
 src_compile() {
 	$(tc-getFC) ${P}.f08 -o ${PN} ${FFLAGS} ${LDFLAGS} || die "Failed to compile"
