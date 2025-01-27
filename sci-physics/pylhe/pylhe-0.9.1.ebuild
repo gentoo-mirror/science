@@ -1,7 +1,7 @@
 EAPI=8
 
-PYTHON_COMPAT=( python3_{11..12} )
-DISTUTILS_USE_PEP517=setuptools
+PYTHON_COMPAT=( python3_{11..13} )
+DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1 pypi
 
 DESCRIPTION="Lightweight Python interface to read Les Houches Event (LHE) files"
@@ -16,14 +16,13 @@ SLOT="0"
 KEYWORDS="~amd64"
 
 RDEPEND="
+	>=dev-python/awkward-1.2.0[${PYTHON_USEDEP}]
 	>=dev-python/graphviz-0.12.0[${PYTHON_USEDEP}]
 	>=sci-physics/particle-0.16[${PYTHON_USEDEP}]
-	>=dev-python/awkward-1.2.0[${PYTHON_USEDEP}]
 	>=dev-python/vector-0.8.1[${PYTHON_USEDEP}]
 "
-DEPEND="${RDEPEND}"
 BDEPEND="
-	dev-python/setuptools-scm[${PYTHON_USEDEP}]
+	dev-python/hatch-vcs[${PYTHON_USEDEP}]
 	test? (
 		>=sci-physics/scikit-hep-testdata-0.4.36[${PYTHON_USEDEP}]
 	)
