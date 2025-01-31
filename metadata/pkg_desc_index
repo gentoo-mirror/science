@@ -129,7 +129,7 @@ dev-python/prov 2.0.0: W3C provenance data dodel library
 dev-python/py2bit 0.3.0 0.3.1 9999: Python library for accessing 2bit files
 dev-python/pyBigWig 0.3.17 0.3.18 9999: quick access to and creation of bigWig files
 dev-python/pyaml-env 1.2.2: Parse YAML configuration with environment variables in Python
-dev-python/pybedtools 0.10.0: Use BED and GFF files from python using BEDtools
+dev-python/pybedtools 0.11.0: Use BED and GFF files from python using BEDtools
 dev-python/pybind11-stubgen 0.10.4: PEP 561 type stubs generator for pybind11 modules
 dev-python/pyct 0.4.8: Python packaging Common Tasks
 dev-python/pyerfa 2.0.0.1-r2: Python bindings for ERFA
