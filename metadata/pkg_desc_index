@@ -128,7 +128,7 @@ dev-python/photutils 1.6.0: Affiliated package for image photometry utilities
 dev-python/plac 1.4.3: Parsing the Command Line the Easy Way
 dev-python/probeinterface 0.2.14 0.2.16 0.2.20: Python package to handle probe layout, geometry and wiring to device
 dev-python/prov 2.0.0: W3C provenance data dodel library
-dev-python/py2bit 0.3.0 0.3.1 9999: Python library for accessing 2bit files
+dev-python/py2bit 0.3.1 9999: Python library for accessing 2bit files
 dev-python/pyBigWig 0.3.24: quick access to and creation of bigWig files
 dev-python/pyaml-env 1.2.2: Parse YAML configuration with environment variables in Python
 dev-python/pybedtools 0.11.0: Use BED and GFF files from python using BEDtools
@@ -158,11 +158,11 @@ dev-python/rich-click 1.8.5: Format click help output nicely with rich
 dev-python/ripser 0.6.4: python frontend for the fast ripser tda tool
 dev-python/scooby 0.5.7: Easily report Python package versions and hardware resources
 dev-python/smart-open 6.3.0: Utils for streaming large files (S3, HDFS, gzip, bz2...)
-dev-python/snakemake 7.32.4 8.16.0: Make-like task language
-dev-python/snakemake-interface-common 1.17.2: Common functions and classes for Snakemake and its plugins
-dev-python/snakemake-interface-executor-plugins 9.2.0: Stable interface for interactions between Snakemake and its executor plugins
-dev-python/snakemake-interface-report-plugins 1.0.0: The interface for Snakemake report plugins
-dev-python/snakemake-interface-storage-plugins 3.2.3: Stable interface for interactions between Snakemake and its storage plugins
+dev-python/snakemake 7.32.4 8.25.3: Make-like task language
+dev-python/snakemake-interface-common 1.17.4: Common functions and classes for Snakemake and its plugins
+dev-python/snakemake-interface-executor-plugins 9.3.2: Stable interface for interactions between Snakemake and its executor plugins
+dev-python/snakemake-interface-report-plugins 1.1.0: The interface for Snakemake report plugins
+dev-python/snakemake-interface-storage-plugins 3.3.0: Stable interface for interactions between Snakemake and its storage plugins
 dev-python/snuggs 1.4.7: S-expressions for numpy
 dev-python/soundfile 0.12.1: SoundFile is an audio library based on libsndfile, CFFI, and NumPy
 dev-python/spectra 0.0.11: Easy color scales and color conversion for Python
@@ -184,7 +184,7 @@ dev-python/wirerope 0.4.7: A wrapper interface for python callables
 dev-python/wraps 0.2.0 0.13.0: Meaningful and safe wrapping types.
 dev-python/xgboost 1.6.2 2.0.3: XGBoost Python Package
 dev-python/xopen 2.0.2: Open compressed files transparently
-dev-python/yte 1.5.6: A YAML template engine with Python expressions
+dev-python/yte 1.5.7: A YAML template engine with Python expressions
 dev-python/zarr 2.12.0 2.14.2 2.16.1: Chunked, compressed, N-dimensional arrays for Python
 dev-python/zarr_checksum 0.2.8 0.4.0: Calculatine zarr checksums from local or cloud storage
 dev-util/f90cache 0.99c: Compiler cache for fortran
@@ -280,7 +280,7 @@ sci-biology/cutadapt 4.9: Adapter trimming and other preprocessing of high-throu
 sci-biology/dargcc_bidsdata 1.0: BIDS data selection of wildtype animals from DARGCC article
 sci-biology/dcm2niix 1.0.20201102 1.0.20210317: DICOM to NIfTI converter
 sci-biology/dcmstack 0.9: DICOM to Nifti coversion
-sci-biology/deeptools 3.5.0 3.5.1: Extract reads from BAM files, normalize, draw figures, convert BAM to bigWig
+sci-biology/deeptools 3.5.6: Extract reads from BAM files, normalize, draw figures, convert BAM to bigWig
 sci-biology/deeptools-intervals 0.1.9: Constructing interval trees with associated exon/annotation information
 sci-biology/diamond 2.0.6: Alternative of blastp/blastx searches using DNA short reads through protein db
 sci-biology/dipy 1.1.1: Computational neuroanatomy project focusing on diffusion MRI
