@@ -102,6 +102,7 @@ dev-python/kmapper 2.0.1-r1: Python implementation of Mapper algorithm for Topol
 dev-python/latexify_py 0.2.0: Generate LaTeX expression from Python code
 dev-python/lazy_ops 0.2.0: Lazy transposing and slicing of h5py and Zarr data
 dev-python/linesep 0.5.0: Handling lines with arbitrary separators
+dev-python/llvmlite 0.44.0: Python wrapper around the llvm C++ library
 dev-python/logzero 1.7.0: Robust and effective logging for Python 2 and 3
 dev-python/lzstring 1.0.4: String encoding/decoding of binary data
 dev-python/matlabengine 9.13.7: A module to call MATLAB from Python
@@ -115,6 +116,7 @@ dev-python/multimethod 1.8: Library allowing Python function overloads based on 
 dev-python/neo 0.11.0 0.11.1 0.12.0: Read and represent a wide range of neurophysiology file formats in Python
 dev-python/nptyping 2.5.0: Type hints for Numpy
 dev-python/num2words 0.5.10: Modules to convert numbers to words.
+dev-python/numba 0.61.0: NumPy aware dynamic Python compiler using LLVM
 dev-python/numcodecs 0.11.0 0.12.1-r2: Data storage buffer compression and transformation codecs
 dev-python/nwb2bids 0.0.3: Next-generation file format (NGFF) for storing bioimaging data in the cloud
 dev-python/nwbinspector 0.4.19 0.4.26-r1: Inspect NWB files for compliance with NWB Best Practices
