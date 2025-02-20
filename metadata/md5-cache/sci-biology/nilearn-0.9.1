@@ -1,16 +1,16 @@
-BDEPEND=test? ( >=dev-python/joblib-0.15[python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/lxml[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-python/matplotlib-3[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-python/numpy-1.18[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-python/pandas-1[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-python/requests-2[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-python/scipy-1.5[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=sci-libs/nibabel-3[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-python/scikit-learn-0.22[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-python/pytest-7.4.4[python_targets_python3_10(-)?,python_targets_python3_11(-)?] ) python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) >=dev-python/setuptools-69.0.3[python_targets_python3_10(-)?,python_targets_python3_11(-)?]
+BDEPEND=test? ( >=dev-python/joblib-0.15[python_targets_python3_11(-)?] dev-python/lxml[python_targets_python3_11(-)?] >=dev-python/matplotlib-3[python_targets_python3_11(-)?] >=dev-python/numpy-1.18[python_targets_python3_11(-)?] >=dev-python/pandas-1[python_targets_python3_11(-)?] >=dev-python/requests-2[python_targets_python3_11(-)?] >=dev-python/scipy-1.5[python_targets_python3_11(-)?] >=sci-libs/nibabel-3[python_targets_python3_11(-)?] >=dev-python/scikit-learn-0.22[python_targets_python3_11(-)?] >=dev-python/pytest-7.4.4[python_targets_python3_11(-)?] ) python_targets_python3_11? ( dev-lang/python:3.11 ) >=dev-python/setuptools-69.0.3[python_targets_python3_11(-)?]
 DEFINED_PHASES=compile configure install prepare test
 DESCRIPTION=Fast and easy statistical learning on NeuroImaging data
 EAPI=8
 HOMEPAGE=http://nilearn.github.io/
 INHERIT=distutils-r1
-IUSE=test test python_targets_python3_10 python_targets_python3_11
+IUSE=test test python_targets_python3_11
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD
-RDEPEND=>=dev-python/joblib-0.15[python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/lxml[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-python/matplotlib-3[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-python/numpy-1.18[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-python/pandas-1[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-python/requests-2[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-python/scipy-1.5[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=sci-libs/nibabel-3[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-python/scikit-learn-0.22[python_targets_python3_10(-)?,python_targets_python3_11(-)?] python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 )
-REQUIRED_USE=|| ( python_targets_python3_10 python_targets_python3_11 )
+RDEPEND=>=dev-python/joblib-0.15[python_targets_python3_11(-)?] dev-python/lxml[python_targets_python3_11(-)?] >=dev-python/matplotlib-3[python_targets_python3_11(-)?] >=dev-python/numpy-1.18[python_targets_python3_11(-)?] >=dev-python/pandas-1[python_targets_python3_11(-)?] >=dev-python/requests-2[python_targets_python3_11(-)?] >=dev-python/scipy-1.5[python_targets_python3_11(-)?] >=sci-libs/nibabel-3[python_targets_python3_11(-)?] >=dev-python/scikit-learn-0.22[python_targets_python3_11(-)?] python_targets_python3_11? ( dev-lang/python:3.11 )
+REQUIRED_USE=|| ( python_targets_python3_11 )
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/nilearn/nilearn/archive/0.9.1.tar.gz -> nilearn-0.9.1.gh.tar.gz
 _eclasses_=toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	357f1a896fbedcd06e5ce55419c49eb9	out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	b7726144f5af59e186d66746d0f513e5	python-r1	fa2daad0051275fa416115c76e53b1de	distutils-r1	85ccd3b54a6533fb120ee52b7c76a3df
-_md5_=f4ca011d51a919101d93f404e5947c58
+_md5_=0d1872ae5302244e840c297d119719cc

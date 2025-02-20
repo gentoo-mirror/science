@@ -1,17 +1,17 @@
-BDEPEND=python_targets_python3_10? ( dev-lang/python:3.10 ) >=dev-python/setuptools-69.0.3[python_targets_python3_10(-)?]
+BDEPEND=python_targets_python3_11? ( dev-lang/python:3.11 ) >=dev-python/setuptools-69.0.3[python_targets_python3_11(-)?]
 DEFINED_PHASES=compile configure install prepare test
-DEPEND=dev-python/packaging[python_targets_python3_10(-)?] dev-python/cython[python_targets_python3_10(-)?] dev-python/h5py[python_targets_python3_10(-)?] test? ( dev-python/pytest[python_targets_python3_10(-)?] )
+DEPEND=dev-python/packaging[python_targets_python3_11(-)?] dev-python/cython[python_targets_python3_11(-)?] dev-python/h5py[python_targets_python3_11(-)?] test? ( dev-python/pytest[python_targets_python3_11(-)?] )
 DESCRIPTION=Computational neuroanatomy project focusing on diffusion MRI
 EAPI=8
 HOMEPAGE=https://github.com/nipy/dipy
 INHERIT=distutils-r1
-IUSE=test python_targets_python3_10
+IUSE=test python_targets_python3_11
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD
-RDEPEND=sci-libs/nibabel[python_targets_python3_10(-)?] dev-python/numpy[python_targets_python3_10(-)?] dev-python/scipy[python_targets_python3_10(-)?] python_targets_python3_10? ( dev-lang/python:3.10 )
-REQUIRED_USE=|| ( python_targets_python3_10 )
+RDEPEND=sci-libs/nibabel[python_targets_python3_11(-)?] dev-python/numpy[python_targets_python3_11(-)?] dev-python/scipy[python_targets_python3_11(-)?] python_targets_python3_11? ( dev-lang/python:3.11 )
+REQUIRED_USE=|| ( python_targets_python3_11 )
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/nipy/dipy/archive/1.1.1.tar.gz -> dipy-1.1.1.tar.gz
 _eclasses_=toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	357f1a896fbedcd06e5ce55419c49eb9	out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	b7726144f5af59e186d66746d0f513e5	python-r1	fa2daad0051275fa416115c76e53b1de	distutils-r1	85ccd3b54a6533fb120ee52b7c76a3df
-_md5_=68c8ef7b2c6df521b75927b202c643bf
+_md5_=8c8d9bfa3991ac984f714f1ce03b9d8c
