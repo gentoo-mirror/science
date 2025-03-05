@@ -6,18 +6,17 @@ inherit desktop xdg
 
 DESCRIPTION="Next generation molecular visualization program from RBVI"
 HOMEPAGE="https://www.cgl.ucsf.edu/chimera/"
-SRC_URI="chimera-${PV}-linux_x86_64.bin
-	fetch+http://svn.cgl.ucsf.edu/svn/chimera/trunk/icons/chimera/Chimera512.png"
+SRC_URI="${P}-linux_x86_64.bin
+	mirror+https://dev.gentoo.org/~pacho/${PN}/Chimera512.png"
+S="${WORKDIR}"
+LICENSE="chimera"
 
 SLOT="0"
-LICENSE="chimera"
 KEYWORDS="~amd64 ~x86"
 
 RESTRICT="fetch mirror strip"
 QA_PREBUILT="*"
 
-DEPEND=""
-BDEPEND=""
 RDEPEND="
 	dev-lang/tcl
 	dev-lang/tk
@@ -32,6 +31,7 @@ RDEPEND="
 	media-libs/libpng
 	media-libs/tiff
 	sci-libs/hdf5
+	sys-libs/ncurses-compat
 	sys-devel/gcc[openmp,fortran]
 	media-libs/libjpeg-turbo
 	virtual/glu
@@ -49,17 +49,15 @@ RDEPEND="
 	virtual/libcrypt:=
 "
 
-S="${WORKDIR}"
-
 pkg_nofetch() {
 	elog "Please visit"
 	elog "https://www.cgl.ucsf.edu/chimera/download.html"
-	elog "and download chimera-${PV}-linux_x86_64.bin into your DISTDIR"
+	elog "and download ${P}-linux_x86_64.bin into your DISTDIR"
 }
 
 src_unpack() {
-	cp "${DISTDIR}"/chimera-${PV}-linux_x86_64.bin chimera-${PV}-linux_x86_64.bin.zip
-	unzip chimera-${PV}-linux_x86_64.bin.zip || die
+	cp "${DISTDIR}"/${P}-linux_x86_64.bin ${P}-linux_x86_64.bin.zip
+	unzip ${P}-linux_x86_64.bin.zip || die
 }
 
 src_install() {
