@@ -156,6 +156,7 @@ sci-physics/photos:hepmc2 - Build with hepmc 2
 sci-physics/photos:hepmc3 - Build with hepmc 3
 sci-physics/photos:pythia - Build with pythia
 sci-physics/photos:tauola - Build with tauola
+sci-physics/recola2:SM - Use SM model
 sci-physics/sherpa:analysis - analysis support
 sci-physics/sherpa:fastjet - Build with FastJet
 sci-physics/sherpa:hepmc2 - Build with HepMC2
