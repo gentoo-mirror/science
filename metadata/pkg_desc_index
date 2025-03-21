@@ -71,6 +71,7 @@ dev-python/delegator 0.1.1: Subprocesses for Humans 2.0.
 dev-python/distinctipy 1.2.2: Lightweight package for generating visually distinct colours
 dev-python/dnaio 1.2.1: dnaio processes FASTQ, FASTA and uBAM files
 dev-python/docstring-parser 0.16: Parse Python docstrings in various flavors
+dev-python/donfig 0.8.1: Configure a package including defaults, env variable loading, and yaml loading
 dev-python/dpath 2.2.0: Accessing and searching dictionaries via /slashed/paths
 dev-python/dpctl 0.14.1_rc2 0.14.5: Data Parallel Control
 dev-python/dpnp 0.11.1_rc1: Data Parallel Extension for NumPy
@@ -187,7 +188,7 @@ dev-python/wraps 0.2.0 0.13.0: Meaningful and safe wrapping types.
 dev-python/xgboost 1.6.2 2.0.3: XGBoost Python Package
 dev-python/xopen 2.0.2: Open compressed files transparently
 dev-python/yte 1.7.0: A YAML template engine with Python expressions
-dev-python/zarr 2.12.0 2.14.2 2.16.1: Chunked, compressed, N-dimensional arrays for Python
+dev-python/zarr 2.18.4 3.0.5: Chunked, compressed, N-dimensional arrays for Python
 dev-python/zarr_checksum 0.2.8 0.4.0: Calculatine zarr checksums from local or cloud storage
 dev-util/f90cache 0.99c: Compiler cache for fortran
 dev-util/mad-numdiff 9999 20180125: compare unformatted text files with numerical content
