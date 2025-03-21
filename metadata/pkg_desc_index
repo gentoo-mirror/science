@@ -65,6 +65,7 @@ dev-python/conda-inject 1.3.1: Helper functions for injecting a conda environmen
 dev-python/connection_pool 0.0.3: Thread safe connection pool
 dev-python/cymbal 1.0.0: Add functionality missing from the python libclang bindings
 dev-python/dandi-schema 0.9.1: Schemata for DANDI archive project
+dev-python/dask 2025.2.0: Flexible parallel computing library for analytics
 dev-python/datrie 0.8.2-r1: Implements a topological sort algorithm
 dev-python/delegator 0.1.1: Subprocesses for Humans 2.0.
 dev-python/distinctipy 1.2.2: Lightweight package for generating visually distinct colours
@@ -87,7 +88,7 @@ dev-python/gmsh_interop 2021.1.1: Interoperability with Gmsh for Python
 dev-python/google-cloud-storage 2.17.0: Google Cloud Storage API client library
 dev-python/grabbit 0.2.6: Get grabby with file trees
 dev-python/gwcs 0.18.3-r1: Generalized World Coordinate System
-dev-python/hdbscan 0.8.29: A high performance implementation of HDBSCAN clustering.
+dev-python/hdbscan 0.8.40: A high performance implementation of HDBSCAN clustering.
 dev-python/hdf5storage 0.1.19 9999: Read/write Python types to/from HDF5 files, including MATLAB v7.3 MAT files
 dev-python/hdmf 3.13.0 3.14.3: The Hierarchical Data Modeling Framework
 dev-python/hdmf-zarr 0.5.0: Zarr I/O backend for HDMF
@@ -132,7 +133,7 @@ dev-python/prov 2.0.0: W3C provenance data dodel library
 dev-python/py2bit 0.3.3: Python library for accessing 2bit files
 dev-python/pyBigWig 0.3.24: quick access to and creation of bigWig files
 dev-python/pyaml-env 1.2.2: Parse YAML configuration with environment variables in Python
-dev-python/pybedtools 0.11.0: Use BED and GFF files from python using BEDtools
+dev-python/pybedtools 0.12.0: Use BED and GFF files from python using BEDtools
 dev-python/pybind11-stubgen 0.10.4: PEP 561 type stubs generator for pybind11 modules
 dev-python/pyct 0.4.8: Python packaging Common Tasks
 dev-python/pyerfa 2.0.0.1-r2: Python bindings for ERFA
@@ -155,7 +156,7 @@ dev-python/reproject 0.8: Reproject astronomical images
 dev-python/repsep_utils 0.2 0.3 0.3.1: Utilities Supporting RepSeP-style documents
 dev-python/reretry 0.11.8: An easy-to-use but functional retry decorator in python
 dev-python/resample 1.10.1: Randomization-based inference in Python
-dev-python/rich-click 1.8.6: Format click help output nicely with rich
+dev-python/rich-click 1.8.8: Format click help output nicely with rich
 dev-python/ripser 0.6.4: python frontend for the fast ripser tda tool
 dev-python/scooby 0.5.7: Easily report Python package versions and hardware resources
 dev-python/smart-open 6.3.0: Utils for streaming large files (S3, HDFS, gzip, bz2...)
