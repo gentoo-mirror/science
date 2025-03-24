@@ -104,6 +104,7 @@ dev-python/jacobi 0.8.1 0.9.2: Numerical derivatives for analytic functions with
 dev-python/kmapper 2.0.1-r1: Python implementation of Mapper algorithm for Topological Data Analysis
 dev-python/latexify_py 0.2.0: Generate LaTeX expression from Python code
 dev-python/lazy_ops 0.2.0: Lazy transposing and slicing of h5py and Zarr data
+dev-python/lightgbm 4.5.0: LightGBM Python Package
 dev-python/linesep 0.5.0: Handling lines with arbitrary separators
 dev-python/llvmlite 0.44.0: Python wrapper around the llvm C++ library
 dev-python/logzero 1.7.0: Robust and effective logging for Python 2 and 3
@@ -457,6 +458,7 @@ sci-libs/libflame-amd 3.1: AMD optimized high-performance object-based library f
 sci-libs/libmatheval 1.1.11 1.1.11-r1: library to parse and evaluate symbolic expressions
 sci-libs/libmaus2 2.0.689 9999: Library for biobambam2
 sci-libs/libsufr 0.7.7: LIBrary of Some Useful Fortran Routines
+sci-libs/lightgbm 4.5.0: Gradient boosting framework (GBM) based on decision tree algorithms
 sci-libs/lwpr 1.2.5: The Locally Weighted Projection Regression Library
 sci-libs/mesquite 2.3.0: Mesh Quality Improvement Toolkit
 sci-libs/mpfun90 2023.02.26 2024.12.06 9999: High-Precision Software
