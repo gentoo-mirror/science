@@ -127,6 +127,8 @@ sci-physics/madgraph5:pythia - USE system PYTHIA
 sci-physics/madgraph5:thepeg - USE system thepeg
 sci-physics/mc-tester:hepmc - Compile sci-physics/hepmc interface
 sci-physics/mc-tester:pythia - Compile sci-physics/pythia interface
+sci-physics/ninja:gosam - Build gosam interface
+sci-physics/ninja:static-libs - Build static library
 sci-physics/oneloop:arprec - use sci-libs/arprec
 sci-physics/oneloop:cppintf - enable cppintf
 sci-physics/oneloop:ddcpp - double use sci-libs/qd
@@ -157,6 +159,8 @@ sci-physics/photos:hepmc3 - Build with hepmc 3
 sci-physics/photos:pythia - Build with pythia
 sci-physics/photos:tauola - Build with tauola
 sci-physics/recola2:SM - Use SM model
+sci-physics/samurai:looptools - Build with sci-physics/looptools
+sci-physics/samurai:qcdloop - Build with sci-physics/qcdloop
 sci-physics/sherpa:analysis - analysis support
 sci-physics/sherpa:fastjet - Build with FastJet
 sci-physics/sherpa:hepmc2 - Build with HepMC2
