@@ -52,8 +52,8 @@ dev-python/astropy-sphinx-theme 1.1-r1: The sphinx theme for Astropy and affilia
 dev-python/astroquery 0.4.6: A collection of packages to access online astronomical resources
 dev-python/astroscrappy 1.1.0-r1: Speedy Cosmic Ray Annihilation Package in Python
 dev-python/av 8.0.3: Pythonic bindings for FFmpeg's libraries.
-dev-python/awkward 2.6.6 2.6.9 2.7.2 2.7.3: Manipulate JSON-like data with NumPy-like idioms.
-dev-python/awkward-cpp 35 39 43 44: awkward-cpp bindings for Python
+dev-python/awkward 2.6.9 2.7.2 2.7.3 2.8.1: Manipulate JSON-like data with NumPy-like idioms.
+dev-python/awkward-cpp 39 43 44 45: awkward-cpp bindings for Python
 dev-python/bokeh 2.4.2: Statistical and interactive HTML plots for Python
 dev-python/boost-histogram 1.4.1 1.5.0: Python bindings for the C++14 Boost::Histogram library
 dev-python/ccdproc 2.3.0: Astropy affiliated package for reducing optical/IR CCD data
@@ -66,6 +66,8 @@ dev-python/connection_pool 0.0.3: Thread safe connection pool
 dev-python/cymbal 1.0.0: Add functionality missing from the python libclang bindings
 dev-python/dandi-schema 0.9.1: Schemata for DANDI archive project
 dev-python/dask 2025.2.0: Flexible parallel computing library for analytics
+dev-python/dask-awkward 2025.3.0: Native Dask collection for awkward arrays, and the library to use it.
+dev-python/dask-histogram 2025.2.0: Histograms with task scheduling.
 dev-python/datrie 0.8.2-r1: Implements a topological sort algorithm
 dev-python/delegator 0.1.1: Subprocesses for Humans 2.0.
 dev-python/distinctipy 1.2.2: Lightweight package for generating visually distinct colours
@@ -525,7 +527,7 @@ sci-physics/lhapdf-sets 0: LHAPDF data grids
 sci-physics/madgraph5 3.5.3: MadGraph5_aMC@NLO
 sci-physics/mc-tester 1.25.0: Comparisons of Monte Carlo predictions in High Energy Physics
 sci-physics/mcfm 10.2.1: Monte Carlo for FeMtobarn processes
-sci-physics/mplhep 0.3.55: Histogram plots using matplotlib and HEP compatible styling ROOT.
+sci-physics/mplhep 0.3.55 0.3.59: Histogram plots using matplotlib and HEP compatible styling ROOT.
 sci-physics/mplhep-data 0.0.4: Data/font package for mplhep.
 sci-physics/ninja 1.2.0: Integrand Reduction via Laurent Expansion for one-loop integrals.
 sci-physics/oneloop 3.6 3.6_p20200731 3.7.2: Library of one-loop scalar functions
