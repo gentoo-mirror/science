@@ -75,7 +75,7 @@ dev-python/delegator 0.1.1: Subprocesses for Humans 2.0.
 dev-python/distinctipy 1.2.2: Lightweight package for generating visually distinct colours
 dev-python/dnaio 1.2.1: dnaio processes FASTQ, FASTA and uBAM files
 dev-python/docstring-parser 0.16: Parse Python docstrings in various flavors
-dev-python/donfig 0.8.1: Configure a package including defaults, env variable loading, and yaml loading
+dev-python/donfig 0.8.1_p1: Configure a package including defaults, env variable loading, and yaml loading
 dev-python/dpath 2.2.0: Accessing and searching dictionaries via /slashed/paths
 dev-python/dpctl 0.14.1_rc2 0.14.5: Data Parallel Control
 dev-python/dpnp 0.11.1_rc1: Data Parallel Extension for NumPy
