@@ -37,10 +37,12 @@ dev-perl/go-db-perl 0.04-r1: Gene Ontology Database perl API
 dev-python/MagnetoResistance-tool 0.0.4: Create calibration matrix to correct for magneto-resistance in resistive sensors
 dev-python/affine 2.3.0: Library for handling affine transformations of the plane
 dev-python/aiohttp-retry 2.8.3: Simple retry client for aiohttp
+dev-python/anndata 0.11.4: Handling annotated data matrices in memory and on disk
 dev-python/annexremote 1.6.5: Helper module to easily develop git-annex remotes
 dev-python/anys 0.2.1: Matchers for pytest
 dev-python/archspec 0.2.4 0.2.5: Labels for various aspects of a system architecture like CPU, etc.
 dev-python/argparse-dataclass 2.0.0: Declarative CLIs with argparse and dataclasses
+dev-python/array-api-compat 1.11.2: Compatibility layer for NumPy to support the Array API
 dev-python/asciitree 0.3.3: ASCII trees in python
 dev-python/asdf 2.14.3 3.5.0: Python library for the Advanced Scientific Data Format
 dev-python/asdf-standard 1.1.1: Standards document describing ASDF, Advanced Scientific Data Format.
@@ -191,7 +193,7 @@ dev-python/wraps 0.2.0 0.13.0: Meaningful and safe wrapping types.
 dev-python/xgboost 1.6.2 2.0.3: XGBoost Python Package
 dev-python/xopen 2.0.2: Open compressed files transparently
 dev-python/yte 1.7.0: A YAML template engine with Python expressions
-dev-python/zarr 2.18.4 3.0.5: Chunked, compressed, N-dimensional arrays for Python
+dev-python/zarr 2.18.7 3.0.6: Chunked, compressed, N-dimensional arrays for Python
 dev-python/zarr_checksum 0.2.8 0.4.0: Calculatine zarr checksums from local or cloud storage
 dev-util/f90cache 0.99c: Compiler cache for fortran
 dev-util/mad-numdiff 9999 20180125: compare unformatted text files with numerical content
