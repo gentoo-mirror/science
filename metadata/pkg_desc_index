@@ -280,7 +280,7 @@ sci-biology/epga 9999: De novo assembler using distribution of reads and insert 
 sci-biology/erpin 5.5b: Easy RNA Profile IdentificatioN, an RNA motif search program
 sci-biology/exonerate-gff3 9999: exonerate-2.2.0 with patches to add GFF3 formatted output
 sci-biology/fastdnaml 1.2.2_p10: Maximum likelihood phylogenetic tree builder for DNA sequences
-sci-biology/fastp 0.24.0: An ultra-fast all-in-one FASTQ preprocessor
+sci-biology/fastp 0.24.1: An ultra-fast all-in-one FASTQ preprocessor
 sci-biology/fastqc 0.11.9: Quality control FASTA/FASTQ sequence files
 sci-biology/ffindex 1.0: Simple index/database for huge amounts of small files
 sci-biology/flexbar 3.5.0: Barcode, MID tag and adapter sequence removal
