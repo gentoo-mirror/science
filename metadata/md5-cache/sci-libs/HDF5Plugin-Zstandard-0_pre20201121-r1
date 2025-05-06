@@ -10,5 +10,5 @@ LICENSE=Apache-2.0
 RDEPEND=app-arch/zstd >=sci-libs/hdf5-1.12.2-r5
 SLOT=0
 SRC_URI=https://github.com/aparamon/HDF5Plugin-Zstandard/archive/d5afdb5f04116d5c2d1a869dc9c7c0c72832b143.tar.gz -> HDF5Plugin-Zstandard-0_pre20201121.tar.gz
-_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	e8de74bac929ba17427e740e95707d00	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	b05c1b7b3c9213c155f128f4eadaa49f
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	b05c1b7b3c9213c155f128f4eadaa49f
 _md5_=dc81452650d92e1878193b5304a7d0b7
