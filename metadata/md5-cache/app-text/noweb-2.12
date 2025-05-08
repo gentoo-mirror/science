@@ -5,10 +5,10 @@ EAPI=7
 HOMEPAGE=https://www.cs.tufts.edu/~nr/noweb/
 INHERIT=toolchain-funcs elisp-common
 IUSE=emacs examples
-KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~ppc-macos ~x64-macos
+KEYWORDS=~alpha ~amd64 ~hppa ~ppc ~ppc64 ~sparc ~x86 ~ppc-macos ~x64-macos
 LICENSE=|| ( BSD-2 noweb ) emacs? ( GPL-2 )
 RDEPEND=dev-lang/icon sys-apps/debianutils virtual/tex-base emacs? ( app-editors/emacs:= )
 SLOT=0
 SRC_URI=https://github.com/nrnrnr/noweb/archive/v2_12.tar.gz -> noweb-2.12.tar.gz
 _eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	elisp-common	fe05085d051330f15cf7201109b5cd23
-_md5_=0e60af6c393494e05f6fc4fb5bb1d28b
+_md5_=c910fdb1029b76fe4f30b9a3474a8abd
