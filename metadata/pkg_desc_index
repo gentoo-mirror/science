@@ -53,8 +53,6 @@ dev-python/astropy-sphinx-theme 1.1-r1: The sphinx theme for Astropy and affilia
 dev-python/astroquery 0.4.6: A collection of packages to access online astronomical resources
 dev-python/astroscrappy 1.1.0-r1: Speedy Cosmic Ray Annihilation Package in Python
 dev-python/autograd 1.8.0 9999: Efficiently computes derivatives of numpy code.
-dev-python/awkward 2.6.9 2.7.2 2.7.3 2.8.1: Manipulate JSON-like data with NumPy-like idioms.
-dev-python/awkward-cpp 39 43 44 45: awkward-cpp bindings for Python
 dev-python/bokeh 2.4.2: Statistical and interactive HTML plots for Python
 dev-python/boost-histogram 1.4.1 1.5.0: Python bindings for the C++14 Boost::Histogram library
 dev-python/ccdproc 2.3.0: Astropy affiliated package for reducing optical/IR CCD data
@@ -180,7 +178,6 @@ dev-python/throttler 1.2.2: Easy throttling with asyncio support
 dev-python/traits 6.3.2 6.4.1: Enthought Tool Suite: Explicitly typed attributes for Python
 dev-python/transforms3d 0.3.1: Functions for 3D coordinate transformations
 dev-python/uhi 0.4.0 0.5.0: Universal Histogram Interface
-dev-python/vector 1.4.1 1.5.2 1.6.0: Vector classes and utilities
 dev-python/visvis 1.14.0: An object oriented approach to visualization of 1D to 4D data
 dev-python/wirerope 0.4.7: A wrapper interface for python callables
 dev-python/wraps 0.2.0 0.13.0: Meaningful and safe wrapping types.
