@@ -504,7 +504,7 @@ sci-physics/formcalc 9.9-r1 9.10-r1: FormCalc can be used for automatic Feynman 
 sci-physics/fullprof-bin 2020.09: Crystallographic tools mainly for Rietveld analysis
 sci-physics/genfit 02.00.00_p20201231 9999: Generic toolkit for track reconstruction in physics experiments
 sci-physics/hepstats 0.8.1: Statistics tools and utilities.
-sci-physics/hepunits 2.3.2 2.3.3 2.3.5 9999: units and constants in the HEP system of units
+sci-physics/hepunits 2.3.5 2.3.6 9999: units and constants in the HEP system of units
 sci-physics/herwig 7.3.0: Herwig is a multi-purpose particle physics event generator.
 sci-physics/hoppet 1.2.0: Higher Order Perturbative Parton Evolution Toolkit
 sci-physics/jaxodraw-bin 2.1.0: Java program for drawing Feynman diagrams
