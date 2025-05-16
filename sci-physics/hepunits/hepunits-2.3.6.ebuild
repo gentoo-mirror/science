@@ -1,6 +1,6 @@
 EAPI=8
 
-PYTHON_COMPAT=( python3_{10..12} )
+PYTHON_COMPAT=( python3_{10..13} )
 DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1
 
@@ -17,9 +17,6 @@ else
 	KEYWORDS="~amd64"
 fi
 
-RDEPEND="
-	>=dev-python/attrs-19.2[${PYTHON_USEDEP}]
-"
-DEPEND="${RDEPEND}"
+BDEPEND="dev-python/hatch-vcs[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest
