@@ -509,7 +509,7 @@ sci-physics/herwig 7.3.0: Herwig is a multi-purpose particle physics event gener
 sci-physics/hoppet 1.2.0: Higher Order Perturbative Parton Evolution Toolkit
 sci-physics/jaxodraw-bin 2.1.0: Java program for drawing Feynman diagrams
 sci-physics/lhapdf-sets 0: LHAPDF data grids
-sci-physics/madgraph5 3.5.3: MadGraph5_aMC@NLO
+sci-physics/madgraph5 3.5.3 3.5.8: MadGraph5_aMC@NLO
 sci-physics/mc-tester 1.25.0: Comparisons of Monte Carlo predictions in High Energy Physics
 sci-physics/mcfm 10.2.1: Monte Carlo for FeMtobarn processes
 sci-physics/mplhep 0.3.55 0.3.59: Histogram plots using matplotlib and HEP compatible styling ROOT.
