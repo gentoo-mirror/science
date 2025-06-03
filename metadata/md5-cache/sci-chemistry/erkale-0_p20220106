@@ -11,5 +11,5 @@ LICENSE=GPL-2
 RDEPEND=sci-libs/gsl sci-libs/hdf5 sci-libs/libint:2 >=sci-libs/libxc-2.0.0
 SLOT=0
 SRC_URI=https://github.com/susilehtola/erkale/archive/bfb9d499a45e1da78b32a9fd52a06fd0dafc52f8.tar.gz -> erkale-0_p20220106.tar.gz
-_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	b05c1b7b3c9213c155f128f4eadaa49f	out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	90d8ee8393c5c815637fd3cb87828c9b	out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364
 _md5_=d651deb8a191e88838e2e19f975ce79c

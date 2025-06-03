@@ -12,5 +12,5 @@ RDEPEND=virtual/blas virtual/lapack sci-libs/arpack mumps? ( sci-libs/mumps ) mp
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/ElmerCSC/elmerfem/archive/release-9.0.tar.gz -> elmer-fem-9.0.tar.gz
-_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	fortran-2	54fcb693257134adae26819685891ecc	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	b05c1b7b3c9213c155f128f4eadaa49f
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	fortran-2	54fcb693257134adae26819685891ecc	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	90d8ee8393c5c815637fd3cb87828c9b
 _md5_=4883c404c8fb42bf05b3942a7ffff4ac
