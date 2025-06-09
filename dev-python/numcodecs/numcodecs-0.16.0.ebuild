@@ -28,13 +28,8 @@ DEPEND="
 		dev-python/entrypoints[${PYTHON_USEDEP}]
 	)
 "
-BDEPEND="
-	test? (
-		>=dev-python/zarr-3[${PYTHON_USEDEP}]
-	)
-"
 
-PATCHES=( "${FILESDIR}/${P}-nocov.patch" )
+PATCHES=( "${FILESDIR}/${PN}-0.15.1-nocov.patch" )
 
 distutils_enable_tests pytest
 

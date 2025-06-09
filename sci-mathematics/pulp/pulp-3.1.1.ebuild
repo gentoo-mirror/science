@@ -1,9 +1,9 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{10..12} )
+PYTHON_COMPAT=( python3_{10..13} )
 DISTUTILS_USE_PEP517=setuptools
 
 inherit distutils-r1
@@ -16,6 +16,6 @@ LICENSE="BSD-2"
 KEYWORDS="~amd64 ~x86"
 SLOT="0"
 
-#distutils_enable_tests setup.py
+distutils_enable_tests pytest
 # ToDo: package theme
 #distutils_enable_sphinx doc/source dev-python/sphinx_glpi_theme
