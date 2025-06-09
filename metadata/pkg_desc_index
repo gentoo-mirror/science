@@ -54,17 +54,21 @@ dev-python/astroquery 0.4.6: A collection of packages to access online astronomi
 dev-python/astroscrappy 1.1.0-r1: Speedy Cosmic Ray Annihilation Package in Python
 dev-python/autograd 1.8.0 9999: Efficiently computes derivatives of numpy code.
 dev-python/bokeh 2.4.2: Statistical and interactive HTML plots for Python
-dev-python/boost-histogram 1.4.1 1.5.0: Python bindings for the C++14 Boost::Histogram library
+dev-python/boost-histogram 1.4.1 1.5.0 1.5.2: Python bindings for the C++14 Boost::Histogram library
+dev-python/ccdproc 2.3.0-r1: Astropy affiliated package for reducing optical/IR CCD data
 dev-python/cligj 0.7.2: Library for processing GeoJSON commands
 dev-python/colorcet 3.0.1: Collection of perceptually uniform colormaps
 dev-python/colormath 3.0.0: Easy color scales and color conversion for Python
 dev-python/colormath2 3.0.3: Easy color scales and color conversion for Python
 dev-python/conda-inject 1.3.1: Helper functions for injecting a conda environment into the current python environment
 dev-python/connection_pool 0.0.3: Thread safe connection pool
+dev-python/cymbal 1.0.0-r1: Add functionality missing from the python libclang bindings
 dev-python/dandi-schema 0.9.1: Schemata for DANDI archive project
 dev-python/dask 2025.3.0: Flexible parallel computing library for analytics
-dev-python/dask-awkward 2025.3.0: Native Dask collection for awkward arrays, and the library to use it.
+dev-python/dask-awkward 2025.3.0 2025.5.0: Native Dask collection for awkward arrays, and the library to use it.
 dev-python/dask-histogram 2025.2.0: Histograms with task scheduling.
+dev-python/datrie 0.8.2-r2: Implements a topological sort algorithm
+dev-python/delegator 0.1.1-r1: Subprocesses for Humans 2.0.
 dev-python/distinctipy 1.2.2: Lightweight package for generating visually distinct colours
 dev-python/dnaio 1.2.1: dnaio processes FASTQ, FASTA and uBAM files
 dev-python/docstring-parser 0.16: Parse Python docstrings in various flavors
@@ -73,12 +77,16 @@ dev-python/dpath 2.2.0: Accessing and searching dictionaries via /slashed/paths
 dev-python/dpctl 0.14.1_rc2 0.14.5: Data Parallel Control
 dev-python/expecttest 0.3.0: This library implements expect tests (also known as "golden" tests)
 dev-python/extension-helpers 1.0.0: Utilities for building and installing packages in the Astropy ecosystem
+dev-python/ezdxf 0.16.5-r1: Python interface to DXF
 dev-python/fiona 1.9.6 1.10.1: API for reading/writing vector geospatial data
+dev-python/fscacher 0.1.4-r1 0.2.0-r1: Cache results of operations on heavy file trees
 dev-python/fslpy 3.10.0: The FSL Python Library
 dev-python/fusepy 3.0.1: Simple ctypes bindings for FUSE
 dev-python/gammapy 1.0: A Python package for gamma-ray astronomy
 dev-python/geopandas 0.13.2 1.0.1: Python tools for geographic data
+dev-python/gffpandas 1.2.0-r1: Python library to Filter and sort GFF3 annotations
 dev-python/google-cloud-storage 2.17.0: Google Cloud Storage API client library
+dev-python/grabbit 0.2.6-r1: Get grabby with file trees
 dev-python/gwcs 0.18.3-r1: Generalized World Coordinate System
 dev-python/hdbscan 0.8.40: A high performance implementation of HDBSCAN clustering.
 dev-python/hdf5storage 0.1.19 9999: Read/write Python types to/from HDF5 files, including MATLAB v7.3 MAT files
@@ -87,6 +95,7 @@ dev-python/hdmf-zarr 0.5.0: Zarr I/O backend for HDMF
 dev-python/heudiconv 0.13.0 1.0.0: Flexible DICOM conversion to structured directory layouts
 dev-python/hist 2.7.2 2.7.3 2.8.0 2.8.1: Histogramming for analysis powered by boost-histogram
 dev-python/histoprint 2.4.0 2.5.0 2.6.0: Pretty print histograms to the console
+dev-python/holoviews 1.15.3-r1: Make data analysis and visualization seamless and simple
 dev-python/hopcroftkarp 1.2.5_p1-r1: python frontend for the fast ripser tda tool
 dev-python/interleave 0.2.0: Yield from multiple iterators as values become available
 dev-python/isal 1.6.1: Faster zlib, gzip compatible (de)compression using ISA-L library
@@ -97,6 +106,7 @@ dev-python/lazy_ops 0.2.0: Lazy transposing and slicing of h5py and Zarr data
 dev-python/lightgbm 4.5.0: LightGBM Python Package
 dev-python/linesep 0.5.0: Handling lines with arbitrary separators
 dev-python/llvmlite 0.44.0: Python wrapper around the llvm C++ library
+dev-python/logzero 1.7.0-r1: Robust and effective logging for Python 2 and 3
 dev-python/lzstring 1.0.4: String encoding/decoding of binary data
 dev-python/methodtools 0.4.7: Expand functools features to methods, classmethods, staticmethods
 dev-python/mkl-service 2.4.0: Python hooks for Intel Math Kernel Library runtime control settings
@@ -105,6 +115,7 @@ dev-python/mkl_random 1.2.2: Python interface to Intel Math Kernel Library's ran
 dev-python/mkl_umath 0.1.1: Package implementing NumPy's UFuncs based on SVML and MKL VML
 dev-python/neo 0.11.0 0.11.1 0.12.0: Read and represent a wide range of neurophysiology file formats in Python
 dev-python/nptyping 2.5.0: Type hints for Numpy
+dev-python/num2words 0.5.10-r1: Modules to convert numbers to words.
 dev-python/numba 0.61.0: NumPy aware dynamic Python compiler using LLVM
 dev-python/numcodecs 0.15.1 0.16.0: Data storage buffer compression and transformation codecs
 dev-python/numdifftools 0.9.41: Solve automatic numerical differentiation problems in one or more variables
@@ -122,23 +133,30 @@ dev-python/py2bit 0.3.3: Python library for accessing 2bit files
 dev-python/pyBigWig 0.3.24: quick access to and creation of bigWig files
 dev-python/pyaml-env 1.2.2: Parse YAML configuration with environment variables in Python
 dev-python/pybedtools 0.12.0: Use BED and GFF files from python using BEDtools
-dev-python/pyerfa 2.0.0.1-r2: Python bindings for ERFA
+dev-python/pybind11-stubgen 0.10.4-r1: PEP 561 type stubs generator for pybind11 modules
+dev-python/pyct 0.5.0: Python packaging Common Tasks
+dev-python/pyerfa 2.0.0.1-r2 2.0.1.5: Python bindings for ERFA
 dev-python/pyerrors 2.14.0: Error propagation and statistical analysis for Markov chain Monte Carlos
 dev-python/pyfaidx 0.8.1.3: Efficient pythonic random access to fasta subsequences
 dev-python/pynrrd 0.4.2 0.4.3 1.0.0: Simple pure-python module for reading and writing nrrd files
-dev-python/pynwb 2.6.0 2.8.1: A Python API for working with Neurodata stored in the NWB Format
-dev-python/pyout 0.7.2-r1 0.7.3: Terminal styling for structured data
+dev-python/pynwb 2.8.1: A Python API for working with Neurodata stored in the NWB Format
+dev-python/pyout 0.7.2-r2 0.7.3: Terminal styling for structured data
 dev-python/pysolar 0.10: Collection of Python libraries for simulating the irradiation by the sun
 dev-python/pytest-doctestplus 0.12.1: Pytest plugin with advanced doctest features
+dev-python/python-gantt 0.6.0_p20200809-r1: Draw Gantt charts from Python
 dev-python/python-igraph 0.10.4: Python interface for igraph
 dev-python/python-rapidjson 1.20: Python wrapper around rapidjson
+dev-python/pyviz_comms 2.2.0-r1: Bidirectional communication for the HoloViz ecosystem
+dev-python/pyvote 0.1-r1: Estimate the probability of votes changing election outcomes
 dev-python/pyzo 4.12.7: The Python IDE for scientific computing
 dev-python/regions 0.7: Astropy affilated package for region handling
+dev-python/reproject 0.8-r1: Reproject astronomical images
 dev-python/repsep_utils 0.2 0.3 0.3.1: Utilities Supporting RepSeP-style documents
 dev-python/reretry 0.11.8: An easy-to-use but functional retry decorator in python
 dev-python/resample 1.10.1: Randomization-based inference in Python
 dev-python/rich-click 1.8.8: Format click help output nicely with rich
 dev-python/ripser 0.6.4: python frontend for the fast ripser tda tool
+dev-python/scooby 0.5.7-r1: Easily report Python package versions and hardware resources
 dev-python/smart-open 6.3.0: Utils for streaming large files (S3, HDFS, gzip, bz2...)
 dev-python/snakemake 7.32.4 8.25.3: Make-like task language
 dev-python/snakemake-interface-common 1.17.4: Common functions and classes for Snakemake and its plugins
@@ -156,7 +174,7 @@ dev-python/spikeinterface 0.96.1 0.97.0 0.99.1: A Python-based module for creati
 dev-python/stopit 1.1.2: Timeout control decorator and context managers
 dev-python/texext 0.6.7: Sphinx extensions for working with LaTeX math
 dev-python/throttler 1.2.2: Easy throttling with asyncio support
-dev-python/traits 6.3.2 6.4.1: Enthought Tool Suite: Explicitly typed attributes for Python
+dev-python/traits 6.3.2-r1 6.4.1 6.4.3: Enthought Tool Suite: Explicitly typed attributes for Python
 dev-python/transforms3d 0.3.1: Functions for 3D coordinate transformations
 dev-python/uhi 0.4.0 0.5.0: Universal Histogram Interface
 dev-python/visvis 1.14.0: An object oriented approach to visualization of 1D to 4D data
@@ -244,6 +262,7 @@ sci-biology/brat_bw 2.0.1: Bisulfite-aware short read mapper, FM-index, no InDel
 sci-biology/brat_nova 20160103: Bisulfite-aware short read mapper, FM-index, accepts 1 InDel/read, local align
 sci-biology/brkraw 0.3.11: Fast and easy statistical learning on NeuroImaging data
 sci-biology/bru2nii 1.0.20180303: Converts Bruker ParaVision MRI data to the NIfTI file format
+sci-biology/bruker2nifti 1.0.4-r1: Medical image converter, from raw Bruker ParaVision to NIfTI
 sci-biology/btl_bloomfilter 1.2.1: BTL C/C common bloom filters
 sci-biology/bx-python 0.13.0: Library for rapid implementation of genome scale analyses
 sci-biology/cast-bin 20080813: Predict low-complexity regions in putative proteins
@@ -259,7 +278,9 @@ sci-biology/dargcc_bidsdata 1.0: BIDS data selection of wildtype animals from DA
 sci-biology/dcm2niix 1.0.20201102 1.0.20210317: DICOM to NIfTI converter
 sci-biology/dcmstack 0.9: DICOM to Nifti coversion
 sci-biology/deeptools 3.5.6: Extract reads from BAM files, normalize, draw figures, convert BAM to bigWig
+sci-biology/deeptools-intervals 0.1.9-r1: Constructing interval trees with associated exon/annotation information
 sci-biology/diamond 2.0.6: Alternative of blastp/blastx searches using DNA short reads through protein db
+sci-biology/dipy 1.1.1-r1: Computational neuroanatomy project focusing on diffusion MRI
 sci-biology/drlfom_bidsdata 1.1: BIDS data files released with the DRLFOM publication
 sci-biology/edena 3.131028: De novo short read OLC assembler (overlap-layout-consensus)
 sci-biology/epga 9999: De novo assembler using distribution of reads and insert size
@@ -301,6 +322,7 @@ sci-biology/lumpy-sv 0.3.1: Probabilistic framework for structural variant disco
 sci-biology/mappy 2.24 2.26: Minimap2 python binding
 sci-biology/megahit 1.2.9: Metagenome assembler using succinct de Bruijn graph approach with CUDA
 sci-biology/merlin 1.1.2: Statistical analysis of gene flow in pedigrees
+sci-biology/minimap2 2.24-r1: splice-aware sequence aligner with SSE2 and SSE4.1
 sci-biology/mip-scaffolder 0.6: Scaffold contigs using ABI Solid or Illumina mate pair info
 sci-biology/miranda 3.3a: An algorithm for finding genomic targets for microRNAs
 sci-biology/mmseqs2 13.0-r1: Fast and sensitive sequence search and clustering
@@ -312,7 +334,8 @@ sci-biology/multiqc 1.27: Aggregate bioinformatics results across many samples i
 sci-biology/nanopolish 9999: Signal-level analysis of Oxford Nanopore sequencing data
 sci-biology/neuroconv 0.4.8-r1: Create NWB files from proprietary formats.
 sci-biology/nextclip 1.3.1: Split Illumina Nextera long mate-pairs
-sci-biology/nitime 0.9 0.10.2 9999: Time-series analysis of neuroscience data
+sci-biology/nilearn 0.9.1-r1: Fast and easy statistical learning on NeuroImaging data
+sci-biology/nitime 0.10.2 9999: Time-series analysis of neuroscience data
 sci-biology/nrcl 110625: Containment clustering and layout utility for processing pairwise alignments
 sci-biology/ntCard 1.2.2 9999: Estimate k-mer coverage histogram of genomics data
 sci-biology/nxtrim 0.4.3: Trim Illumina TruSeq adapters and split reads by Nextera MatePair linker
@@ -397,6 +420,7 @@ sci-libs/aocl-libm 3.1.0: Optimized libm replacement from AMD for x86_64 archite
 sci-libs/aocl-sparse 2.2 9999: AMD library for optimized sparse BLAS operations
 sci-libs/arrayfire 3.7.2 3.7.3 3.8.0: general purpose GPU library
 sci-libs/asl 0.1.7 9999: Hardware accelerated multiphysics simulation platform
+sci-libs/bids-validator 1.4.4-r1: Validator for the Brain Imaging Data Structure
 sci-libs/ccif 0.4.20120917: CCP4 ccif lib
 sci-libs/ciftilib 1.6.0: C++ Library for reading and writing CIFTI-2 and CIFTI-1 files
 sci-libs/clfft 2.12.2-r1 9999: Library containing FFT functions written in OpenCL
@@ -415,6 +439,7 @@ sci-libs/handyg 0.1.5: Rapid numerical evaluation of generalised polylogarithms
 sci-libs/htslib-plugins 201712: iRODs plugins for >=htslib-1.4
 sci-libs/iRODS 4.2.11: Integrated Rule Oriented Data System, a data management software
 sci-libs/itk 5.2.1-r2 5.3.0-r1: NLM Insight Segmentation and Registration Toolkit
+sci-libs/labbookdb 0.1-r1: Lab Book Database Framework
 sci-libs/lib2bit 0.2.1: C library for accessing 2bit files
 sci-libs/libStatGen 1.0.15: Set of classes for creating statistical genetic programs
 sci-libs/libflame-amd 3.1: AMD optimized high-performance object-based library for DLA computations
@@ -428,15 +453,17 @@ sci-libs/mpfun90 2023.02.26 2024.12.06 9999: High-Precision Software
 sci-libs/nexus 4.4.3_p20200126: Data format for neutron and x-ray scattering data
 sci-libs/nibabel 5.0.0 5.1.0: Access a cacophony of neuro-imaging file formats
 sci-libs/nipy 0.6.0: Neuroimaging tools for Python
-sci-libs/nipype 1.8.4-r1 1.8.4-r2 1.8.6: Neuroimaging in Python: Pipelines and Interfaces
+sci-libs/nipype 1.8.4-r1 1.8.4-r2 1.8.6 1.10.0: Neuroimaging in Python: Pipelines and Interfaces
 sci-libs/oneDAL 2023.0.1 2023.2.1: oneAPI Data Analytics Library
 sci-libs/oneMKL 0.2_p20221201 0.2_p20230221: oneAPI Math Kernel Library Interfaces
 sci-libs/optpp 2.4: C++ library for non-linear optimization
 sci-libs/pfft 1.0.8_alpha 9999: Parallel 3d FFT
 sci-libs/pg2plplot 5.13.1: Assist the transition from PGPlot to PLplot in Fortran programs
+sci-libs/pybids 0.12.4-r1: Python package to access BIDS datasets
 sci-libs/pydicom 2.2.2 2.3.1: A pure python package for parsing DICOM files
 sci-libs/rdkit 2024.09.2: Cheminformatics and machine-learning software written in C++ and Python
 sci-libs/scikit-learn-intelx 2023.0.2: Seamless way to speed up your Scikit-learn application
+sci-libs/spyking-circus 1.1.0-r1: Fast spike sorting by template matching
 sci-libs/starparse 0.9-r1: Library for parsing NMR star files (peak-list format) and CIF files
 sci-libs/torchaudio 2.4.1: Data manipulation and transformation for audio signal processing
 sci-libs/vegas 6.0.1: Adaptive multidimensional Monte Carlo integration.
@@ -449,7 +476,7 @@ sci-mathematics/freefem++ 4.10: Solve PDEs using FEM on 2d and 3d domains
 sci-mathematics/libsfmt 1.3.0: SIMD-oriented Fast Mersenne Twister
 sci-mathematics/lie 2.2.2: A Computer algebra package for Lie group computations
 sci-mathematics/ltl2ba 1.1 1.2 1.3: Fast LTL to Buechi Automata Translation
-sci-mathematics/pulp 2.7.0 2.8.0 3.1.1: Create MPS/LP files, call solvers, and present results
+sci-mathematics/pulp 2.7.0-r1 2.8.0-r1 3.1.1: Create MPS/LP files, call solvers, and present results
 sci-mathematics/ripser 1.1: efficient computation of Vietoris-Rips persistence barcodes
 sci-mathematics/scilab-bin 6.1.1 2023.1.0: Scientific software package for numerical computations
 sci-misc/elmer-fem 9.0-r2: Finite element programs, libraries, and visualization tools
