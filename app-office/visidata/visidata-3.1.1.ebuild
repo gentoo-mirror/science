@@ -4,7 +4,7 @@
 EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
-PYTHON_COMPAT=( python3_{10..11} )
+PYTHON_COMPAT=( python3_{11..13} )
 
 inherit distutils-r1 optfeature
 
@@ -15,9 +15,6 @@ SRC_URI="https://github.com/saulpw/${PN}/archive/v${PV}.tar.gz -> ${P}.gh.tar.gz
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-# Tests fail on recent Python:
-# https://github.com/saulpw/visidata/issues/1905
-RESTRICT="test"
 
 RDEPEND="dev-python/python-dateutil[${PYTHON_USEDEP}]"
 BDEPEND="
@@ -33,33 +30,10 @@ BDEPEND="
 	)
 "
 
-#distutils_enable_sphinx docs \
-#	dev-python/recommonmark \
-#	dev-python/sphinx-argparse
-# dev-python/sphinx-markdown-tables
-
 distutils_enable_tests pytest
 
-python_prepare_all() {
-	rm tests/load-http.vd || die "Could not remove network-dependent test."
-	rm tests/graph-cursor-nosave.vd || die "Could not remove network-dependent test."
-	rm tests/messenger-nosave.vd || die "Could not remove network-dependent test."
-	rm tests/save-benchmarks.vd || die "Could not benchmarks test"
-	rm tests/graph-sincos-nosave.vd || die "Could not benchmarks test"
-	rm tests/graphpr-nosave.vd || die "Could not benchmarks test"
-	rm tests/describe-error.vd || die "Could not remove network-dependent test"
-	rm tests/describe.vd || die "Could not remove network-dependent test"
-	rm tests/edit-type.vd || die "Could not remove network-dependent test"
-
-	distutils-r1_python_prepare_all
-}
-
 python_test() {
-	git init || die "Git init failed."
-	git add tests/golden/ || die "Git add failed."
-	# this test script eventually calls pytest under the hood
-	dev/test.sh || die "Tests failed."
-	rm .git -rf || die "Could not clean up git test directory."
+	pytest -sv visidata/tests/
 }
 
 pkg_postinst() {
