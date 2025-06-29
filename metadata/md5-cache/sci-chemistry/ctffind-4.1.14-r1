@@ -1,0 +1,14 @@
+BDEPEND=sci-libs/fftw:3.0 media-libs/libjpeg-turbo media-libs/tiff x11-libs/wxGTK:3.2-gtk3= virtual/pkgconfig
+DEFINED_PHASES=configure prepare
+DEPEND=sci-libs/fftw:3.0 media-libs/libjpeg-turbo media-libs/tiff x11-libs/wxGTK:3.2-gtk3=
+DESCRIPTION=CTF estimation (ctffind, ctftilt)
+EAPI=8
+HOMEPAGE=https://grigoriefflab.umassmed.edu/
+INHERIT=wxwidgets
+KEYWORDS=~amd64 ~x86
+LICENSE=Janelia-1.2
+RDEPEND=sci-libs/fftw:3.0 media-libs/libjpeg-turbo media-libs/tiff x11-libs/wxGTK:3.2-gtk3=
+SLOT=0
+SRC_URI=https://grigoriefflab.umassmed.edu/system/tdf?path=ctffind-4.1.14.tar.gz&file=1&type=node&id=26 -> ctffind-4.1.14.tar.gz
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	wxwidgets	c48bf68858bd3c27c272ff034eb1e14d
+_md5_=caf7a9dc8cae8f3e5329117a01423ef3
