@@ -149,6 +149,7 @@ sci-physics/openloops:pplla-ew - Build pp to lla process with EW corrections
 sci-physics/openloops:ppllaj - Build pp to llaj process
 sci-physics/openloops:ppllajj - Build pp to llajj process
 sci-physics/openloops:ppllj - Build pp to llj process
+sci-physics/openloops:ppllj-ew - Build pp to llj process with EW corrections
 sci-physics/openloops:pplljj - Build pp to lljj process
 sci-physics/openloops:pplnj-ckm - Build pp to lnj process with ckm matrix
 sci-physics/openloops:pplnjj-ckm - Build pp to lljj process with ckm matrix
