@@ -9,5 +9,5 @@ LICENSE=MIT LGPL-3 MPL-1.1 Apache-2.0
 RDEPEND=>=virtual/jre-1.7:*
 SLOT=0
 SRC_URI=https://www.johnsonlab.ucsf.edu/s/MochiView_v146.zip
-_eclasses_=java-utils-2	c610b1541a10e37cb26ab5b707a744f1
+_eclasses_=java-utils-2	e2cdf66cd9c826ccda532772976d342d
 _md5_=261f783816acd280ba562cc11e021caf
