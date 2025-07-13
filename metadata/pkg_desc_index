@@ -154,7 +154,7 @@ dev-python/reproject 0.8-r1: Reproject astronomical images
 dev-python/repsep_utils 0.2 0.3 0.3.1: Utilities Supporting RepSeP-style documents
 dev-python/reretry 0.11.8: An easy-to-use but functional retry decorator in python
 dev-python/resample 1.10.1: Randomization-based inference in Python
-dev-python/rich-click 1.8.8: Format click help output nicely with rich
+dev-python/rich-click 1.8.9: Format click help output nicely with rich
 dev-python/ripser 0.6.4: python frontend for the fast ripser tda tool
 dev-python/scooby 0.5.7-r1: Easily report Python package versions and hardware resources
 dev-python/smart-open 6.3.0: Utils for streaming large files (S3, HDFS, gzip, bz2...)
