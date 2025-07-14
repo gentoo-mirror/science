@@ -12,5 +12,5 @@ RDEPEND=qpkind? ( sci-libs/qd[fortran] ) qpkind16? ( sci-libs/qd[fortran] ) arpr
 REQUIRED_USE=?? ( dpkind dpkind16 ddcpp ) ?? ( qpkind qpkind16 qdcpp ) ?? ( arprec mpfun90 ) || ( dpkind dpkind16 ddcpp qpkind qpkind16 qdcpp )
 SLOT=0
 SRC_URI=https://bitbucket.org/hameren/oneloop/get/3762b8bad6ad.zip -> oneloop-3.6_p20200731.zip
-_eclasses_=toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772	fortran-2	54fcb693257134adae26819685891ecc	multiprocessing	1e32df7deee68372153dca65f4a7c21f	python-utils-r1	bb392d69d55c48a5483d356933a26d57	python-any-r1	891415dfe39ad9b41b461f2b86354af0
+_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	fortran-2	54fcb693257134adae26819685891ecc	multiprocessing	1e32df7deee68372153dca65f4a7c21f	python-utils-r1	bb392d69d55c48a5483d356933a26d57	python-any-r1	891415dfe39ad9b41b461f2b86354af0
 _md5_=49ea7ae38bd30b26806950c15b5197c9
