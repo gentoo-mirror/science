@@ -185,7 +185,7 @@ dev-python/wraps 0.2.0 0.13.0: Meaningful and safe wrapping types.
 dev-python/xgboost 1.6.2 2.0.3 3.0.0: Scalable, Portable and Distributed Gradient Boosting Library.
 dev-python/xopen 2.0.2: Open compressed files transparently
 dev-python/yte 1.7.0: A YAML template engine with Python expressions
-dev-python/zarr 2.18.7 3.0.8: Chunked, compressed, N-dimensional arrays for Python
+dev-python/zarr 2.18.7 3.0.10: Chunked, compressed, N-dimensional arrays for Python
 dev-python/zarr_checksum 0.2.8 0.4.0: Calculatine zarr checksums from local or cloud storage
 dev-util/f90cache 0.99c: Compiler cache for fortran
 dev-util/mad-numdiff 9999 20180125: compare unformatted text files with numerical content
