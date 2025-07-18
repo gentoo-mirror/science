@@ -117,7 +117,7 @@ dev-python/neo 0.11.0 0.11.1 0.12.0: Read and represent a wide range of neurophy
 dev-python/nptyping 2.5.0: Type hints for Numpy
 dev-python/num2words 0.5.10-r1: Modules to convert numbers to words.
 dev-python/numba 0.61.2: NumPy aware dynamic Python compiler using LLVM
-dev-python/numcodecs 0.15.1 0.16.0: Data storage buffer compression and transformation codecs
+dev-python/numcodecs 0.15.1 0.16.1: Data storage buffer compression and transformation codecs
 dev-python/numdifftools 0.9.41: Solve automatic numerical differentiation problems in one or more variables
 dev-python/nwb2bids 0.0.3: Next-generation file format (NGFF) for storing bioimaging data in the cloud
 dev-python/nwbinspector 0.4.19 0.4.26-r1: Inspect NWB files for compliance with NWB Best Practices
