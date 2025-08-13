@@ -5,7 +5,6 @@ dev-cpp/Fastor 0.6.3 9999: light-weight high performance tensor algebra framewor
 dev-cpp/blitz 1.0.3_pre20200524: Multi-dimensional array library for C++
 dev-cpp/highwayhash 20200922: Fast strong hash functions: SipHash/HighwayHash
 dev-cpp/xor_singleheader 0_p20012020: single header library for fast XOR filters
-dev-java/fits 1.15.1: Java library for FITS input/output
 dev-java/jama 1.0.3: JAMA is a basic linear algebra package for Java.
 dev-java/parsington 3.1.0 9999: A mathematical expression parser for infix expression strings
 dev-java/scijava-common 2.97.1 9999: SciJava Common is a shared library for SciJava software.
@@ -224,7 +223,6 @@ sci-biology/KaKs_Calculator 1.2 2.0: Calculate nonsynonymous (Ka) and synonymous
 sci-biology/LINKS 2.0.1: Scaffold genome assemblies by Chromium/PacBio/Nanopore reads
 sci-biology/MaSuRCA 4.0.1 4.1.0: de Bruijn and OLC assembler for Sanger, Roche 454, Illumina, Pacbio, Nanopore
 sci-biology/MeV 4.8.1: Multiple experiment Viewer for genomic data analysis
-sci-biology/MochiView 1.46: Genome browser and analysis
 sci-biology/MuSeqBox 5.7.2021: Parse and filter BLAST output into tab-delimited file
 sci-biology/NGSEPcore 4.0.3: NGSEP (CNV and indel discovery)
 sci-biology/NGSEPcore-bin 4.0.3: NGSEP (CNV and indel discovery)
@@ -298,7 +296,6 @@ sci-biology/freebayes 1.3.5: Bayesian gen. variant detector to find short polymo
 sci-biology/fsa 1.15.9: Distance-based probabilistic multiple sequence alignment algo for DNA/RNA/prot
 sci-biology/fsl 6.0.4 6.0.5: Analysis of functional, structural, and diffusion MRI brain imaging data
 sci-biology/genepop 4.7: Population genetics analysis
-sci-biology/genomeview-bin 2450: Genome browser and annotation tool
 sci-biology/germline 1.5.3: Find shared segments of Identity by Descent (IBD) between pairs of individuals
 sci-biology/gffcompare 0.12.2: Compare, classify, merge, track, annotate GFF files
 sci-biology/gffread 0.12.7: GFF/GTF utility providing format conversions, filter/extract regions from FASTA
@@ -408,7 +405,6 @@ sci-chemistry/dl_poly 1.10 5.0.0: a general purpose molecular dynamics simulatio
 sci-chemistry/drawxtl 45 55: Crystal structure drawings from structural data
 sci-chemistry/erkale 0_p20220106: Quantum chemistry program for atoms and molecules
 sci-chemistry/gamess 20180930.3-r1: A powerful quantum chemistry package
-sci-chemistry/mics 1.00.2011.327.12.00: Prediction of Protein Structural Motifs from NMR Chemical Shifts
 sci-chemistry/nmrpipe 8.7.20230206: Spectral visualisation, analysis and Fourier processing
 sci-chemistry/pales-bin 0_pre140717: Prediction of alignment from structure
 sci-chemistry/panav 0.20130730: Probabilistic approach for validating protein NMR chemical shift assignments
@@ -454,7 +450,6 @@ sci-libs/lightgbm 4.5.0: Gradient boosting framework (GBM) based on decision tre
 sci-libs/lwpr 1.2.5: The Locally Weighted Projection Regression Library
 sci-libs/mesquite 2.3.0: Mesh Quality Improvement Toolkit
 sci-libs/mpfun90 2023.02.26 2024.12.06 9999: High-Precision Software
-sci-libs/nexus 4.4.3_p20200126: Data format for neutron and x-ray scattering data
 sci-libs/nibabel 5.0.0 5.1.0: Access a cacophony of neuro-imaging file formats
 sci-libs/nipy 0.6.0: Neuroimaging tools for Python
 sci-libs/nipype 1.8.4-r1 1.8.4-r2 1.8.6 1.10.0: Neuroimaging in Python: Pipelines and Interfaces
