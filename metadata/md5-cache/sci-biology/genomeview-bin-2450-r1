@@ -1,0 +1,15 @@
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=compile configure install preinst prepare setup
+DEPEND=>=virtual/jdk-1.7:* java? ( >=dev-java/java-config-2.2.0-r3 )
+DESCRIPTION=Genome browser and annotation tool
+EAPI=8
+HOMEPAGE=https://genomeview.sourceforge.net
+INHERIT=java-pkg-opt-2
+IUSE=java
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=>=virtual/jre-1.7:* java? ( >=dev-java/java-config-2.2.0-r3 )
+SLOT=0
+SRC_URI=https://downloads.sourceforge.net/project/genomeview/GenomeView/genomeview-2450.zip
+_eclasses_=java-utils-2	a080d4947ca188a48725a375b6184bc5	java-pkg-opt-2	cfe09ee08c1c7907ffee08abd026fd4b
+_md5_=6c28f7115384a498a52d33dac5746a04

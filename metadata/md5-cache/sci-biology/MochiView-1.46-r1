@@ -1,0 +1,14 @@
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=compile configure install
+DESCRIPTION=Genome browser and analysis
+EAPI=8
+HOMEPAGE=https://www.johnsonlab.ucsf.edu/mochi.html
+INHERIT=java-utils-2
+KEYWORDS=~amd64
+LICENSE=MIT LGPL-3 MPL-1.1 Apache-2.0
+RDEPEND=>=virtual/jre-1.7:*
+RESTRICT=test
+SLOT=0
+SRC_URI=https://www.johnsonlab.ucsf.edu/s/MochiView_v146.zip
+_eclasses_=java-utils-2	a080d4947ca188a48725a375b6184bc5
+_md5_=fb21cf9da0f761d8daf34e52b00d05a0
