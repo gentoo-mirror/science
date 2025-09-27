@@ -20,7 +20,11 @@ else
 	KEYWORDS="~amd64"
 fi
 
-
-BDEPEND="dev-python/hatch-vcs[${PYTHON_USEDEP}]"
+BDEPEND="
+	dev-python/hatch-vcs[${PYTHON_USEDEP}]
+	test? (
+		sci-physics/pint[${PYTHON_USEDEP}]
+	)
+"
 
 distutils_enable_tests pytest
