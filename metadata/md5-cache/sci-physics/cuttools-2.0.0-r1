@@ -1,0 +1,15 @@
+BDEPEND=virtual/fortran
+DEFINED_PHASES=compile install prepare setup
+DEPEND=sci-libs/mpfun90 sci-physics/qcdloop sci-physics/oneloop[dpkind,qpkind16,-qpkind,-tlevel,mpfun90?] virtual/fortran
+DESCRIPTION=Computing 1-loop amplitudes at the integrand level
+EAPI=8
+HOMEPAGE=https://www.ugr.es/~pittau/CutTools/
+INHERIT=fortran-2 toolchain-funcs
+IUSE=+dummy mpfun90
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=sci-libs/mpfun90 sci-physics/qcdloop sci-physics/oneloop[dpkind,qpkind16,-qpkind,-tlevel,mpfun90?] virtual/fortran
+SLOT=0
+SRC_URI=https://www.ugr.es/~pittau/CutTools/cuttools_v2.0.tar.gz
+_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	fortran-2	54fcb693257134adae26819685891ecc
+_md5_=8ced9118bb9cbc8a5b69ac7cfa976de5
