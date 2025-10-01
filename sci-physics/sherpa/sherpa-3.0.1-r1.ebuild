@@ -49,12 +49,17 @@ DEPEND="
 	root? ( sci-physics/root )
 	mpi? ( virtual/mpi[cxx,fortran] )
 	ufo? ( ${PYTHON_DEPS} )
-	openloops? ( sci-physics/openloops[ppllj(-),pplljj(-)] )
+	openloops? ( sci-physics/openloops[openloops_processes_ppllj(-),openloops_processes_pplljj(-)] )
 "
 #	blackhat? ( sci-physics/blackhat )
 #	gosam? ( sci-physics/gosam )
 #	recola? ( sci-physics/recola )
 RDEPEND="${DEPEND}"
+
+PATCHES=(
+	"${FILESDIR}/${P}-cstdint.patch"
+	"${FILESDIR}/${P}-return.patch"
+)
 
 pkg_setup() {
 	use ufo && python-single-r1_pkg_setup
