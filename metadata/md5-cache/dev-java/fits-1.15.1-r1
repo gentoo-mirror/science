@@ -8,5 +8,5 @@ LICENSE=public-domain
 RDEPEND=>=virtual/jre-1.5
 SLOT=0
 SRC_URI=http://heasarc.gsfc.nasa.gov/docs/heasarc/fits/java/v1.0/v1.15.1/fits.jar -> fits-1.15.1.jar
-_eclasses_=java-utils-2	a080d4947ca188a48725a375b6184bc5
+_eclasses_=java-utils-2	3febdd17a5820c438f6368dde60d4848
 _md5_=54e621bb3735c7836f9dd8b772fda851
