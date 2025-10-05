@@ -1,4 +1,4 @@
-BDEPEND=app-alternatives/ninja >=dev-build/cmake-3.20.5 virtual/fortran
+BDEPEND=app-alternatives/ninja >=dev-build/cmake-3.28.5 virtual/fortran
 DEFINED_PHASES=compile configure install prepare setup test
 DEPEND=sci-physics/lhapdf dev-db/sqlite:3= sci-physics/hepmc:3= dev-libs/libzip rivet? ( sci-physics/rivet ) gzip? ( app-arch/gzip ) pythia8? ( sci-physics/pythia:8= ) hepmc2? ( sci-physics/hepmc:2= ) fastjet? ( sci-physics/fastjet ) root? ( sci-physics/root ) mpi? ( virtual/mpi[cxx,fortran] ) ufo? ( python_single_target_python3_11? ( dev-lang/python:3.11 ) python_single_target_python3_12? ( dev-lang/python:3.12 ) python_single_target_python3_13? ( dev-lang/python:3.13 ) ) openloops? ( sci-physics/openloops[openloops_processes_ppllj(-),openloops_processes_pplljj(-)] ) virtual/fortran
 DESCRIPTION=Simulation of High-Energy Reactions of PArticles
@@ -12,5 +12,5 @@ RDEPEND=sci-physics/lhapdf dev-db/sqlite:3= sci-physics/hepmc:3= dev-libs/libzip
 REQUIRED_USE=ufo? ( ^^ ( python_single_target_python3_11 python_single_target_python3_12 python_single_target_python3_13 ) )
 SLOT=0
 SRC_URI=https://gitlab.com/sherpa-team/sherpa/-/archive/v3.0.1/sherpa-v3.0.1.tar.bz2
-_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	460729dc36f68cf03b044bc1d367e34a	fortran-2	54fcb693257134adae26819685891ecc	python-utils-r1	0b620dd604ab8af0bc9cd1bcc66d4f7c	python-single-r1	47d8ac9be330c9366112b78fd4f8ce57
+_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	cf95ad72ab207889c1668fc0d1bee181	fortran-2	54fcb693257134adae26819685891ecc	python-utils-r1	0b620dd604ab8af0bc9cd1bcc66d4f7c	python-single-r1	47d8ac9be330c9366112b78fd4f8ce57
 _md5_=f758272a3d58d3c4f1454a7e0c730727

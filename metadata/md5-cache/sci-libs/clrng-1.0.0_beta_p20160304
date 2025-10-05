@@ -1,4 +1,4 @@
-BDEPEND=app-alternatives/ninja >=dev-build/cmake-3.20.5 doc? ( app-text/doxygen )
+BDEPEND=app-alternatives/ninja >=dev-build/cmake-3.28.5 doc? ( app-text/doxygen )
 DEFINED_PHASES=compile configure install prepare test
 DEPEND=virtual/opencl dev-util/intel-ocl-sdk dev-libs/boost
 DESCRIPTION=A library for uniform random number generation in OpenCL
@@ -12,5 +12,5 @@ RDEPEND=virtual/opencl dev-util/intel-ocl-sdk dev-libs/boost
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/clMathLibraries/clRNG/archive/4a16519ddf52ee0a5f0b7e6288b0803b9019c13b.tar.gz -> clrng-1.0.0_beta_p20160304.tar.gz
-_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	460729dc36f68cf03b044bc1d367e34a	docs	006125f2158d2f16904ebd9114336058
+_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	cf95ad72ab207889c1668fc0d1bee181	docs	006125f2158d2f16904ebd9114336058
 _md5_=e1dd96264e0e0228462f816785afe849
