@@ -178,6 +178,9 @@ sci-physics/tauola:pythia - Compile with sci-physics/pythia connection
 sci-physics/tauola:tau-spinner - Compile with TauSpinner library
 sci-visualization/mricrogl:dicom - Adds limited read support for the DICOM imaging format.
 sys-cluster/modules:compat - Build Modules version 3 compat support
+sys-cluster/modules:man-install - install man files in global location
+sys-cluster/modules:new-features - enable all new features
+sys-cluster/modules:shell-setup - install shell initialization and completion files
 sys-devel/DPC++:cuda - use the cuda backend
 sys-devel/DPC++:esimd_emulator - enable ESIMD CPU emulation
 sys-devel/DPC++:hip - use the HIP backend
