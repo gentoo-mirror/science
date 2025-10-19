@@ -13,5 +13,5 @@ RDEPEND=>=dev-db/sqlite-3.4:3 dev-libs/qtkeychain[keyring?,qt5(+)] dev-qt/qtconc
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://download.owncloud.com/desktop/ownCloud/stable/4.1.0.11250/source/ownCloud-4.1.0.11250.tar.xz https://cernboxdistr.web.cern.ch/cernboxdistr/Linux/repo.future/Fedora_38/src/cernbox-client-4.1.0-11373.src.rpm https://cern.ch/ofreyerm/gentoo/cernbox/cernbox-client-4.1.0-11373.src.rpm https://github.com/owncloud/libre-graph-api-cpp-qt-client/archive/refs/tags/v1.0.1.tar.gz -> libregraphapi-1.0.1.tar.gz
-_eclasses_=toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	3d9a5fc17dadea162813d5d8918328b4	estack	c61c368a76fdf3a82fdf8dbaebea3804	rpm	a07e59be6cf48ed85e624a41e8a7a832	xdg	3ef49a87c52c8b77c476351195dfe575
+_eclasses_=toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	c34c4b7abe27f71d1e7770f36cc51eed	estack	c61c368a76fdf3a82fdf8dbaebea3804	rpm	a07e59be6cf48ed85e624a41e8a7a832	xdg	3ef49a87c52c8b77c476351195dfe575
 _md5_=775730f0f84330ebc829dcc2d8b0c2ff
