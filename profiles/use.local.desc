@@ -139,21 +139,7 @@ sci-physics/oneloop:qpkind16 - quad16 precision
 sci-physics/oneloop:tlevel - enable tlevel
 sci-physics/openloops:collier - Build with collier
 sci-physics/openloops:cuttools - Build with cuttools
-sci-physics/openloops:eella-ew - Build ee to lla process with EW corrections
 sci-physics/openloops:extra - Build libs with extra
-sci-physics/openloops:ppajj - Build pp to ajj process
-sci-physics/openloops:pphllj-ew - Build pp to hllj process with EW corrections
-sci-physics/openloops:ppjj - Build pp to jj process
-sci-physics/openloops:ppjjj - Build pp to jjj process
-sci-physics/openloops:pplla - Build pp to lla process
-sci-physics/openloops:pplla-ew - Build pp to lla process with EW corrections
-sci-physics/openloops:ppllaj - Build pp to llaj process
-sci-physics/openloops:ppllajj - Build pp to llajj process
-sci-physics/openloops:ppllj - Build pp to llj process
-sci-physics/openloops:ppllj-ew - Build pp to llj process with EW corrections
-sci-physics/openloops:pplljj - Build pp to lljj process
-sci-physics/openloops:pplnj-ckm - Build pp to lnj process with ckm matrix
-sci-physics/openloops:pplnjj-ckm - Build pp to lljj process with ckm matrix
 sci-physics/photos:hepmc2 - Build with hepmc 2
 sci-physics/photos:hepmc3 - Build with hepmc 3
 sci-physics/photos:pythia - Build with pythia
