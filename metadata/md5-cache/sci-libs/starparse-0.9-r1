@@ -13,5 +13,5 @@ REQUIRED_USE=test? ( guile ) guile? ( ^^ ( guile_single_target_1-8 ) )
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://downloads.sourceforge.net/project/burrow-owl/starparse/0.9/starparse-0.9.tar.gz
-_eclasses_=toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	guile-utils	e45d014e2eb3f7fe4fdcd4e5eeafdb8b	guile-single	6e99296ff5eff20c16de5075dfe75616
+_eclasses_=toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	guile-utils	81d7b13f6e52873bc85dd7a729ffbf4d	guile-single	6e99296ff5eff20c16de5075dfe75616
 _md5_=aab5bfedb561a8e06c03e702fba1d0df
