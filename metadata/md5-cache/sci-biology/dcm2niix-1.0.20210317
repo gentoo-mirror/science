@@ -1,0 +1,15 @@
+BDEPEND=virtual/pkgconfig app-alternatives/ninja >=dev-build/cmake-3.28.5
+DEFINED_PHASES=compile configure install postinst prepare test
+DEPEND=system-jpeg? ( media-libs/libjpeg-turbo ) jpeg2k? ( media-libs/openjpeg )
+DESCRIPTION=DICOM to NIfTI converter
+EAPI=8
+HOMEPAGE=https://github.com/rordenlab/dcm2niix
+INHERIT=cmake optfeature
+IUSE=static system-jpeg +jpeg-ls jpeg2k
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=system-jpeg? ( media-libs/libjpeg-turbo ) jpeg2k? ( media-libs/openjpeg )
+SLOT=0
+SRC_URI=https://github.com/rordenlab/dcm2niix/archive/v1.0.20210317.tar.gz -> dcm2niix-1.0.20210317.tar.gz
+_eclasses_=toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	3a59a39e97af0f7c03f49cf3c22f262b	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	a36a2a340635cb293524229ee6d2ef7a	optfeature	538bce96e5589935b57e178e8635f301
+_md5_=b25edc68a29e3c015de38717043cfa2f

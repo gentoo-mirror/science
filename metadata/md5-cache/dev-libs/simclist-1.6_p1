@@ -1,0 +1,13 @@
+BDEPEND=doc? ( app-text/doxygen ) app-alternatives/ninja >=dev-build/cmake-3.28.5
+DEFINED_PHASES=compile configure install prepare test
+DESCRIPTION=SimCList is a high quality C (C++ embeddable) library for handling lists
+EAPI=8
+HOMEPAGE=https://mij.oltrelinux.com/devel/simclist
+INHERIT=cmake
+IUSE=debug doc dump hash threads
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+SLOT=0
+SRC_URI=https://github.com/mij/simclist/archive/6aef848d1743af66045a6f413cd3b8b1f1578c15.tar.gz -> simclist-1.6_p1.tar.gz
+_eclasses_=toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	3a59a39e97af0f7c03f49cf3c22f262b	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	a36a2a340635cb293524229ee6d2ef7a
+_md5_=c02f86f5d884e87af4dbeb6db6f5b849
