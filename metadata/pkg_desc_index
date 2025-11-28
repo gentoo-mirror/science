@@ -547,7 +547,7 @@ sys-cluster/easybuild 4.9.0-r1 5.1.1-r1 9999: EasyBuild is a software build and 
 sys-cluster/easybuild-easyblocks 4.9.0 5.1.1 9999: Provides a collection of easyblocks for EasyBuild.
 sys-cluster/easybuild-easyconfigs 4.9.0 5.1.1 9999: Provides a collection of well-tested easyconfig files for EasyBuild.
 sys-cluster/easybuild-framework 4.9.0 5.1.1 9999: The easybuild-framework package is the core of EasyBuild.
-sys-cluster/modules 4.6.0-r1 5.6.0: Dynamic modification of a user's environment via modulefiles
+sys-cluster/modules 4.6.0-r1 5.6.0 5.6.1: Dynamic modification of a user's environment via modulefiles
 sys-devel/DPC++ 2021.12 2022.09 2022.12: oneAPI Data Parallel C++ compiler
 sys-devel/ittapi 3.23.0 3.24.0: Intel Instrumentation and Tracing Technology and Just-In-Time API
 sys-devel/oneDPL 2021.7.1 2022.0.0-r1 2022.2.0: oneAPI Data Parallel C++ Library
