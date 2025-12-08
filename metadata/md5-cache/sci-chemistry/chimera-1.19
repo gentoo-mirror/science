@@ -10,5 +10,5 @@ RDEPEND=dev-lang/tcl dev-lang/tk dev-libs/expat dev-libs/libotf dev-libs/openssl
 RESTRICT=fetch mirror strip
 SLOT=0
 SRC_URI=chimera-1.19-linux_x86_64.bin mirror+https://dev.gentoo.org/~pacho/chimera/Chimera512.png
-_eclasses_=desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	xdg	3ef49a87c52c8b77c476351195dfe575
+_eclasses_=desktop	431f346390bf3c3a17c9b775d7e329b3	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	xdg	3ef49a87c52c8b77c476351195dfe575
 _md5_=a8e5d97bbab26ec1b22f24989acf3742
