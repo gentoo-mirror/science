@@ -7,5 +7,5 @@ KEYWORDS=~amd64
 LICENSE=MIT
 SLOT=0
 SRC_URI=http://korflab.ucdavis.edu/Software/snap-2013-11-29.tar.gz
-_eclasses_=toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db
+_eclasses_=toolchain-funcs	30214924c0c3b92ec7dbf24fc70d60d3
 _md5_=33d723f6cd4e8f459d91de20d7151f5d

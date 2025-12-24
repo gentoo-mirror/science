@@ -9,5 +9,5 @@ LICENSE=MIT
 PROPERTIES=live
 RDEPEND=pdf? ( dev-texlive/texlive-latex || ( dev-texlive/texlive-basic ) )
 SLOT=0
-_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	toolchain-funcs	30214924c0c3b92ec7dbf24fc70d60d3
 _md5_=253644190e7d59ded3be310c1b0acd6d
