@@ -1,0 +1,15 @@
+DEFINED_PHASES=configure install postinst postrm preinst prepare
+DEPEND=>=dev-qt/qtgui-5.4.2 >=dev-qt/qtsvg-5.4.2 >=dev-qt/qtscript-5.4.2[scripttools]
+DESCRIPTION=A free open-source cross-platform bioinformatics software
+EAPI=8
+HOMEPAGE=http://ugene.unipro.ru
+IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
+INHERIT=qmake-utils xdg
+IUSE=cpu_flags_x86_sse2
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=>=dev-qt/qtgui-5.4.2 >=dev-qt/qtsvg-5.4.2 >=dev-qt/qtscript-5.4.2[scripttools]
+SLOT=0
+SRC_URI=https://github.com/ugeneunipro/ugene/archive/40.1.tar.gz -> ugene-40.1.tar.gz
+_eclasses_=toolchain-funcs	30214924c0c3b92ec7dbf24fc70d60d3	qmake-utils	28f99dba9219112f4785f46ed426a021	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	xdg	3ef49a87c52c8b77c476351195dfe575
+_md5_=92c903c31c5dbe8b5d8fe4d453a1608e
