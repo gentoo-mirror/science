@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=dicom? ( sci-biology/dcm2niix )
 SLOT=0
 SRC_URI=https://github.com/rordenlab/MRIcroGL/archive/v1.2.20220720.tar.gz -> mricrogl-1.2.20220720.tar.gz
-_eclasses_=desktop	7b6f6e9d65093966fbc8475399c5dd4e	xdg-utils	42869b3c8d86a70ef3cf75165a395e09
+_eclasses_=desktop	26d57169ca094c04be416993844ec8bc	xdg-utils	42869b3c8d86a70ef3cf75165a395e09
 _md5_=ec76ca76cb5bc5e33175a7bce9a6c608
