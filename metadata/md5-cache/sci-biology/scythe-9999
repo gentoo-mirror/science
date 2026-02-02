@@ -1,14 +1,14 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install unpack
-DEPEND=sys-libs/zlib
+DEPEND=virtual/zlib:=
 DESCRIPTION=Bayesian 3'-end adapter (only) trimmer for Illumina/Solexa
 EAPI=7
 HOMEPAGE=https://github.com/vsbuffalo/scythe
 INHERIT=git-r3
 LICENSE=MIT
 PROPERTIES=live
-RDEPEND=sys-libs/zlib
+RDEPEND=virtual/zlib:=
 RESTRICT=test
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=56883c2b3846d7d8ed2ddf85b8471dd4
+_md5_=ab4a921c729efa68106e4a9cd7869ab8

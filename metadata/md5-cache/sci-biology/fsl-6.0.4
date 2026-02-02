@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile install postinst prepare
-DEPEND=dev-libs/boost >=dev-python/fslpy-3 media-gfx/graphviz media-libs/gd media-libs/glu media-libs/libpng:0= sci-libs/ciftilib sci-libs/nlopt sys-libs/zlib dev-lang/tcl:0= dev-lang/tk:0= >=virtual/lapack-3.8 >=virtual/blas-3.8 cuda? ( =dev-util/nvidia-cuda-toolkit-11* sys-devel/gcc )
+DEPEND=dev-libs/boost >=dev-python/fslpy-3 media-gfx/graphviz media-libs/gd media-libs/glu media-libs/libpng:0= sci-libs/ciftilib sci-libs/nlopt virtual/zlib:= dev-lang/tcl:0= dev-lang/tk:0= >=virtual/lapack-3.8 >=virtual/blas-3.8 cuda? ( =dev-util/nvidia-cuda-toolkit-11* sys-devel/gcc )
 DESCRIPTION=Analysis of functional, structural, and diffusion MRI brain imaging data
 EAPI=7
 HOMEPAGE=https://www.fmrib.ox.ac.uk/fsl
@@ -7,8 +7,8 @@ INHERIT=cuda toolchain-funcs prefix
 IUSE=cuda
 KEYWORDS=~amd64
 LICENSE=FSL BSD-2 newmat
-RDEPEND=dev-libs/boost >=dev-python/fslpy-3 media-gfx/graphviz media-libs/gd media-libs/glu media-libs/libpng:0= sci-libs/ciftilib sci-libs/nlopt sys-libs/zlib dev-lang/tcl:0= dev-lang/tk:0= >=virtual/lapack-3.8 >=virtual/blas-3.8 cuda? ( =dev-util/nvidia-cuda-toolkit-11* sys-devel/gcc )
+RDEPEND=dev-libs/boost >=dev-python/fslpy-3 media-gfx/graphviz media-libs/gd media-libs/glu media-libs/libpng:0= sci-libs/ciftilib sci-libs/nlopt virtual/zlib:= dev-lang/tcl:0= dev-lang/tk:0= >=virtual/lapack-3.8 >=virtual/blas-3.8 cuda? ( =dev-util/nvidia-cuda-toolkit-11* sys-devel/gcc )
 SLOT=0
 SRC_URI=https://fsl.fmrib.ox.ac.uk/fsldownloads/fsl-6.0.4-sources.tar.gz -> fsl-6.0.4.tar.gz
 _eclasses_=toolchain-funcs	30214924c0c3b92ec7dbf24fc70d60d3	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	cuda	8b660e223a1695e3884ee4c7dc2c5059	prefix	c3c4c93ebda319c0fa7ed6f942ba1010
-_md5_=b0c95d2387be9f915bd1a5ec7efa2e5f
+_md5_=df228f55e42833d9ceb4ea56a46912ee

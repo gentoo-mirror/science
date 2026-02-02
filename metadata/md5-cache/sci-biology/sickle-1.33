@@ -1,11 +1,11 @@
 DEFINED_PHASES=install
-DEPEND=sys-libs/zlib
+DEPEND=virtual/zlib:=
 DESCRIPTION=Windowed adaptive quality-based trimming tool for FASTQ data
 EAPI=7
 HOMEPAGE=https://github.com/najoshi/sickle
 KEYWORDS=~amd64
 LICENSE=MIT
-RDEPEND=sys-libs/zlib
+RDEPEND=virtual/zlib:=
 SLOT=0
 SRC_URI=https://github.com/najoshi/sickle/archive/v1.33.tar.gz -> sickle-1.33.tar.gz
-_md5_=f81f5d210e13947b252c0ea999b59185
+_md5_=57947c660dabf9ddd6046bdeb30b9fcf

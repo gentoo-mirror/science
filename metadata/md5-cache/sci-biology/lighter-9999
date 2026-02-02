@@ -1,13 +1,13 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install unpack
-DEPEND=sys-libs/zlib
+DEPEND=virtual/zlib:=
 DESCRIPTION=NGS reads corrector
 EAPI=7
 HOMEPAGE=https://github.com/mourisl/Lighter
 INHERIT=git-r3
 LICENSE=GPL-2+
 PROPERTIES=live
-RDEPEND=sys-libs/zlib
+RDEPEND=virtual/zlib:=
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=66a8eef18fca937dbb89334a1161a822
+_md5_=d8ef04499645ebcc171fbe4db92d93cc

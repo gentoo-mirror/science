@@ -1,13 +1,13 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install prepare unpack
-DEPEND=sys-libs/zlib
+DEPEND=virtual/zlib:=
 DESCRIPTION=Barcode demultiplexing and trimming tool for Illumina FastQ files
 EAPI=7
 HOMEPAGE=https://github.com/najoshi/sabre
 INHERIT=toolchain-funcs git-r3
 LICENSE=MIT
 PROPERTIES=live
-RDEPEND=sys-libs/zlib
+RDEPEND=virtual/zlib:=
 SLOT=0
 _eclasses_=toolchain-funcs	30214924c0c3b92ec7dbf24fc70d60d3	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=9d1719b335088b13adc1036a6550f1e4
+_md5_=41d2bed1198d1c7b692ad20a32bb3ad0

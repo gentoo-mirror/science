@@ -1,6 +1,6 @@
 BDEPEND=virtual/fortran
 DEFINED_PHASES=compile configure install setup unpack
-DEPEND=python_single_target_python3_11? ( dev-lang/python:3.11 ) sys-libs/zlib sys-devel/gcc:*[fortran] python_single_target_python3_11? ( dev-python/numpy[python_targets_python3_11(-)] ) lhapdf? ( sci-physics/lhapdf[python_single_target_python3_11(-)?] ) fastjet? ( sci-physics/fastjet[python_single_target_python3_11(-)?] ) pythia? ( sci-physics/pythia:8=[examples] ) hepmc2? ( sci-physics/hepmc:2 ) collier? ( sci-physics/collier[static-libs] ) thepeg? ( sci-physics/thepeg[hepmc3(-),fastjet?,lhapdf?] ) virtual/fortran
+DEPEND=python_single_target_python3_11? ( dev-lang/python:3.11 ) virtual/zlib:= sys-devel/gcc:*[fortran] python_single_target_python3_11? ( dev-python/numpy[python_targets_python3_11(-)] ) lhapdf? ( sci-physics/lhapdf[python_single_target_python3_11(-)?] ) fastjet? ( sci-physics/fastjet[python_single_target_python3_11(-)?] ) pythia? ( sci-physics/pythia:8=[examples] ) hepmc2? ( sci-physics/hepmc:2 ) collier? ( sci-physics/collier[static-libs] ) thepeg? ( sci-physics/thepeg[hepmc3(-),fastjet?,lhapdf?] ) virtual/fortran
 DESCRIPTION=MadGraph5_aMC@NLO
 EAPI=8
 HOMEPAGE=https://launchpad.net/mg5amcnlo
@@ -8,9 +8,9 @@ INHERIT=fortran-2 python-single-r1
 IUSE=+hepmc2 +lhapdf +fastjet pythia collier thepeg +python_single_target_python3_11
 KEYWORDS=~amd64
 LICENSE=UoI-NCSA
-RDEPEND=python_single_target_python3_11? ( dev-lang/python:3.11 ) sys-libs/zlib sys-devel/gcc:*[fortran] python_single_target_python3_11? ( dev-python/numpy[python_targets_python3_11(-)] ) lhapdf? ( sci-physics/lhapdf[python_single_target_python3_11(-)?] ) fastjet? ( sci-physics/fastjet[python_single_target_python3_11(-)?] ) pythia? ( sci-physics/pythia:8=[examples] ) hepmc2? ( sci-physics/hepmc:2 ) collier? ( sci-physics/collier[static-libs] ) thepeg? ( sci-physics/thepeg[hepmc3(-),fastjet?,lhapdf?] ) virtual/fortran
+RDEPEND=python_single_target_python3_11? ( dev-lang/python:3.11 ) virtual/zlib:= sys-devel/gcc:*[fortran] python_single_target_python3_11? ( dev-python/numpy[python_targets_python3_11(-)] ) lhapdf? ( sci-physics/lhapdf[python_single_target_python3_11(-)?] ) fastjet? ( sci-physics/fastjet[python_single_target_python3_11(-)?] ) pythia? ( sci-physics/pythia:8=[examples] ) hepmc2? ( sci-physics/hepmc:2 ) collier? ( sci-physics/collier[static-libs] ) thepeg? ( sci-physics/thepeg[hepmc3(-),fastjet?,lhapdf?] ) virtual/fortran
 REQUIRED_USE=^^ ( python_single_target_python3_11 )
 SLOT=3
 SRC_URI=https://launchpad.net/mg5amcnlo/3.0/3.5.x/+download/MG5_aMC_v3.5.3.tar.gz -> MadGraph5-3.5.3.tar.gz
 _eclasses_=toolchain-funcs	30214924c0c3b92ec7dbf24fc70d60d3	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	fortran-2	ae6d43513003405bd4a48698fc20370a	multiprocessing	1e32df7deee68372153dca65f4a7c21f	python-utils-r1	dbb8c4d794033ad7e7221eaf567a6c90	python-single-r1	47d8ac9be330c9366112b78fd4f8ce57
-_md5_=c0a5006858db7b9e710e82f8420b732f
+_md5_=37442984e9357c5b841605e1153d5467

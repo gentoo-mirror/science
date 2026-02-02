@@ -1,6 +1,6 @@
 BDEPEND=>=dev-python/gpep517-16[python_targets_python3_13(-)?] >=dev-python/setuptools-78.1.0[python_targets_python3_13(-)?] python? ( dev-python/cython[python_targets_python3_13(-)?] )
 DEFINED_PHASES=compile configure install prepare
-DEPEND=sys-libs/zlib python? ( python_targets_python3_13? ( dev-lang/python:3.13 ) )
+DEPEND=virtual/zlib:= python? ( python_targets_python3_13? ( dev-lang/python:3.13 ) )
 DESCRIPTION=splice-aware sequence aligner with SSE2 and SSE4.1
 EAPI=8
 HOMEPAGE=https://github.com/lh3/minimap2
@@ -8,9 +8,9 @@ INHERIT=distutils-r1
 IUSE=python cpu_flags_x86_sse4_1 python_targets_python3_13 debug
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
-RDEPEND=sys-libs/zlib python? ( python_targets_python3_13? ( dev-lang/python:3.13 ) )
+RDEPEND=virtual/zlib:= python? ( python_targets_python3_13? ( dev-lang/python:3.13 ) )
 REQUIRED_USE=|| ( python_targets_python3_13 )
 SLOT=0
 SRC_URI=https://github.com/lh3/minimap2/releases/download/v2.24/minimap2-2.24.tar.bz2
 _eclasses_=toolchain-funcs	30214924c0c3b92ec7dbf24fc70d60d3	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	out-of-source-utils	8e5093bd27b7f541a1913271f25d633a	multibuild	83db098a835f71feb71761f72a694aa2	multilib	404b65bd5212cff83b3935c685419d08	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	3a59a39e97af0f7c03f49cf3c22f262b	python-utils-r1	dbb8c4d794033ad7e7221eaf567a6c90	python-r1	0e15b2ab9cfc87d7474678201d6bca38	distutils-r1	776bbaa25e9fa0dc9ac6f039ca37f701
-_md5_=c4e1bfa3acae0208ebdddb5b50e1f97a
+_md5_=097e1c36aa0af2646db28742dd5839e2

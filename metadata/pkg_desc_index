@@ -367,7 +367,6 @@ sci-biology/scythe 9999: Bayesian 3'-end adapter (only) trimmer for Illumina/Sol
 sci-biology/seqtk 1.3: Manipulate FASTA and FASTQ files
 sci-biology/seqtools 4.44.1: Display alignments and GFF files, matrix dot plots (blixem, dotter, belvu)
 sci-biology/sff_dump 1.04: Convert Roche SFF files to FASTA file format
-sci-biology/sga 9999: String Graph OLC Assembler for short reads (overlap-layout-consensus)
 sci-biology/sickle 1.33 9999: Windowed adaptive quality-based trimming tool for FASTQ data
 sci-biology/skewer-bin 0.2.2: Adaptor and MID removal / trimming tool
 sci-biology/smalt 0.7.6: DNA read mapper using k=20 (successor of ssaha2)
