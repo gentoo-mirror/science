@@ -13,5 +13,5 @@ REQUIRED_USE=|| ( hdf4 hdf5 xml )
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/nexusformat/code/archive/5b803b3a0014bd9759b3d846da3cd3c1cfafd7d5.tar.gz -> nexus-4.4.3_p20200126.tar.gz
-_eclasses_=toolchain-funcs	30214924c0c3b92ec7dbf24fc70d60d3	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	3a59a39e97af0f7c03f49cf3c22f262b	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	5691a3da96eac88f135cf3596b8c2c3c	java-utils-2	b41327d85d12ce816943cf4d344add19	java-pkg-opt-2	fb182c4f9d67f6042f8b265a6724cdd7
+_eclasses_=toolchain-funcs	7e440a20ac11dece04e3334622e6e5da	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	3a59a39e97af0f7c03f49cf3c22f262b	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	5691a3da96eac88f135cf3596b8c2c3c	java-utils-2	b41327d85d12ce816943cf4d344add19	java-pkg-opt-2	fb182c4f9d67f6042f8b265a6724cdd7
 _md5_=0fa9d7fdf4e3d74cc6a2a70f57fbc366
