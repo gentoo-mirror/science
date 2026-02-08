@@ -10,5 +10,5 @@ LICENSE=Janelia-1.2
 RDEPEND=sci-libs/fftw:3.0 media-libs/libjpeg-turbo media-libs/tiff x11-libs/wxGTK:3.2-gtk3=
 SLOT=0
 SRC_URI=https://grigoriefflab.umassmed.edu/system/tdf?path=ctffind-4.1.14.tar.gz&file=1&type=node&id=26 -> ctffind-4.1.14.tar.gz
-_eclasses_=toolchain-funcs	7e440a20ac11dece04e3334622e6e5da	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	wxwidgets	c48bf68858bd3c27c272ff034eb1e14d
+_eclasses_=toolchain-funcs	7e440a20ac11dece04e3334622e6e5da	flag-o-matic	ed1eda86c8f746a2a75f7f9f7478f5f4	wxwidgets	c48bf68858bd3c27c272ff034eb1e14d
 _md5_=caf7a9dc8cae8f3e5329117a01423ef3

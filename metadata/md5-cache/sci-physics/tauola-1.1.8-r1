@@ -12,5 +12,5 @@ RDEPEND=hepmc2? ( sci-physics/hepmc:2=[-cm(-),gev(+)] ) hepmc3? ( sci-physics/he
 REQUIRED_USE=|| ( hepmc2 hepmc3 ) tau-spinner? ( lhapdf )
 SLOT=0
 SRC_URI=https://tauolapp.web.cern.ch/resources/TAUOLA.1.1.8/TAUOLA.1.1.8.tar.gz
-_eclasses_=toolchain-funcs	7e440a20ac11dece04e3334622e6e5da	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	fortran-2	ae6d43513003405bd4a48698fc20370a
+_eclasses_=toolchain-funcs	7e440a20ac11dece04e3334622e6e5da	flag-o-matic	ed1eda86c8f746a2a75f7f9f7478f5f4	fortran-2	ae6d43513003405bd4a48698fc20370a
 _md5_=f66142bb023660f2945e57d58f4dce98
