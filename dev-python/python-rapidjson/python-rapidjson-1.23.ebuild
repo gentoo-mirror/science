@@ -1,4 +1,4 @@
-# Copyright 2025 Gentoo Authors
+# Copyright 2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -18,9 +18,9 @@ SLOT="0"
 KEYWORDS="~amd64"
 
 RDEPEND="
-	>=dev-python/pysimdjson-5.0.1[${PYTHON_USEDEP}]
-	>=dev-python/orjson-3.7.6[${PYTHON_USEDEP}]
-	>=dev-python/simplejson-3.17.6[${PYTHON_USEDEP}]
-	>=dev-python/ujson-5.4.0[${PYTHON_USEDEP}]
+	>=dev-python/pysimdjson-7.0.2[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.10.18[${PYTHON_USEDEP}]
+	>=dev-python/simplejson-3.20.1[${PYTHON_USEDEP}]
+	>=dev-python/ujson-5.10.0[${PYTHON_USEDEP}]
 "
 RESTRICT="test" # too much benchmarking

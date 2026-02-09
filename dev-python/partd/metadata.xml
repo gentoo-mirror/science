@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <longdescription lang="en">
+    Partd stores key-value pairs. Values are raw bytes. We append on old values.
+    Partd excels at shuffling operations.
+  </longdescription>
+  <maintainer type="person">
+    <email>apn-pucky@gentoo.org</email>
+    <name>Alexander Puck Neuwirth</name>
+  </maintainer>
+  <upstream>
+    <remote-id type="pypi">partd</remote-id>
+    <remote-id type="github">dask/partd</remote-id>
+  </upstream>
+</pkgmetadata>
