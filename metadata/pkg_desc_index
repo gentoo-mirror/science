@@ -54,7 +54,7 @@ dev-python/astroquery 0.4.6: A collection of packages to access online astronomi
 dev-python/astroscrappy 1.1.0-r1: Speedy Cosmic Ray Annihilation Package in Python
 dev-python/autograd 1.8.0 9999: Efficiently computes derivatives of numpy code.
 dev-python/bokeh 2.4.2: Statistical and interactive HTML plots for Python
-dev-python/boost-histogram 1.4.1 1.5.0 1.5.2 1.6.1: Python bindings for the C++14 Boost::Histogram library
+dev-python/boost-histogram 1.5.0 1.5.2 1.6.1 1.7.1: Python bindings for the C++14 Boost::Histogram library
 dev-python/ccdproc 2.3.0-r1: Astropy affiliated package for reducing optical/IR CCD data
 dev-python/cffconvert 2.0.0: Command line program to validate and convert CITATION.cff files.
 dev-python/cligj 0.7.2: Library for processing GeoJSON commands
@@ -66,7 +66,7 @@ dev-python/connection_pool 0.0.3: Thread safe connection pool
 dev-python/cymbal 1.0.0-r1: Add functionality missing from the python libclang bindings
 dev-python/dandi-schema 0.9.1: Schemata for DANDI archive project
 dev-python/dask 2025.5.1: Flexible parallel computing library for analytics
-dev-python/dask-awkward 2025.3.0 2025.5.0: Native Dask collection for awkward arrays, and the library to use it.
+dev-python/dask-awkward 2025.3.0 2025.5.0 2025.9.0: Native Dask collection for awkward arrays, and the library to use it.
 dev-python/dask-histogram 2025.2.0: Histograms with task scheduling.
 dev-python/datrie 0.8.2-r2: Implements a topological sort algorithm
 dev-python/delegator 0.1.1-r1: Subprocesses for Humans 2.0.
@@ -95,7 +95,7 @@ dev-python/hdf5storage 0.1.19 9999: Read/write Python types to/from HDF5 files, 
 dev-python/hdmf 3.14.3: The Hierarchical Data Modeling Framework
 dev-python/hdmf-zarr 0.5.0: Zarr I/O backend for HDMF
 dev-python/heudiconv 1.0.0: Flexible DICOM conversion to structured directory layouts
-dev-python/hist 2.7.3 2.8.1 2.9.0: Histogramming for analysis powered by boost-histogram
+dev-python/hist 2.8.1 2.9.0 2.10.1: Histogramming for analysis powered by boost-histogram
 dev-python/histoprint 2.4.0 2.5.0 2.6.0: Pretty print histograms to the console
 dev-python/holoviews 1.15.3-r1: Make data analysis and visualization seamless and simple
 dev-python/hopcroftkarp 1.2.5_p1-r1: python frontend for the fast ripser tda tool
@@ -107,6 +107,7 @@ dev-python/lazy_ops 0.2.0: Lazy transposing and slicing of h5py and Zarr data
 dev-python/lightgbm 4.5.0: LightGBM Python Package
 dev-python/linesep 0.5.0: Handling lines with arbitrary separators
 dev-python/llvmlite 0.45.1: Python wrapper around the llvm C++ library
+dev-python/locket 1.0.0: File-based locks for Python
 dev-python/logzero 1.7.0-r1: Robust and effective logging for Python 2 and 3
 dev-python/lzstring 1.0.4: String encoding/decoding of binary data
 dev-python/methodtools 0.4.7: Expand functools features to methods, classmethods, staticmethods
@@ -119,12 +120,13 @@ dev-python/nptyping 2.5.0: Type hints for Numpy
 dev-python/num2words 0.5.10-r1: Modules to convert numbers to words.
 dev-python/numba 0.62.1: NumPy aware dynamic Python compiler using LLVM
 dev-python/numcodecs 0.16.1: Data storage buffer compression and transformation codecs
-dev-python/numdifftools 0.9.41: Solve automatic numerical differentiation problems in one or more variables
+dev-python/numdifftools 0.9.41 0.9.42: Solve automatic numerical differentiation problems in one or more variables
 dev-python/nwb2bids 0.0.3: Next-generation file format (NGFF) for storing bioimaging data in the cloud
 dev-python/nwbinspector 0.4.26-r1: Inspect NWB files for compliance with NWB Best Practices
 dev-python/pandas-stubs 2.1.1.230928: Public type stubs for pandas
 dev-python/panel 0.14.2-r1: High-level app and dashboarding solution for Python
 dev-python/param 1.10.1 1.12.3: Make Python code clearer and more reliable by declaring Parameters
+dev-python/partd 1.4.2: Appendable key-value storage
 dev-python/persim 0.3.1: Distances and representations of persistence diagrams
 dev-python/photutils 1.6.0: Affiliated package for image photometry utilities
 dev-python/plac 1.4.5: Parsing the Command Line the Easy Way
@@ -137,7 +139,7 @@ dev-python/pybedtools 0.12.0: Use BED and GFF files from python using BEDtools
 dev-python/pybind11-stubgen 0.10.4-r1: PEP 561 type stubs generator for pybind11 modules
 dev-python/pyct 0.5.0: Python packaging Common Tasks
 dev-python/pyerfa 2.0.1.5: Python bindings for ERFA
-dev-python/pyerrors 2.14.0: Error propagation and statistical analysis for Markov chain Monte Carlos
+dev-python/pyerrors 2.14.0 2.16.0: Error propagation and statistical analysis for Markov chain Monte Carlos
 dev-python/pyfaidx 0.8.1.4: Efficient pythonic random access to fasta subsequences
 dev-python/pynndescent 0.5.13: Fast approximate nearest-neighbour search via Nearest-Neighbour Descent
 dev-python/pynrrd 0.4.2 0.4.3 1.0.0: Simple pure-python module for reading and writing nrrd files
@@ -147,7 +149,7 @@ dev-python/pysolar 0.10: Collection of Python libraries for simulating the irrad
 dev-python/pytest-doctestplus 0.12.1: Pytest plugin with advanced doctest features
 dev-python/python-gantt 0.6.0_p20200809-r1: Draw Gantt charts from Python
 dev-python/python-igraph 0.10.4: Python interface for igraph
-dev-python/python-rapidjson 1.20 1.21: Python wrapper around rapidjson
+dev-python/python-rapidjson 1.21 1.23: Python wrapper around rapidjson
 dev-python/pyviz_comms 2.2.0-r1: Bidirectional communication for the HoloViz ecosystem
 dev-python/pyvote 0.1-r1: Estimate the probability of votes changing election outcomes
 dev-python/pyzo 4.12.7: The Python IDE for scientific computing
@@ -172,6 +174,7 @@ dev-python/sphinx-astropy 1.8.0: Sphinx extensions and configuration specific to
 dev-python/sphinx-automodapi 0.14.1-r1: Sphinx extension for auto-generating API documentation for entire modules
 dev-python/sphinxcontrib-napoleon 0.7-r1: Allow a different format in dosctrings for better clarity
 dev-python/spikeinterface 0.99.1: A Python-based module for creating flexible and robust spike sorting pipelines.
+dev-python/spur 0.3.23: Run commands locally or over SSH using the same interface
 dev-python/stopit 1.1.2: Timeout control decorator and context managers
 dev-python/texext 0.6.7: Sphinx extensions for working with LaTeX math
 dev-python/throttler 1.2.2: Easy throttling with asyncio support
