@@ -30,6 +30,11 @@
 
 #--- END OF EXAMPLES ---
 
+# Alexander Puck Neuwirth <apn-pucky@gentoo.org> (2026-02-09)
+# Depends on dev-qt/qtscript which is masked and 
+# deprecated (cf. ::gentoo 8187a9f).
+sci-biology/ugene
+
 # Alexander Puck Neuwirth <apn-pucky@gentoo.org> (2025-11-19)
 # CMake Error at CMakeLists.txt:77 (add_library):
 #   No SOURCES given to target: vcflib
