@@ -41,7 +41,6 @@ dev-python/annexremote 1.6.5: Helper module to easily develop git-annex remotes
 dev-python/anys 0.2.1: Matchers for pytest
 dev-python/archspec 0.2.4 0.2.5: Labels for various aspects of a system architecture like CPU, etc.
 dev-python/argparse-dataclass 2.0.0: Declarative CLIs with argparse and dataclasses
-dev-python/array-api-compat 1.12.0: Compatibility layer for NumPy to support the Array API
 dev-python/asciitree 0.3.3: ASCII trees in python
 dev-python/asdf 3.5.0: Python library for the Advanced Scientific Data Format
 dev-python/asdf-standard 1.1.1: Standards document describing ASDF, Advanced Scientific Data Format.
