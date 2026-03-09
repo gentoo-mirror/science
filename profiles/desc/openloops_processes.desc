@@ -9,6 +9,7 @@ ppllj - Off-shell Z/A/W boson production with leptonic decays (l+l-/nn/l+n/l-n/L
 ppllj2 - Loop-squared off-shell Z/A boson production with leptonic decay (l+l- and nn) plus zero or one jet (nf=5 and nf=6 available)
 ppllj-ew - Production of an off-shell Z/W/Photon with leptonic decays (l+l-/nn/l+n/l-n/L+L-/L+n/L-n) and zero or one jet at NLO EW.
 pplljj - Off-shell Z/A boson plus two jets production with leptonic decays (l+l- and nn)
+pplljj-ew - Production of an off-shell Z-boson/Photon with leptonic decays (l+l-) and two jets at NLO EW (including all subleading one-loop orders).
 pplnj-ckm - Off-shell W+/W- boson production with leptonic decay and zero or one jet with non-diagonal CKM
 pplnjj-ckm - Off-shell W+/W- boson production with leptonic decay with non-diagonal CKM
 ppjj - Production of two jets
