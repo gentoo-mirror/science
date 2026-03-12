@@ -138,7 +138,7 @@ dev-python/pybedtools 0.12.0: Use BED and GFF files from python using BEDtools
 dev-python/pybind11-stubgen 0.10.4-r1: PEP 561 type stubs generator for pybind11 modules
 dev-python/pyct 0.5.0: Python packaging Common Tasks
 dev-python/pyerfa 2.0.1.5: Python bindings for ERFA
-dev-python/pyerrors 2.14.0 2.16.0: Error propagation and statistical analysis for Markov chain Monte Carlos
+dev-python/pyerrors 2.16.0: Error propagation and statistical analysis for Markov chain Monte Carlos
 dev-python/pyfaidx 0.8.1.4: Efficient pythonic random access to fasta subsequences
 dev-python/pynndescent 0.5.13: Fast approximate nearest-neighbour search via Nearest-Neighbour Descent
 dev-python/pynrrd 0.4.2 0.4.3 1.0.0: Simple pure-python module for reading and writing nrrd files
@@ -175,6 +175,7 @@ dev-python/sphinxcontrib-napoleon 0.7-r1: Allow a different format in dosctrings
 dev-python/spikeinterface 0.99.1: A Python-based module for creating flexible and robust spike sorting pipelines.
 dev-python/spur 0.3.23: Run commands locally or over SSH using the same interface
 dev-python/stopit 1.1.2: Timeout control decorator and context managers
+dev-python/tex2pix 0.3.1: Lightweight renderer of LaTeX to a variety of graphics formats
 dev-python/texext 0.6.7: Sphinx extensions for working with LaTeX math
 dev-python/throttler 1.2.2: Easy throttling with asyncio support
 dev-python/traits 6.4.3: Enthought Tool Suite: Explicitly typed attributes for Python
@@ -526,6 +527,7 @@ sci-physics/pint 0.25 9999: Operate and manipulate physical quantities in Python
 sci-physics/pyhepmc 2.11.0 2.14.0: A Pythonic wrapper for the HepMC3 C++ library.
 sci-physics/pyhf 0.7.3 0.7.5: pure-python fitting/limit-setting/interval estimation HistFactory-style
 sci-physics/pylhe 0.9.0 0.9.1 1.0.0: Lightweight Python interface to read Les Houches Event (LHE) files
+sci-physics/pyslha 3.3.2: Parsing, manipulating, and visualising SUSY Les Houches Accord data
 sci-physics/qcdloop 2.0.9 2.0.11 2.1.0: An object-oriented one-loop scalar Feynman integrals framework
 sci-physics/qcl 0.6.4-r2: Quantum Computation Language with an emulator of a quantum computer
 sci-physics/qgraf 3.4.2 3.5.3 3.6.9 4.0.5: qgraf generates Feynman diagrams for various types of QFT models
