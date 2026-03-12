@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="project">
+		<email>sci@gentoo.org</email>
+		<name>Gentoo Science Project</name>
+	</maintainer>
+	<maintainer type="person">
+		<email>apn-pucky@gentoo.org</email>
+		<name>Alexander Puck Neuwirth</name>
+	</maintainer>
+	<longdescription lang="en">
+		A Python package for reading, writing, and plotting SLHA beyond-Standard-Model mass spectra and decay modes.
+	</longdescription>
+	<upstream>
+		<remote-id type="pypi">pyslha</remote-id>
+		<remote-id type="gitlab">hepcedar/pyslha</remote-id>
+	</upstream>
+</pkgmetadata>
