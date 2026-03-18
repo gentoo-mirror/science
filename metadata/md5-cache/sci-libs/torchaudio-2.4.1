@@ -1,17 +1,17 @@
-BDEPEND=test? ( python_single_target_python3_11? ( dev-python/expecttest[python_targets_python3_11(-)] dev-python/numpy[python_targets_python3_11(-)] dev-python/typing-extensions[python_targets_python3_11(-)] dev-python/parameterized[python_targets_python3_11(-)] dev-python/scipy[python_targets_python3_11(-)] dev-python/scikit-learn[python_targets_python3_11(-)] dev-python/soundfile[python_targets_python3_11(-)] ) python_single_target_python3_12? ( dev-python/expecttest[python_targets_python3_12(-)] dev-python/numpy[python_targets_python3_12(-)] dev-python/typing-extensions[python_targets_python3_12(-)] dev-python/parameterized[python_targets_python3_12(-)] dev-python/scipy[python_targets_python3_12(-)] dev-python/scikit-learn[python_targets_python3_12(-)] dev-python/soundfile[python_targets_python3_12(-)] ) ) test? ( ffmpeg? ( <media-video/ffmpeg-7:= ) sci-ml/caffe2[cuda?,rocm?,openmp?] sci-ml/pytorch[python_single_target_python3_11(-)?,python_single_target_python3_12(-)?] python_single_target_python3_11? ( >=dev-python/pytest-7.4.4[python_targets_python3_11(-)] ) python_single_target_python3_12? ( >=dev-python/pytest-7.4.4[python_targets_python3_12(-)] ) ) python_single_target_python3_11? ( dev-lang/python:3.11 ) python_single_target_python3_12? ( dev-lang/python:3.12 ) python_single_target_python3_11? ( >=dev-python/gpep517-16[python_targets_python3_11(-)] >=dev-python/setuptools-78.1.0[python_targets_python3_11(-)] ) python_single_target_python3_12? ( >=dev-python/gpep517-16[python_targets_python3_12(-)] >=dev-python/setuptools-78.1.0[python_targets_python3_12(-)] )
+BDEPEND=test? ( python_single_target_python3_12? ( dev-python/expecttest[python_targets_python3_12(-)] dev-python/numpy[python_targets_python3_12(-)] dev-python/typing-extensions[python_targets_python3_12(-)] dev-python/parameterized[python_targets_python3_12(-)] dev-python/scipy[python_targets_python3_12(-)] dev-python/scikit-learn[python_targets_python3_12(-)] dev-python/soundfile[python_targets_python3_12(-)] ) ) test? ( ffmpeg? ( <media-video/ffmpeg-7:= ) sci-ml/caffe2[cuda?,rocm?,openmp?] sci-ml/pytorch[python_single_target_python3_12(-)?] python_single_target_python3_12? ( >=dev-python/pytest-7.4.4[python_targets_python3_12(-)] ) ) python_single_target_python3_12? ( dev-lang/python:3.12 ) python_single_target_python3_12? ( >=dev-python/gpep517-16[python_targets_python3_12(-)] >=dev-python/setuptools-78.1.0[python_targets_python3_12(-)] )
 DEFINED_PHASES=compile configure install postinst prepare setup test
-DEPEND=ffmpeg? ( <media-video/ffmpeg-7:= ) sci-ml/caffe2[cuda?,rocm?,openmp?] python_single_target_python3_11? ( dev-lang/python:3.11 ) python_single_target_python3_12? ( dev-lang/python:3.12 )
+DEPEND=ffmpeg? ( <media-video/ffmpeg-7:= ) sci-ml/caffe2[cuda?,rocm?,openmp?] python_single_target_python3_12? ( dev-lang/python:3.12 )
 DESCRIPTION=Data manipulation and transformation for audio signal processing
 EAPI=8
 HOMEPAGE=https://github.com/pytorch/audio
 INHERIT=cuda distutils-r1 multiprocessing rocm optfeature
-IUSE=cuda rocm ffmpeg openmp +rnnt test python_single_target_python3_11 python_single_target_python3_12 debug
+IUSE=cuda rocm ffmpeg openmp +rnnt test +python_single_target_python3_12 debug
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=ffmpeg? ( <media-video/ffmpeg-7:= ) sci-ml/caffe2[cuda?,rocm?,openmp?] sci-ml/pytorch[python_single_target_python3_11(-)?,python_single_target_python3_12(-)?] python_single_target_python3_11? ( dev-lang/python:3.11 ) python_single_target_python3_12? ( dev-lang/python:3.12 )
-REQUIRED_USE=?? ( cuda rocm ) ^^ ( python_single_target_python3_11 python_single_target_python3_12 )
+RDEPEND=ffmpeg? ( <media-video/ffmpeg-7:= ) sci-ml/caffe2[cuda?,rocm?,openmp?] sci-ml/pytorch[python_single_target_python3_12(-)?] python_single_target_python3_12? ( dev-lang/python:3.12 )
+REQUIRED_USE=?? ( cuda rocm ) ^^ ( python_single_target_python3_12 )
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/pytorch/audio/archive/v2.4.1.tar.gz -> torchaudio-2.4.1.tar.gz
 _eclasses_=toolchain-funcs	da0a71e3a72194ca0b88d5b045d721ac	flag-o-matic	fd3558f73f6503093adee69adf41020d	cuda	8b660e223a1695e3884ee4c7dc2c5059	eapi9-pipestatus	d2c134036ac31c3085aebc9147f572bd	out-of-source-utils	8e5093bd27b7f541a1913271f25d633a	multibuild	83db098a835f71feb71761f72a694aa2	multilib	404b65bd5212cff83b3935c685419d08	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	d063ea1900a793f93eb095010d6d9156	python-utils-r1	9c4180f103a0e8340bc993fc85dbdadd	python-single-r1	47d8ac9be330c9366112b78fd4f8ce57	distutils-r1	62add15ed646bfe511af53e282621b39	rocm	b406b041c5b107f8d8600865210e24e2	optfeature	538bce96e5589935b57e178e8635f301
-_md5_=0a56c7ee9ba58ebae50d35a233f385c7
+_md5_=a819a84ee07c20d6fe93f9d6ada4812a
