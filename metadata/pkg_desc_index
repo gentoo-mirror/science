@@ -67,7 +67,7 @@ dev-python/dandi-schema 0.9.1: Schemata for DANDI archive project
 dev-python/dask 2025.5.1: Flexible parallel computing library for analytics
 dev-python/dask-awkward 2025.3.0 2025.5.0 2025.9.0: Native Dask collection for awkward arrays, and the library to use it.
 dev-python/dask-histogram 2025.2.0: Histograms with task scheduling.
-dev-python/datrie 0.8.2-r2: Implements a topological sort algorithm
+dev-python/datrie 0.8.3: Implements a topological sort algorithm
 dev-python/delegator 0.1.1-r1: Subprocesses for Humans 2.0.
 dev-python/distinctipy 1.2.2: Lightweight package for generating visually distinct colours
 dev-python/dnaio 1.2.1: dnaio processes FASTQ, FASTA and uBAM files
@@ -268,7 +268,7 @@ sci-biology/brkraw 0.3.11: Fast and easy statistical learning on NeuroImaging da
 sci-biology/bru2nii 1.0.20180303: Converts Bruker ParaVision MRI data to the NIfTI file format
 sci-biology/bruker2nifti 1.0.4-r1: Medical image converter, from raw Bruker ParaVision to NIfTI
 sci-biology/btl_bloomfilter 1.2.1: BTL C/C common bloom filters
-sci-biology/bx-python 0.13.0: Library for rapid implementation of genome scale analyses
+sci-biology/bx-python 0.14.0: Library for rapid implementation of genome scale analyses
 sci-biology/cast-bin 20080813: Predict low-complexity regions in putative proteins
 sci-biology/cdbfasta 0.1: FASTA record indexing/retrievieng utility
 sci-biology/cluster 1.59: Hierarchical, k-means, k-medians clustering for expression/microarray analysis
@@ -291,7 +291,7 @@ sci-biology/epga 9999: De novo assembler using distribution of reads and insert 
 sci-biology/erpin 5.5b: Easy RNA Profile IdentificatioN, an RNA motif search program
 sci-biology/exonerate-gff3 9999: exonerate-2.2.0 with patches to add GFF3 formatted output
 sci-biology/fastdnaml 1.2.2_p10: Maximum likelihood phylogenetic tree builder for DNA sequences
-sci-biology/fastp 1.0.1: An ultra-fast all-in-one FASTQ preprocessor
+sci-biology/fastp 1.1.0: An ultra-fast all-in-one FASTQ preprocessor
 sci-biology/fastqc 0.11.9: Quality control FASTA/FASTQ sequence files
 sci-biology/ffindex 1.0: Simple index/database for huge amounts of small files
 sci-biology/flexbar 3.5.0: Barcode, MID tag and adapter sequence removal
