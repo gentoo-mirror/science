@@ -4,7 +4,7 @@
 EAPI=8
 
 # wait for pytest-mpl before adding 3_13
-PYTHON_COMPAT=( python3_{11..12} )
+PYTHON_COMPAT=( python3_12 )
 DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1 pypi
 
