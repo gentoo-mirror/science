@@ -6,7 +6,7 @@ EAPI=8
 MY_P=OneLOop-${PV}
 
 # python only needed for create.py to get binaries
-PYTHON_COMPAT=( python3_{10..12} )
+PYTHON_COMPAT=( python3_12 )
 inherit fortran-2 python-any-r1 toolchain-funcs
 
 DESCRIPTION="Library of one-loop scalar functions"

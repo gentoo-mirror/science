@@ -3,7 +3,7 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{10..12} )
+PYTHON_COMPAT=( python3_12 )
 inherit cmake python-any-r1
 DOCS_BUILDER="doxygen"
 DOCS_DIR="build/docs"
