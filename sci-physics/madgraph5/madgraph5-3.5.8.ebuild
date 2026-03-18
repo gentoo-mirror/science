@@ -4,7 +4,7 @@
 EAPI=8
 
 # does not escape strings properly, so no python3_12 for now
-PYTHON_COMPAT=( python3_{11..13} )
+PYTHON_COMPAT=( python3_{12..13} )
 inherit fortran-2 python-single-r1
 
 MY_PNN="MadGraph5"
