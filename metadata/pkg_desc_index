@@ -87,6 +87,7 @@ dev-python/gammapy 1.0: A Python package for gamma-ray astronomy
 dev-python/geopandas 0.13.2 1.0.1: Python tools for geographic data
 dev-python/gffpandas 1.2.0-r1: Python library to Filter and sort GFF3 annotations
 dev-python/google-cloud-storage 2.17.0: Google Cloud Storage API client library
+dev-python/google-crc32c 1.8.0: A python wrapper of the C library crc32c
 dev-python/grabbit 0.2.6-r1: Get grabby with file trees
 dev-python/gwcs 0.18.3-r1: Generalized World Coordinate System
 dev-python/hdbscan 0.8.41: A high performance implementation of HDBSCAN clustering.
@@ -118,7 +119,7 @@ dev-python/neo 0.12.0: Read and represent a wide range of neurophysiology file f
 dev-python/nptyping 2.5.0: Type hints for Numpy
 dev-python/num2words 0.5.10-r1: Modules to convert numbers to words.
 dev-python/numba 0.62.1: NumPy aware dynamic Python compiler using LLVM
-dev-python/numcodecs 0.16.1: Data storage buffer compression and transformation codecs
+dev-python/numcodecs 0.16.5: Data storage buffer compression and transformation codecs
 dev-python/numdifftools 0.9.41 0.9.42: Solve automatic numerical differentiation problems in one or more variables
 dev-python/nwb2bids 0.0.3: Next-generation file format (NGFF) for storing bioimaging data in the cloud
 dev-python/nwbinspector 0.4.26-r1: Inspect NWB files for compliance with NWB Best Practices
@@ -188,7 +189,7 @@ dev-python/wraps 0.2.0 0.13.0: Meaningful and safe wrapping types.
 dev-python/xgboost 1.6.2 2.0.3 3.0.0: Scalable, Portable and Distributed Gradient Boosting Library.
 dev-python/xopen 2.0.2: Open compressed files transparently
 dev-python/yte 1.9.4: A YAML template engine with Python expressions
-dev-python/zarr 3.0.10: Chunked, compressed, N-dimensional arrays for Python
+dev-python/zarr 3.1.5: Chunked, compressed, N-dimensional arrays for Python
 dev-python/zarr_checksum 0.4.0: Calculatine zarr checksums from local or cloud storage
 dev-util/f90cache 0.99c: Compiler cache for fortran
 dev-util/mad-numdiff 9999 20180125: compare unformatted text files with numerical content
