@@ -4,7 +4,7 @@
 EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
-PYTHON_COMPAT=( python3_{12..13} )
+PYTHON_COMPAT=( python3_{12..14} )
 inherit distutils-r1 pypi
 
 DESCRIPTION="Appendable key-value storage"
@@ -30,5 +30,11 @@ BDEPEND="
 		dev-python/pyzmq[${PYTHON_USEDEP}]
 	)
 "
+
+EPYTEST_DESELECT=(
+	# AttributeError: 'StringDtype' object has no attribute 'str'
+	partd/tests/test_pandas.py::test_PandasColumns
+	partd/tests/test_pandas.py::test_column_selection
+)
 
 distutils_enable_tests pytest
