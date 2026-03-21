@@ -11,5 +11,5 @@ LICENSE=GPL-3
 RDEPEND=app-arch/zstd[static-libs] virtual/zlib:= app-arch/bzip2
 SLOT=0
 SRC_URI=https://github.com/soedinglab/MMseqs2/archive/45111b641859ed0ddd875b94d6fd1aef1a675b7e.tar.gz -> mmseqs2-13.0.tar.gz
-_eclasses_=toolchain-funcs	da0a71e3a72194ca0b88d5b045d721ac	bash-completion-r1	9e91505e030725688d1e953321a47501	flag-o-matic	fd3558f73f6503093adee69adf41020d	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	d063ea1900a793f93eb095010d6d9156	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	5691a3da96eac88f135cf3596b8c2c3c
+_eclasses_=toolchain-funcs	740535f4f83ae6f0f22c4f045321d850	bash-completion-r1	9e91505e030725688d1e953321a47501	flag-o-matic	fd3558f73f6503093adee69adf41020d	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	d063ea1900a793f93eb095010d6d9156	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	5691a3da96eac88f135cf3596b8c2c3c
 _md5_=ea4d73a21f7e006a9739f3f5a5334208
