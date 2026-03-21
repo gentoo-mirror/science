@@ -11,6 +11,6 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="github">snakemake/snakemake-interface-logger-plugins</remote-id>
-    <remote-id type="pypi">snakemake-interface-logger-plugins</remote-id>
+		<remote-id type="pypi">snakemake-interface-logger-plugins</remote-id>
 	</upstream>
 </pkgmetadata>
