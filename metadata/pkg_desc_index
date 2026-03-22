@@ -541,6 +541,7 @@ sci-physics/spheno 3.3.8-r1 4.0.5: SPheno stands for S(upersymmetric) Pheno(meno
 sci-physics/tauola 1.1.8-r1: Tau decay Monte Carlo generator
 sci-physics/uproot 5.3.1 5.4.1 5.5.1: ROOT I/O in pure Python and Numpy.
 sci-visualization/clip 0.7-r1: command line chart creator
+sci-visualization/fiji-bin 20260307_p1417: ImageJ distribution with a lot of plugins for scientific image processing
 sci-visualization/forge 1.0.5 1.0.7 9999: High Performance Visualizations for ArrayFire
 sci-visualization/fsleyes 1.5.0: The new FSL image viewer, released with FSL 5.0.10
 sci-visualization/fsleyes-props 1.8.2: Object attribute management for the FSLeyes viewer
