@@ -1,14 +1,14 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
 DISTUTILS_EXT=1
 DISTUTILS_USE_PEP517=setuptools
-PYTHON_COMPAT=( python3_{12..13} )
+PYTHON_COMPAT=( python3_{12..14} )
 LLVM_COMPAT=( 20 )
 
-inherit cmake distutils-r1 llvm-r1
+inherit cmake distutils-r1 llvm-r2
 
 DESCRIPTION="Python wrapper around the llvm C++ library"
 HOMEPAGE="https://github.com/numba/llvmlite"
