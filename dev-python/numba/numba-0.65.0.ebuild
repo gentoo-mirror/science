@@ -1,11 +1,11 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
 DISTUTILS_EXT=1
 DISTUTILS_USE_PEP517=setuptools
-PYTHON_COMPAT=( python3_{12..13} )
+PYTHON_COMPAT=( python3_{12..14} )
 inherit distutils-r1 flag-o-matic
 
 DESCRIPTION="NumPy aware dynamic Python compiler using LLVM"
@@ -47,6 +47,7 @@ python_test() {
 		numba/tests/test_debug.py::TestParforsDebug::test_unsupported_prange_warns
 		numba/tests/test_dictobject.py::TestDictObject::test_007_collision_checks
 		numba/tests/test_exceptions.py::TestRaising::test_assert_statement_nopython
+		numba/tests/test_extending.py::TestNumbaInternalOverloads::test_signatures_match_overloaded_api
 		numba/tests/test_function_type.py::TestExceptionInFunctionType::test_exception_ignored_in_cfunc
 		numba/tests/test_overlap.py::TestArrayOverlap
 		numba/tests/test_remove_dead.py::TestSSADeadBranchPrune::test_issue_6541
