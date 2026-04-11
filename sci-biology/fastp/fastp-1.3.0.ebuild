@@ -11,9 +11,16 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
 
-DEPEND="app-arch/libdeflate
+DEPEND="
+	app-arch/libdeflate
 	dev-cpp/highway
-	dev-libs/isa-l"
+	dev-libs/isa-l
+"
+
+src_compile() {
+	# workaround to skip forced static build on Linux
+	emake UNAME_S=
+}
 
 src_install() {
 	dodir /usr/bin
