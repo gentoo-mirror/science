@@ -1,4 +1,4 @@
-DEFINED_PHASES=install
+DEFINED_PHASES=compile install
 DEPEND=app-arch/libdeflate dev-cpp/highway dev-libs/isa-l
 DESCRIPTION=An ultra-fast all-in-one FASTQ preprocessor
 EAPI=8
@@ -6,5 +6,5 @@ HOMEPAGE=https://github.com/OpenGene/fastp
 KEYWORDS=~amd64
 LICENSE=MIT
 SLOT=0
-SRC_URI=https://github.com/OpenGene/fastp/archive/refs/tags/v1.1.0.tar.gz -> fastp-1.1.0.gh.tar.gz
-_md5_=88f6549273deb481ab49419810fc4c22
+SRC_URI=https://github.com/OpenGene/fastp/archive/refs/tags/v1.3.0.tar.gz -> fastp-1.3.0.gh.tar.gz
+_md5_=29d5a5f2eb833f6f9faab86f39d1c82d
