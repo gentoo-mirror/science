@@ -1,10 +1,12 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
-PYTHON_COMPAT=( python3_{12..13} )
+PYTHON_COMPAT=( python3_{12..14} )
+export SETUPTOOLS_SCM_PRETEND_VERSION=${PV}
+
 inherit distutils-r1
 
 DESCRIPTION="Flexible parallel computing library for analytics"
@@ -15,6 +17,7 @@ LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64"
 
+BDEPEND="dev-python/setuptools-scm[${PYTHON_USEDEP}]"
 RDEPEND="
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/cloudpickle[${PYTHON_USEDEP}]
@@ -35,12 +38,13 @@ DEPEND="${RDEPEND}
 "
 
 PATCHES=(
-	"${FILESDIR}/${PN}-2025.2.0-no-codecov.patch"
+	"${FILESDIR}/${P}-no-codecov.patch"
 )
 
 EPYTEST_DESELECT=(
 	# does raise expected warning but is not recognized by test
 	dask/array/tests/test_reductions.py::test_nanquantile_all_nan
+	dask/array/tests/test_array_core.py::test_zarr_risky_shards_warns
 	# testing deprecated functionality, should be skipped
 	dask/dataframe/tests/test_dataframe.py::test_combine_first_all_nans
 	# Internet
