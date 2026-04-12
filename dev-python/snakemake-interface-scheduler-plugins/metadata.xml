@@ -10,7 +10,7 @@
 		<name>Gentoo Science Project</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="github">snakemake/snakemake-interface-logger-plugins</remote-id>
-		<remote-id type="pypi">snakemake-interface-logger-plugins</remote-id>
+		<remote-id type="github">snakemake/snakemake-interface-scheduler-plugins</remote-id>
+		<remote-id type="pypi">snakemake-interface-scheduler-plugins</remote-id>
 	</upstream>
 </pkgmetadata>

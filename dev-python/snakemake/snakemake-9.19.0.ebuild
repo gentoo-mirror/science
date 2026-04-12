@@ -1,4 +1,4 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -31,15 +31,17 @@ RDEPEND="
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/referencing[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.8.1[${PYTHON_USEDEP}]
-	dev-python/reretry[${PYTHON_USEDEP}]
 	>=dev-python/smart-open-4.0[${PYTHON_USEDEP}]
 	>=dev-python/snakemake-interface-common-1.20.1[${PYTHON_USEDEP}]
 	>=dev-python/snakemake-interface-executor-plugins-9.3.2[${PYTHON_USEDEP}]
-	>=dev-python/snakemake-interface-storage-plugins-4.1.0[${PYTHON_USEDEP}]
-	>=dev-python/snakemake-interface-report-plugins-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/snakemake-interface-storage-plugins-4.4.1[${PYTHON_USEDEP}]
+	>=dev-python/snakemake-interface-report-plugins-1.2.0[${PYTHON_USEDEP}]
 	>=dev-python/snakemake-interface-logger-plugins-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/snakemake-interface-scheduler-plugins-2.0.0[${PYTHON_USEDEP}]
 	dev-python/stopit[${PYTHON_USEDEP}]
+	dev-python/sqlmodel[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
+	dev-python/tenacity[${PYTHON_USEDEP}]
 	dev-python/throttler[${PYTHON_USEDEP}]
 	dev-python/wrapt[${PYTHON_USEDEP}]
 	>=dev-python/yte-1.5.5[${PYTHON_USEDEP}]
@@ -53,10 +55,6 @@ BDEPEND="
 		dev-python/pytest-mock[${PYTHON_USEDEP}]
 	)
 "
-
-PATCHES=(
-	"${FILESDIR}/${P}-assets.patch"
-)
 
 # distutils_enable_sphinx docs \
 #	dev-python/sphinxcontrib-napoleon \
@@ -107,11 +105,20 @@ python_test() {
 		tests/tests.py::test_resource_quoting_cli
 		tests/tests.py::test_default_resource_quoting_cli
 		tests/tests.py::test_default_resource_quoting_profile
+		tests/tests.py::test_resources_can_be_provided_in_mib
+		tests/tests.py::test_global_resources_can_be_human_readable
+		tests/tests.py::test_resources_cannot_provide_prefixed_and_unprefixed_together
+		tests/tests.py::test_resource_prefix_does_not_affect_scope_overwrite
+		tests/tests.py::test_group_temp
+		tests/tests.py::test_immediate_submit_without_shared_fs
 		# Missing snakemake-storage-plugin-http
 		tests/tests.py::test_ancient
 		tests/tests.py::test_modules_prefix
 		tests/tests.py::test_keep_local
 		tests/tests.py::test_retrieve
+		tests/tests.py::test_module_onstart_onsuccess
+		tests/tests.py::test_module_onstart_not_in_main_snakefile
+		tests/tests.py::test_module_onerror
 		# Missing snakemake-storage-plugin-fs
 		tests/tests.py::test_handle_storage_multi_consumers
 		tests/tests.py::test_checkpoint_open
