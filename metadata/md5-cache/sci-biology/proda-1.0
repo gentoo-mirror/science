@@ -8,5 +8,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=public-domain
 SLOT=0
 SRC_URI=http://proda.stanford.edu/proda_1_0.tar.gz
-_eclasses_=toolchain-funcs	5195689ff6a73b0e789acfa09d4fbcb9	flag-o-matic	fd3558f73f6503093adee69adf41020d
+_eclasses_=toolchain-funcs	58a918e3a42d0156f010dcfd43725be5	flag-o-matic	fd3558f73f6503093adee69adf41020d
 _md5_=103e5fdb694b058009f61b7ee5f0bfa0

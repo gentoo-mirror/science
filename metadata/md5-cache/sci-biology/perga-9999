@@ -7,5 +7,5 @@ INHERIT=flag-o-matic git-r3 toolchain-funcs
 LICENSE=all-rights-reserved
 PROPERTIES=live
 SLOT=0
-_eclasses_=toolchain-funcs	5195689ff6a73b0e789acfa09d4fbcb9	flag-o-matic	fd3558f73f6503093adee69adf41020d	git-r3	7b584b5dc33e3bc66ff5b9271bf41764
+_eclasses_=toolchain-funcs	58a918e3a42d0156f010dcfd43725be5	flag-o-matic	fd3558f73f6503093adee69adf41020d	git-r3	7b584b5dc33e3bc66ff5b9271bf41764
 _md5_=bb3ded472b1596fc237cef2c251dc5d4
