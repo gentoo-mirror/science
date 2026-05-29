@@ -1,9 +1,9 @@
-# Copyright 2023 Gentoo Authors
+# Copyright 2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_11 )
+PYTHON_COMPAT=( python3_{12..13} )
 DISTUTILS_USE_PEP517=hatchling
 
 inherit distutils-r1 pypi
@@ -22,14 +22,16 @@ HOMEPAGE="
 LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64"
+# test needs missing scrapbook papermill pydocstyle ...
+RESTRICT="test"
 
 RDEPEND="
-	dev-python/numpy[${PYTHON_USEDEP}]
-	>=dev-python/scipy-1.5.1[${PYTHON_USEDEP}]
-	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
-	>=dev-python/tqdm-4.56.0[${PYTHON_USEDEP}]
-	>=dev-python/jsonschema-4.15.0[${PYTHON_USEDEP}]
-	>=dev-python/jsonpatch-1.15[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0.0[${PYTHON_USEDEP}]
+	>=dev-python/jsonpatch-1.15[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-4.15.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5.2[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.56.0[${PYTHON_USEDEP}]
+	dev-python/numpy[${PYTHON_USEDEP}]
 "
 DEPEND="${RDEPEND}"
