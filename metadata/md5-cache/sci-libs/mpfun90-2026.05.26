@@ -1,0 +1,15 @@
+BDEPEND=virtual/fortran
+DEFINED_PHASES=compile install setup
+DEPEND=virtual/fortran
+DESCRIPTION=High-Precision Software
+EAPI=8
+HOMEPAGE=https://www.davidhbailey.com/dhbsoftware/ https://github.com/APN-Pucky/mpfun90
+INHERIT=fortran-2
+IUSE=static-libs
+KEYWORDS=~amd64
+LICENSE=DHBBSD
+RDEPEND=virtual/fortran
+SLOT=0
+SRC_URI=https://github.com/APN-Pucky/mpfun90/archive/refs/tags/2026-05-26.tar.gz
+_eclasses_=toolchain-funcs	58a918e3a42d0156f010dcfd43725be5	flag-o-matic	fd3558f73f6503093adee69adf41020d	fortran-2	ae6d43513003405bd4a48698fc20370a
+_md5_=ec91b3a4249f50a49cee9abc28811672

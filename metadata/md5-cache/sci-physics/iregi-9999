@@ -1,0 +1,14 @@
+BDEPEND=virtual/fortran >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install setup unpack
+DEPEND=sci-physics/oneloop sci-physics/qcdloop virtual/fortran
+DESCRIPTION=Integral REduction with General positive propagator Indices
+EAPI=8
+HOMEPAGE=https://gitlab.com/APN-Pucky/iregi-mirror https://arxiv.org/abs/hep-ph/0303184 https://launchpad.net/mg5amcnlo https://github.com/mg5amcnlo/mg5amcnlo
+INHERIT=fortran-2 toolchain-funcs git-r3
+IUSE=+static-libs
+LICENSE=UoI-NCSA
+PROPERTIES=live
+RDEPEND=sci-physics/oneloop sci-physics/qcdloop virtual/fortran
+SLOT=0
+_eclasses_=toolchain-funcs	58a918e3a42d0156f010dcfd43725be5	flag-o-matic	fd3558f73f6503093adee69adf41020d	fortran-2	ae6d43513003405bd4a48698fc20370a	git-r3	2f8cdb10b033f92c3136aa6488a31c98
+_md5_=9b0463e3e9c0d40dd50ccea8dce1b263

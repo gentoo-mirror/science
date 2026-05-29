@@ -1,0 +1,14 @@
+BDEPEND=virtual/fortran >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install setup unpack
+DEPEND=net-libs/libtirpc virtual/fortran
+DESCRIPTION=StdHEP: Standard HEP
+EAPI=8
+HOMEPAGE=https://gitlab.com/APN-Pucky/stdhep-mirror https://inspirehep.net/literature/538266 https://launchpad.net/mg5amcnlo https://github.com/mg5amcnlo/mg5amcnlo
+INHERIT=fortran-2 toolchain-funcs flag-o-matic git-r3
+IUSE=static-libs
+LICENSE=UoI-NCSA
+PROPERTIES=live
+RDEPEND=net-libs/libtirpc virtual/fortran
+SLOT=0
+_eclasses_=toolchain-funcs	58a918e3a42d0156f010dcfd43725be5	flag-o-matic	fd3558f73f6503093adee69adf41020d	fortran-2	ae6d43513003405bd4a48698fc20370a	git-r3	2f8cdb10b033f92c3136aa6488a31c98
+_md5_=ef500ff202600a3bd5dac56b04b342e7
