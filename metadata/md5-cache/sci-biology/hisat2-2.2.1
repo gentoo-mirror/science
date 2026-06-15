@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install
+DEPEND=python_targets_python3_12? ( dev-lang/python:3.12 ) python_targets_python3_13? ( dev-lang/python:3.13 ) python_targets_python3_14? ( dev-lang/python:3.14 )
+DESCRIPTION=Align DNA reads to a population of genomes
+EAPI=8
+HOMEPAGE=https://daehwankimlab.github.io/hisat2 https://github.com/DaehwanKimLab/hisat2
+INHERIT=python-r1
+IUSE=cpu_flags_x86_sse2 python_targets_python3_12 python_targets_python3_13 python_targets_python3_14
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3+
+RDEPEND=python_targets_python3_12? ( dev-lang/python:3.12 ) python_targets_python3_13? ( dev-lang/python:3.13 ) python_targets_python3_14? ( dev-lang/python:3.14 )
+REQUIRED_USE=|| ( python_targets_python3_12 python_targets_python3_13 python_targets_python3_14 )
+SLOT=0
+SRC_URI=https://github.com/DaehwanKimLab/hisat2/archive/v2.2.1.tar.gz -> hisat2-2.2.1.tar.gz
+_eclasses_=out-of-source-utils	8e5093bd27b7f541a1913271f25d633a	multibuild	83db098a835f71feb71761f72a694aa2	eapi9-pipestatus	d2c134036ac31c3085aebc9147f572bd	multiprocessing	45d0620f25c2f063ad6276ecd9ed9399	toolchain-funcs	58a918e3a42d0156f010dcfd43725be5	python-utils-r1	18a01bee4e486884d7457cfacde74099	python-r1	5fdca77e34fc9af7d6eb47689f33f6bf
+_md5_=3fb483c60f44c38ac8fbaebc5737b8b0

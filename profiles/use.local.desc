@@ -2,7 +2,6 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-dev-cpp/blitz:boost - Enable serialization support using Boost::Serialization.
 dev-lang/berkeley_upc:mpi-compat - Enable interoperability with MPI
 dev-lang/berkeley_upc:pshm - Build UPC Runtime/GASNet with Process-SHared Memory enabled
 dev-lang/berkeley_upc:segment-fast - Select GASNet's FAST segments (default), for the fastest remote access with a possible cost in max shared memory size
@@ -42,7 +41,6 @@ media-gfx/brlcad:benchmarks - Run benchmarks during test phase (need test option
 media-libs/mmg:scotch - Use SCOTCH TOOL for renumbering
 media-libs/mmg:vtk - Use VTK I/O
 sci-biology/afni:whirlgif - Build optional whirlgif binary
-sci-biology/ants:vtk - Optional support for a number of surface enabled tools (via sci-libs/vtk).
 sci-biology/bidsschematools:render - Support for schema table rendering
 sci-biology/bru2nii:gui - Build graphical user interface
 sci-biology/dcm2niix:jpeg-ls - Supprt for converting DICOM images compressed with the JPEG-LS transfer syntaxes using the bundled CharLS library
@@ -55,8 +53,6 @@ sci-biology/mouse-brain-templates:hires - Also install high-resolution atlases.
 sci-biology/neuroconv:ecephys - Extracellular electrophysiology interfaces
 sci-biology/neuroconv:icephys - Intracellular electrophysiology interfaces
 sci-biology/neuroconv:ophys - Optical physiology interfaces
-sci-biology/samri:atlases - Include dependency on compatible anatomica atlases.
-sci-biology/samri:labbookdb - Pipe data from LabbookDB databases.
 sci-chemistry/gamess:msucc - Build Michigan State University CCT3 and CCSD3A methods. This will increase build time and memory requirements by ~10 times
 sci-chemistry/gamess:neo - Enable NEO for nuclear basis support
 sci-chemistry/gamess:pax-kernel - Make this package work on PAX kernels
@@ -83,9 +79,6 @@ sci-libs/fox:wcml - Compile the module for a subset of the Chemical Markup Langu
 sci-libs/fox:wkml - Compile the module for the creation of KML documents used by applications such as Google Earth
 sci-libs/fox:wxml - Compile the XML writer used to sequentially create arbitrary XML documents quickly with minimal memory requirements
 sci-libs/gdcm:vtk - Build sci-libs/vtk bridge
-sci-libs/itk:itkv4-compat - Compatibility for applications using ITKv4 API
-sci-libs/itk:review - Enable compilation of methods under review
-sci-libs/itk:vtkglue - PLEASE FIX MY DESCRIPTION
 sci-libs/libflame-amd:scc - Enable code that takes advantage of the SCC multicore architecture, recommended to use supermatrix if scc is enabled.
 sci-libs/libflame-amd:supermatrix - Enable Ernie Chan's dependency-aware task scheduling and parallel execution system.
 sci-libs/lwpr:octave - Add sci-mathematics/octave support
@@ -168,7 +161,6 @@ sci-physics/tauola:lhapdf - Compile with sci-physics/lhapdf connection
 sci-physics/tauola:pythia - Compile with sci-physics/pythia connection
 sci-physics/tauola:tau-spinner - Compile with TauSpinner library
 sci-visualization/mricrogl:dicom - Adds limited read support for the DICOM imaging format.
-sys-cluster/modules:compat - Build Modules version 3 compat support
 sys-cluster/modules:man-install - install man files in global location
 sys-cluster/modules:new-features - enable all new features
 sys-cluster/modules:shell-setup - install shell initialization and completion files

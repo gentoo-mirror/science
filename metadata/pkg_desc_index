@@ -52,10 +52,11 @@ dev-python/astroquery 0.4.6: A collection of packages to access online astronomi
 dev-python/astroscrappy 1.1.0-r1: Speedy Cosmic Ray Annihilation Package in Python
 dev-python/autograd 1.8.0 9999: Efficiently computes derivatives of numpy code.
 dev-python/bokeh 2.4.2: Statistical and interactive HTML plots for Python
-dev-python/boost-histogram 1.5.0 1.5.2 1.6.1 1.7.1: Python bindings for the C++14 Boost::Histogram library
+dev-python/boost-histogram 1.5.0 1.5.2 1.6.1 1.7.1 1.7.2: Python bindings for the C++14 Boost::Histogram library
 dev-python/ccdproc 2.3.0-r1: Astropy affiliated package for reducing optical/IR CCD data
 dev-python/cffconvert 2.0.0: Command line program to validate and convert CITATION.cff files.
 dev-python/cligj 0.7.2: Library for processing GeoJSON commands
+dev-python/colorcet 3.0.1: Collection of perceptually uniform colormaps
 dev-python/colormath 3.0.0: Easy color scales and color conversion for Python
 dev-python/colormath2 3.0.3: Easy color scales and color conversion for Python
 dev-python/conda-inject 1.3.1: Helper functions for injecting a conda environment into the current python environment
@@ -72,7 +73,6 @@ dev-python/dnaio 1.2.1: dnaio processes FASTQ, FASTA and uBAM files
 dev-python/docstring-parser 0.16: Parse Python docstrings in various flavors
 dev-python/donfig 0.8.1_p1: Configure a package including defaults, env variable loading, and yaml loading
 dev-python/dpath 2.2.0: Accessing and searching dictionaries via /slashed/paths
-dev-python/dpctl 0.14.1_rc2 0.14.5: Data Parallel Control
 dev-python/extension-helpers 1.0.0: Utilities for building and installing packages in the Astropy ecosystem
 dev-python/ezdxf 0.16.5-r1: Python interface to DXF
 dev-python/fiona 1.9.6 1.10.1: API for reading/writing vector geospatial data
@@ -82,7 +82,7 @@ dev-python/fscacher 0.2.0-r1: Cache results of operations on heavy file trees
 dev-python/fslpy 3.10.0: The FSL Python Library
 dev-python/fusepy 3.0.1: Simple ctypes bindings for FUSE
 dev-python/gammapy 1.0: A Python package for gamma-ray astronomy
-dev-python/geopandas 0.13.2 1.0.1: Python tools for geographic data
+dev-python/geopandas 1.0.1: Python tools for geographic data
 dev-python/gffpandas 1.2.0-r1: Python library to Filter and sort GFF3 annotations
 dev-python/google-cloud-storage 2.17.0: Google Cloud Storage API client library
 dev-python/google-crc32c 1.8.0: A python wrapper of the C library crc32c
@@ -94,14 +94,18 @@ dev-python/hdmf-zarr 0.5.0: Zarr I/O backend for HDMF
 dev-python/heudiconv 1.0.0: Flexible DICOM conversion to structured directory layouts
 dev-python/hist 2.8.1 2.9.0 2.10.1: Histogramming for analysis powered by boost-histogram
 dev-python/histoprint 2.4.0 2.5.0 2.6.0: Pretty print histograms to the console
+dev-python/holoviews 1.15.3-r1: Make data analysis and visualization seamless and simple
+dev-python/hopcroftkarp 1.2.5_p1-r1: python frontend for the fast ripser tda tool
 dev-python/interleave 0.2.0: Yield from multiple iterators as values become available
 dev-python/jacobi 0.8.1 0.9.2: Numerical derivatives for analytic functions with arbitrary precision.
+dev-python/kmapper 2.0.1-r1: Python implementation of Mapper algorithm for Topological Data Analysis
 dev-python/lazy_ops 0.2.0: Lazy transposing and slicing of h5py and Zarr data
 dev-python/lightgbm 4.5.0: LightGBM Python Package
 dev-python/linesep 0.5.0: Handling lines with arbitrary separators
 dev-python/llvmlite 0.47.0: Python wrapper around the llvm C++ library
 dev-python/locket 1.0.0: File-based locks for Python
 dev-python/logzero 1.7.0-r1: Robust and effective logging for Python 2 and 3
+dev-python/lzstring 1.0.4: String encoding/decoding of binary data
 dev-python/methodtools 0.4.7: Expand functools features to methods, classmethods, staticmethods
 dev-python/neo 0.12.0: Read and represent a wide range of neurophysiology file formats in Python
 dev-python/num2words 0.5.10-r1: Modules to convert numbers to words.
@@ -110,7 +114,10 @@ dev-python/numcodecs 0.16.5: Data storage buffer compression and transformation 
 dev-python/numdifftools 0.9.41 0.9.42: Solve automatic numerical differentiation problems in one or more variables
 dev-python/nwb2bids 0.0.3: Next-generation file format (NGFF) for storing bioimaging data in the cloud
 dev-python/nwbinspector 0.4.26-r1: Inspect NWB files for compliance with NWB Best Practices
+dev-python/panel 0.14.2-r1: High-level app and dashboarding solution for Python
+dev-python/param 1.12.3: Make Python code clearer and more reliable by declaring Parameters
 dev-python/partd 1.4.2: Appendable key-value storage
+dev-python/persim 0.3.8: Distances and representations of persistence diagrams
 dev-python/photutils 1.6.0: Affiliated package for image photometry utilities
 dev-python/plac 1.4.5: Parsing the Command Line the Easy Way
 dev-python/probeinterface 0.2.20: Python package to handle probe layout, geometry and wiring to device
@@ -119,15 +126,19 @@ dev-python/py2bit 1.0.1: Python library for accessing 2bit files
 dev-python/pyBigWig 0.3.25: quick access to and creation of bigWig files
 dev-python/pyaml-env 1.2.2: Parse YAML configuration with environment variables in Python
 dev-python/pybedtools 0.12.0: Use BED and GFF files from python using BEDtools
+dev-python/pyct 0.6.0: Python packaging Common Tasks
 dev-python/pyerfa 2.0.1.5: Python bindings for ERFA
 dev-python/pyerrors 2.16.0: Error propagation and statistical analysis for Markov chain Monte Carlos
 dev-python/pyfaidx 0.9.0.4: Efficient pythonic random access to fasta subsequences
 dev-python/pynndescent 0.6.0: Fast approximate nearest-neighbour search via Nearest-Neighbour Descent
 dev-python/pynwb 2.8.1: A Python API for working with Neurodata stored in the NWB Format
 dev-python/pyout 0.7.3: Terminal styling for structured data
+dev-python/pysolar 0.13: Collection of Python libraries for simulating the irradiation by the sun
 dev-python/pytest-doctestplus 0.12.1: Pytest plugin with advanced doctest features
 dev-python/python-gantt 0.6.0_p20200809-r1: Draw Gantt charts from Python
+dev-python/python-igraph 0.10.4: Python interface for igraph
 dev-python/python-rapidjson 1.21 1.23: Python wrapper around rapidjson
+dev-python/pyviz_comms 2.2.0-r1: Bidirectional communication for the HoloViz ecosystem
 dev-python/pyvote 0.1-r1: Estimate the probability of votes changing election outcomes
 dev-python/pyzo 4.12.7: The Python IDE for scientific computing
 dev-python/regions 0.7: Astropy affilated package for region handling
@@ -135,6 +146,7 @@ dev-python/reproject 0.8-r1: Reproject astronomical images
 dev-python/repsep_utils 0.2 0.3 0.3.1: Utilities Supporting RepSeP-style documents
 dev-python/reretry 0.11.8: An easy-to-use but functional retry decorator in python
 dev-python/resample 1.10.1: Randomization-based inference in Python
+dev-python/ripser 0.6.15: python frontend for the fast ripser tda tool
 dev-python/scooby 0.5.7-r1: Easily report Python package versions and hardware resources
 dev-python/smart-open 6.3.0: Utils for streaming large files (S3, HDFS, gzip, bz2...)
 dev-python/snakemake 9.19.0: Make-like task language
@@ -160,12 +172,13 @@ dev-python/tex2pix 0.3.1: Lightweight renderer of LaTeX to a variety of graphics
 dev-python/texext 0.6.7: Sphinx extensions for working with LaTeX math
 dev-python/throttler 1.2.3: Easy throttling with asyncio support
 dev-python/traits 6.4.3: Enthought Tool Suite: Explicitly typed attributes for Python
+dev-python/transforms3d 0.4.2: Functions for 3D coordinate transformations
 dev-python/uhi 0.4.0 0.5.0 1.0.0 9999: Universal Histogram Interface
 dev-python/umap-learn 0.5.12: Uniform Manifold Approximation and Projection: fast non-linear dimension reduction
 dev-python/visvis 1.14.0: An object oriented approach to visualization of 1D to 4D data
 dev-python/wirerope 0.4.7: A wrapper interface for python callables
 dev-python/wraps 0.2.0 0.13.0: Meaningful and safe wrapping types.
-dev-python/xgboost 1.6.2 2.0.3 3.0.0: Scalable, Portable and Distributed Gradient Boosting Library.
+dev-python/xgboost 2.0.3 3.0.0: Scalable, Portable and Distributed Gradient Boosting Library.
 dev-python/xopen 2.0.2: Open compressed files transparently
 dev-python/yte 1.9.4: A YAML template engine with Python expressions
 dev-python/zarr 3.1.6: Chunked, compressed, N-dimensional arrays for Python
@@ -191,12 +204,12 @@ sci-biology/ABI-connectivity-data 0.1-r1 0.2: Connectivity data from the Allen M
 sci-biology/ABI-expression-data 0.2: Gene expression data form the Allen Mouse Brain data portal
 sci-biology/ANGLE-bin 20080813-r1: CDS prediction overcoming sequencing errors in unfinished cDNA
 sci-biology/AlignGraph 9999: Reference-genome-assisted asssembly of contigs/scaffolds using PE reads
-sci-biology/BBmap 38.87: Short read aligner, K-mer-based error-correct and normalize, FASTA/Q tool
 sci-biology/BEP032tools 0.0.1_alpha: Conversion and validation tools for BEP 032
 sci-biology/BRAKER 2.1.2: Gene prediction based on RNA-Seq using GeneMark-ET and AUGUSTUS
 sci-biology/BRANCH 9999: Extend partial transcripts with sequence from other reads or genomic contigs
 sci-biology/CAT 1.3: Codon usage bias (composition) and its statistical significance
 sci-biology/FLASH 1.2.11: Paired-end mates merge from fragments
+sci-biology/Fastaq 3.18.0: Manipulate FASTA/Q, GFF3, EMBL, GBK files with API for developers
 sci-biology/GAL 0.2.2_p20200508: Genome Annotation Library (incl. fasta_tool)
 sci-biology/IMAGE 2.4.1: Iterative Mapping and Assembly for Gap Elimination using paired-end Illumina
 sci-biology/KING 2.2.7: Check family relationship and infer population structure
@@ -229,7 +242,6 @@ sci-biology/afni-datasets 20240503: Datasets for using and testing sci-biology/a
 sci-biology/aghermann 1.1.2-r2: A sleep-research experiment manager, EDF viewer & Process S simulator
 sci-biology/align_to_scf 1.06: View trace information at a given position missing from Roche .ace files
 sci-biology/angsd 0.933: Population genetics analysis package
-sci-biology/ants 2.4.3: Advanced Normalitazion Tools for neuroimaging
 sci-biology/assembly-stats 9999: Assembly statistics (min, max, sum, N50, N90, count gaps and Ns)
 sci-biology/bam-readcount 0.8.0 9999: Count DNA sequence reads in BAM files and other statistics calculations
 sci-biology/bambus 2.33-r2: Scaffolding Polymorphic Genomes and Metagenomes, a part of AMOS bundle
@@ -245,7 +257,6 @@ sci-biology/brat_bw 2.0.1: Bisulfite-aware short read mapper, FM-index, no InDel
 sci-biology/brat_nova 20160103: Bisulfite-aware short read mapper, FM-index, accepts 1 InDel/read, local align
 sci-biology/brkraw 0.3.11: Fast and easy statistical learning on NeuroImaging data
 sci-biology/bru2nii 1.0.20180303: Converts Bruker ParaVision MRI data to the NIfTI file format
-sci-biology/bruker2nifti 1.0.4-r1: Medical image converter, from raw Bruker ParaVision to NIfTI
 sci-biology/btl_bloomfilter 1.2.1: BTL C/C common bloom filters
 sci-biology/bx-python 0.14.0: Library for rapid implementation of genome scale analyses
 sci-biology/cast-bin 20080813: Predict low-complexity regions in putative proteins
@@ -288,6 +299,7 @@ sci-biology/grabix 9999: Provide random access to text files BGZF compressed wit
 sci-biology/graf-bin 2.4: Find closely related subjects using SNP genotype data, validate pedigree file
 sci-biology/grappa 2.0: Genome Rearrangements Analysis under Parsimony and other Phylogenetic Algorithms
 sci-biology/hexamer 19990330: Predict CDS using 6mers without deriving information from base composition
+sci-biology/hisat2 2.2.1: Align DNA reads to a population of genomes
 sci-biology/idba 1.1.3 9999: De novo De Bruijn graph assembler iteratively using multimple k-mers
 sci-biology/imagej 1.54i-r1 9999: Image Processing and Analysis in Java
 sci-biology/irsabi_bidsdata 1.4: BIDS data files released with the IRSABI publication
@@ -301,6 +313,7 @@ sci-biology/libBigWig 0.4.4 0.4.7 9999: C library for handling bigWig files (fun
 sci-biology/lighter 1.1.2 9999: NGS reads corrector
 sci-biology/lucy 1.20: DNA sequence quality and vector trimming tool
 sci-biology/lumpy-sv 0.3.1: Probabilistic framework for structural variant discovery
+sci-biology/mappy 2.26: Minimap2 python binding
 sci-biology/megahit 1.2.9: Metagenome assembler using succinct de Bruijn graph approach with CUDA
 sci-biology/merlin 1.1.2: Statistical analysis of gene flow in pedigrees
 sci-biology/minimap2 2.24-r1: splice-aware sequence aligner with SSE2 and SSE4.1
@@ -315,7 +328,6 @@ sci-biology/multiqc 1.33: Aggregate bioinformatics results across many samples i
 sci-biology/nanopolish 9999: Signal-level analysis of Oxford Nanopore sequencing data
 sci-biology/neuroconv 0.4.8-r1: Create NWB files from proprietary formats.
 sci-biology/nextclip 1.3.1: Split Illumina Nextera long mate-pairs
-sci-biology/nilearn 0.9.1-r1: Fast and easy statistical learning on NeuroImaging data
 sci-biology/nitime 0.10.2 9999: Time-series analysis of neuroscience data
 sci-biology/nrcl 110625: Containment clustering and layout utility for processing pairwise alignments
 sci-biology/ntCard 1.2.2 9999: Estimate k-mer coverage histogram of genomics data
@@ -391,7 +403,7 @@ sci-chemistry/panav 0.20130730: Probabilistic approach for validating protein NM
 sci-chemistry/relion 4.0.0 9999: Image-processing software for cryo-electron microscopy
 sci-chemistry/ssp 09.11: Secondary structure propensities
 sci-electronics/minipro 0.5: A free and open TL866XX programmer
-sci-electronics/mpremote 0.4.0 1.22.0: MicroPython remote control
+sci-electronics/mpremote 1.22.0: MicroPython remote control
 sci-libs/HDF5Plugin-Zstandard 0_pre20201121-r1: ZSTD plugin for hdf5
 sci-libs/amber99sb_phipsi 0_pre130901: AMBER99SB PHI PSI table (Lindorff-Larsen et al., Proteins 78, 1950-58, 2010)
 sci-libs/amber99sbnmr 0_pre130901: AMBER99SBnmr1 force field (Lindorff-Larsen et al., Proteins 78, 1950-58, 2010)
@@ -417,6 +429,7 @@ sci-libs/gvar 13.0.2: Gaussian random variables.
 sci-libs/handyg 0.1.5: Rapid numerical evaluation of generalised polylogarithms
 sci-libs/htslib-plugins 201712: iRODs plugins for >=htslib-1.4
 sci-libs/iRODS 4.2.11: Integrated Rule Oriented Data System, a data management software
+sci-libs/labbookdb 0.1-r1: Lab Book Database Framework
 sci-libs/lib2bit 0.2.1: C library for accessing 2bit files
 sci-libs/libStatGen 1.0.15: Set of classes for creating statistical genetic programs
 sci-libs/libflame-amd 3.1: AMD optimized high-performance object-based library for DLA computations
@@ -486,7 +499,7 @@ sci-physics/iregi 1.1.0 9999: Integral REduction with General positive propagato
 sci-physics/jaxodraw-bin 2.1.0: Java program for drawing Feynman diagrams
 sci-physics/lhapdf-sets 0: LHAPDF data grids
 sci-physics/madanalysis5 1.11.1: A package for event file analysis and recasting of LHC results
-sci-physics/madgraph5 3.5.3 3.5.8 3.7.1 9999: MadGraph5_aMC@NLO
+sci-physics/madgraph5 3.5.8 3.7.1 9999: MadGraph5_aMC@NLO
 sci-physics/madgraph5-pythia8-interface 1.3: Interface to pythia8 for madgraph5
 sci-physics/mc-tester 1.25.0: Comparisons of Monte Carlo predictions in High Energy Physics
 sci-physics/mcfm 10.2.1: Monte Carlo for FeMtobarn processes
@@ -494,7 +507,7 @@ sci-physics/mplhep 0.3.55 0.3.59: Histogram plots using matplotlib and HEP compa
 sci-physics/mplhep-data 0.0.4: Data/font package for mplhep.
 sci-physics/ninja 1.2.0: Integrand Reduction via Laurent Expansion for one-loop integrals.
 sci-physics/oneloop 3.6 3.7.1 3.7.2: Library of one-loop scalar functions
-sci-physics/openloops 2.1.4-r2 2.1.5 2.1.5-r1 9999: Evaluation of tree and one-loop matrix elements for any Standard Model.
+sci-physics/openloops 2.1.5-r1 9999: Evaluation of tree and one-loop matrix elements for any Standard Model.
 sci-physics/openmx 3.9_p20211017: Material eXplorer
 sci-physics/particle 0.23.1 0.24.0 0.25.2 9999: PDG particle data and identification codes
 sci-physics/photos 3.64: Monte Carlo for bremsstrahlung in the decay of particles and resonances
@@ -506,7 +519,7 @@ sci-physics/pyslha 3.3.2: Parsing, manipulating, and visualising SUSY Les Houche
 sci-physics/qcdloop 2.0.9 2.0.11 2.1.0 2.1.0-r1 9999: An object-oriented one-loop scalar Feynman integrals framework
 sci-physics/qcl 0.6.4-r2: Quantum Computation Language with an emulator of a quantum computer
 sci-physics/qgraf 3.4.2 3.5.3 3.6.9 4.0.5: qgraf generates Feynman diagrams for various types of QFT models
-sci-physics/recola2 2.2.4 2.2.5: Recursive Computation of 1-Loop Amplitudes.
+sci-physics/recola2 2.2.5: Recursive Computation of 1-Loop Amplitudes.
 sci-physics/recola2-SM 2.2.3: RECOLA2 Standard Model
 sci-physics/samurai 2.1.1: Scattering AMplitudes from Unitarity-based Reduction Algorithm at the Integrand level.
 sci-physics/scikit-hep-testdata 0.4.48 0.5.5 0.5.8: A package to provide example files for testing and developing packages against.
@@ -518,16 +531,13 @@ sci-physics/uproot 5.3.1 5.4.1 5.5.1: ROOT I/O in pure Python and Numpy.
 sci-visualization/clip 0.7-r1: command line chart creator
 sci-visualization/fiji-bin 20260307_p1417: ImageJ distribution with a lot of plugins for scientific image processing
 sci-visualization/forge 1.0.5 1.0.7 9999: High Performance Visualizations for ArrayFire
-sci-visualization/fsleyes 1.5.0: The new FSL image viewer, released with FSL 5.0.10
-sci-visualization/fsleyes-props 1.8.2: Object attribute management for the FSLeyes viewer
-sci-visualization/fsleyes-widgets 0.12.3: GUI widgets and utilities for the FSLeyes viewer
 sci-visualization/mricrogl 1.2.20211007-r1 1.2.20220720-r1: A simple medical imaging visualization tool
 sci-visualization/surf-ice 1.0.20201102 9999: A surface rendering tool supporting neuroimaging data
-sys-cluster/easybuild 4.9.0-r1 5.1.1-r1 9999: EasyBuild is a software build and installation framework.
-sys-cluster/easybuild-easyblocks 4.9.0 5.1.1 9999: Provides a collection of easyblocks for EasyBuild.
-sys-cluster/easybuild-easyconfigs 4.9.0 5.1.1 9999: Provides a collection of well-tested easyconfig files for EasyBuild.
-sys-cluster/easybuild-framework 4.9.0 5.1.1 9999: The easybuild-framework package is the core of EasyBuild.
-sys-cluster/modules 4.6.0-r1 5.6.0 5.6.1: Dynamic modification of a user's environment via modulefiles
+sys-cluster/easybuild 5.1.1-r1 9999: EasyBuild is a software build and installation framework.
+sys-cluster/easybuild-easyblocks 5.1.1 9999: Provides a collection of easyblocks for EasyBuild.
+sys-cluster/easybuild-easyconfigs 5.1.1 9999: Provides a collection of well-tested easyconfig files for EasyBuild.
+sys-cluster/easybuild-framework 5.1.1 9999: The easybuild-framework package is the core of EasyBuild.
+sys-cluster/modules 5.6.0 5.6.1: Dynamic modification of a user's environment via modulefiles
 sys-devel/DPC++ 2021.12 2022.09 2022.12: oneAPI Data Parallel C++ compiler
 sys-devel/ittapi 3.23.0 3.24.0: Intel Instrumentation and Tracing Technology and Just-In-Time API
 sys-devel/oneDPL 2021.7.1 2022.0.0-r1 2022.2.0: oneAPI Data Parallel C++ Library
