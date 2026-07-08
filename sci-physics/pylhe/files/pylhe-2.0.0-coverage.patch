@@ -1,0 +1,12 @@
+--- a/pyproject.toml	2026-07-08 14:49:30.861203886 +0200
++++ b/pyproject.toml	2026-07-08 14:49:45.666282872 +0200
+@@ -131,9 +131,6 @@
+     "--strict-config",
+     # Non-test dirs that may hold collectable .py/.rst files (e.g. examples/ with future test_* helpers)
+     "--ignore=docs",
+-    "--cov=pylhe",
+-    "--cov-report=term-missing",
+-    "--cov-report=xml",
+     "--doctest-modules",
+     "--doctest-glob=*.rst",
+ ]
