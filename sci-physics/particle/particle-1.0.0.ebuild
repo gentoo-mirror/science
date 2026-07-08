@@ -1,4 +1,4 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -24,7 +24,6 @@ fi
 RDEPEND="
 	>=dev-python/attrs-22.2[${PYTHON_USEDEP}]
 	>=sci-physics/hepunits-2.4.0[${PYTHON_USEDEP}]
-	dev-python/deprecated[${PYTHON_USEDEP}]
 	$(python_gen_cond_dep '
 		>=dev-python/typing-extensions-4.5[${PYTHON_USEDEP}]
 	' python3_{11..12})
