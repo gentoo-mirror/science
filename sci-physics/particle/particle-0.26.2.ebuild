@@ -1,9 +1,9 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_12 )
+PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1
 
@@ -22,15 +22,19 @@ else
 fi
 
 RDEPEND="
-	>=dev-python/attrs-19.2[${PYTHON_USEDEP}]
-	>=sci-physics/hepunits-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/attrs-22.2[${PYTHON_USEDEP}]
+	>=sci-physics/hepunits-2.4.0[${PYTHON_USEDEP}]
 	dev-python/deprecated[${PYTHON_USEDEP}]
+	$(python_gen_cond_dep '
+		>=dev-python/typing-extensions-4.5[${PYTHON_USEDEP}]
+	' python3_{11..12})
+
 "
-DEPEND="${RDEPEND}"
 BDEPEND="
+	dev-python/hatch-vcs[${PYTHON_USEDEP}]
 	test? (
-		>=dev-python/pytest-6.0.0[${PYTHON_USEDEP}]
 		dev-python/pandas[${PYTHON_USEDEP}]
+		>=dev-python/pytest-7.0.0[${PYTHON_USEDEP}]
 		dev-python/tabulate[${PYTHON_USEDEP}]
 	)
 "

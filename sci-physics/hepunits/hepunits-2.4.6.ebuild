@@ -1,9 +1,9 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{12..13} )
+PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1
 
@@ -20,6 +20,11 @@ else
 	KEYWORDS="~amd64"
 fi
 
-BDEPEND="dev-python/hatch-vcs[${PYTHON_USEDEP}]"
+BDEPEND="
+	dev-python/hatch-vcs[${PYTHON_USEDEP}]
+	test? (
+		sci-physics/pint[${PYTHON_USEDEP}]
+	)
+"
 
 distutils_enable_tests pytest
