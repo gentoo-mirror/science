@@ -87,7 +87,7 @@ dev-python/gffpandas 1.2.0-r1: Python library to Filter and sort GFF3 annotation
 dev-python/google-cloud-storage 2.17.0: Google Cloud Storage API client library
 dev-python/google-crc32c 1.8.0: A python wrapper of the C library crc32c
 dev-python/gwcs 0.18.3-r1: Generalized World Coordinate System
-dev-python/hdbscan 0.8.42: A high performance implementation of HDBSCAN clustering.
+dev-python/hdbscan 0.8.44: A high performance implementation of HDBSCAN clustering.
 dev-python/hdf5storage 0.1.19 9999: Read/write Python types to/from HDF5 files, including MATLAB v7.3 MAT files
 dev-python/hdmf 3.14.3: The Hierarchical Data Modeling Framework
 dev-python/hdmf-zarr 0.5.0: Zarr I/O backend for HDMF
@@ -189,7 +189,7 @@ dev-util/makefile2graph 1.5.0 9999: Create a graph of dependencies from GNU Make
 dev-util/ndiff 2.00: A diff program that ignores small numeric differences
 dev-util/plog 1.1.5 9999: Portable, simple and extensible C++ logging library
 dev-vcs/dandi-cli 0.61.2: DANDI command line client to facilitate common operations
-dev-vcs/datalad 1.0.2: Keep code, data, containers under control with git and git-annex
+dev-vcs/datalad 1.0.3: Keep code, data, containers under control with git and git-annex
 dev-vcs/datalad-fuse 0.5.1-r1: Keep code, data, containers under control with git and git-annex
 media-gfx/brlcad 7.32.4 9999: Constructive solid geometry modeling system
 media-libs/charls 2.3.4: C++ JPEG-LS library implementation
@@ -514,7 +514,7 @@ sci-physics/photos 3.64: Monte Carlo for bremsstrahlung in the decay of particle
 sci-physics/pint 0.25 0.25.3 9999: Operate and manipulate physical quantities in Python
 sci-physics/pyhepmc 2.11.0 2.14.0: A Pythonic wrapper for the HepMC3 C++ library.
 sci-physics/pyhf 0.7.5 0.7.6: pure-python fitting/limit-setting/interval estimation HistFactory-style
-sci-physics/pylhe 0.9.1 1.0.0 1.0.4 9999: Lightweight Python interface to read Les Houches Event (LHE) files
+sci-physics/pylhe 0.9.1 1.0.0 1.0.4 2.0.0 9999: Lightweight Python interface to read Les Houches Event (LHE) files
 sci-physics/pyslha 3.3.2: Parsing, manipulating, and visualising SUSY Les Houches Accord data
 sci-physics/qcdloop 2.0.9 2.0.11 2.1.0 2.1.0-r1 9999: An object-oriented one-loop scalar Feynman integrals framework
 sci-physics/qcl 0.6.4-r2: Quantum Computation Language with an emulator of a quantum computer
