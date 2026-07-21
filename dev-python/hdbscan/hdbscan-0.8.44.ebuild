@@ -14,7 +14,7 @@ HOMEPAGE="https://github.com/scikit-learn-contrib/hdbscan"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64"
 # Reported upstream:
 # https://github.com/scikit-learn-contrib/hdbscan/issues/501
 RESTRICT="test"
