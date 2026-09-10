@@ -512,7 +512,7 @@ sci-physics/openmx 3.9_p20211017: Material eXplorer
 sci-physics/particle 0.24.0 0.25.2 0.26.2 1.0.0 9999: PDG particle data and identification codes
 sci-physics/photos 3.64: Monte Carlo for bremsstrahlung in the decay of particles and resonances
 sci-physics/pint 0.25 0.25.3 9999: Operate and manipulate physical quantities in Python
-sci-physics/pyhepmc 2.11.0 2.14.0: A Pythonic wrapper for the HepMC3 C++ library.
+sci-physics/pyhepmc 2.14.0-r1 2.16.1 9999: A Pythonic wrapper for the HepMC3 C++ library
 sci-physics/pyhf 0.7.5 0.7.6: pure-python fitting/limit-setting/interval estimation HistFactory-style
 sci-physics/pylhe 0.9.1 1.0.0 1.0.4 2.0.0 9999: Lightweight Python interface to read Les Houches Event (LHE) files
 sci-physics/pyslha 3.3.2: Parsing, manipulating, and visualising SUSY Les Houches Accord data
