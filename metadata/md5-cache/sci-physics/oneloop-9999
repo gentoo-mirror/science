@@ -1,16 +1,15 @@
-BDEPEND=|| ( dev-lang/python:3.14 dev-lang/python:3.13 dev-lang/python:3.12 ) app-arch/unzip virtual/fortran
-DEFINED_PHASES=compile configure install setup
+BDEPEND=|| ( dev-lang/python:3.14 dev-lang/python:3.13 dev-lang/python:3.12 ) app-arch/unzip virtual/fortran >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install setup unpack
 DEPEND=qpkind? ( sci-libs/qd[fortran] ) qpkind16? ( sci-libs/qd[fortran] ) arprec? ( sci-libs/arprec[fortran] ) mpfun90? ( sci-libs/mpfun90 ) virtual/fortran
 DESCRIPTION=Library of one-loop scalar functions
 EAPI=8
 HOMEPAGE=https://helac-phegas.web.cern.ch/OneLOop.html https://bitbucket.org/hameren/oneloop
-INHERIT=fortran-2 python-any-r1 toolchain-funcs flag-o-matic
+INHERIT=fortran-2 python-any-r1 toolchain-funcs flag-o-matic git-r3
 IUSE=+dpkind qpkind +qpkind16 dpkind16 qdcpp ddcpp mpfun90 arprec tlevel cppintf
-KEYWORDS=~amd64
 LICENSE=GPL-3+
+PROPERTIES=live
 RDEPEND=qpkind? ( sci-libs/qd[fortran] ) qpkind16? ( sci-libs/qd[fortran] ) arprec? ( sci-libs/arprec[fortran] ) mpfun90? ( sci-libs/mpfun90 ) virtual/fortran
 REQUIRED_USE=?? ( dpkind dpkind16 ddcpp ) ?? ( qpkind qpkind16 qdcpp ) ?? ( dpkind qpkind ) ?? ( dpkind16 qpkind16 ) ?? ( arprec mpfun90 ) || ( dpkind dpkind16 ddcpp qpkind qpkind16 qdcpp )
 SLOT=0
-SRC_URI=https://bitbucket.org/hameren/oneloop/get/v3.7.2.tar.bz2 -> oneloop-3.7.2.tar.bz2
-_eclasses_=toolchain-funcs	58a918e3a42d0156f010dcfd43725be5	flag-o-matic	fd3558f73f6503093adee69adf41020d	fortran-2	ae6d43513003405bd4a48698fc20370a	eapi9-pipestatus	d2c134036ac31c3085aebc9147f572bd	multiprocessing	45d0620f25c2f063ad6276ecd9ed9399	python-utils-r1	025367880f07ae6444e6035a49db0dab	python-any-r1	891415dfe39ad9b41b461f2b86354af0
-_md5_=7b24d3e48c467805b94e6adc6aabc56b
+_eclasses_=toolchain-funcs	58a918e3a42d0156f010dcfd43725be5	flag-o-matic	fd3558f73f6503093adee69adf41020d	fortran-2	ae6d43513003405bd4a48698fc20370a	eapi9-pipestatus	d2c134036ac31c3085aebc9147f572bd	multiprocessing	45d0620f25c2f063ad6276ecd9ed9399	python-utils-r1	025367880f07ae6444e6035a49db0dab	python-any-r1	891415dfe39ad9b41b461f2b86354af0	git-r3	e6c2f983e006e805160436c75a0c1562
+_md5_=c1da478f1d9cafdc68d2c1a1db802b85
