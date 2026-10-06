@@ -2,11 +2,11 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-inherit rpm xdg
+inherit xdg
 
 DESCRIPTION="Software for plasmid mapping, primer design, and restriction site analysis"
 HOMEPAGE="https://www.snapgene.com/snapgene-viewer"
-SRC_URI="${PN}_${PV}_linux.rpm"
+SRC_URI="${PN}_${PV}_linux.deb"
 S="${WORKDIR}"
 
 LICENSE="snapgene"
@@ -22,17 +22,12 @@ pkg_nofetch() {
 	elog "and place it at your DISTDIR directory."
 }
 
-src_unpack() {
-	:
-}
-
 src_install() {
 	dodir /
 	cd "${ED}" || die
-	rpm_src_unpack
+	unpack "${WORKDIR}"/data.tar.xz
 
-	# Clean cruft
-	rm -rf "${ED}"/usr/lib/.build-id || die
+	# Cleaning
 	rm -rf "${ED}"/usr/share/doc/snapgene || die
 
 	sed -i -e 's/Application;//' \
