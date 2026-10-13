@@ -514,7 +514,7 @@ sci-physics/photos 3.64: Monte Carlo for bremsstrahlung in the decay of particle
 sci-physics/pint 0.25 0.25.3 9999: Operate and manipulate physical quantities in Python
 sci-physics/pyhepmc 2.14.0-r1 2.16.1 9999: A Pythonic wrapper for the HepMC3 C++ library
 sci-physics/pyhf 0.7.5 0.7.6: pure-python fitting/limit-setting/interval estimation HistFactory-style
-sci-physics/pylhe 0.9.1 1.0.0 1.0.4 2.0.0 9999: Lightweight Python interface to read Les Houches Event (LHE) files
+sci-physics/pylhe 0.9.1 1.0.0 1.0.4 2.0.0 2.1.0 9999: Lightweight Python interface to read Les Houches Event (LHE) files
 sci-physics/pyslha 3.3.2: Parsing, manipulating, and visualising SUSY Les Houches Accord data
 sci-physics/qcdloop 2.0.9 2.0.11 2.1.0 2.1.0-r1 9999: An object-oriented one-loop scalar Feynman integrals framework
 sci-physics/qcl 0.6.4-r2: Quantum Computation Language with an emulator of a quantum computer
@@ -522,7 +522,7 @@ sci-physics/qgraf 3.4.2 3.5.3 3.6.9 4.0.5: qgraf generates Feynman diagrams for 
 sci-physics/recola2 2.2.5: Recursive Computation of 1-Loop Amplitudes.
 sci-physics/recola2-SM 2.2.3: RECOLA2 Standard Model
 sci-physics/samurai 2.1.1: Scattering AMplitudes from Unitarity-based Reduction Algorithm at the Integrand level.
-sci-physics/scikit-hep-testdata 0.5.8 0.6.6: A package to provide example files for testing and developing packages against.
+sci-physics/scikit-hep-testdata 0.5.8 0.6.6 0.6.9: A package to provide example files for testing and developing packages against.
 sci-physics/sherpa 3.0.1-r1 9999: Simulation of High-Energy Reactions of PArticles
 sci-physics/spheno 3.3.8-r1 4.0.5: SPheno stands for S(upersymmetric) Pheno(menology)
 sci-physics/stdhep 5.6.1 9999: StdHEP: Standard HEP
