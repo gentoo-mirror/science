@@ -1,4 +1,4 @@
-BDEPEND=dev-libs/libxslt app-text/docbook-xsl-ns-stylesheets doc? ( app-text/doxygen[dot] ) python? ( python_single_target_python3_12? ( dev-lang/python:3.12 ) dev-lang/swig ) app-alternatives/ninja >=dev-build/cmake-3.28.5
+BDEPEND=dev-libs/libxslt app-text/docbook-xsl-ns-stylesheets doc? ( app-text/doxygen media-gfx/graphviz ) python? ( python_single_target_python3_12? ( dev-lang/python:3.12 ) dev-lang/swig ) app-alternatives/ninja >=dev-build/cmake-3.28.5
 DEFINED_PHASES=compile configure install prepare setup test
 DEPEND=app-text/poppler:0=[cxx] dev-libs/expat:0= dev-libs/json-c:0= dev-libs/libxml2:2= dev-libs/openssl:0= >=media-libs/charls-2.0.0:0= >=media-libs/openjpeg-2.0.0:2= sys-apps/util-linux:0= virtual/zlib:0= python? ( python_single_target_python3_12? ( dev-lang/python:3.12 ) ) vtk? ( sci-libs/vtk[rendering] python? ( sci-libs/vtk[python,python_single_target_python3_12(-)?] ) )
 DESCRIPTION=Cross-platform DICOM implementation
@@ -14,4 +14,4 @@ RESTRICT=test
 SLOT=0
 SRC_URI=https://downloads.sourceforge.net/gdcm/gdcm-3.0.24.tar.bz2 test? ( https://downloads.sourceforge.net/gdcm/gdcmData.tar.gz )
 _eclasses_=toolchain-funcs	58a918e3a42d0156f010dcfd43725be5	flag-o-matic	fd3558f73f6503093adee69adf41020d	multiprocessing	45d0620f25c2f063ad6276ecd9ed9399	ninja-utils	d063ea1900a793f93eb095010d6d9156	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	3530055400d05e64deaba3042af30af6	eapi9-pipestatus	d2c134036ac31c3085aebc9147f572bd	python-utils-r1	025367880f07ae6444e6035a49db0dab	python-single-r1	47d8ac9be330c9366112b78fd4f8ce57
-_md5_=20b8aea62614d4abc7eb4aeb0025a354
+_md5_=45fbf1a73e2cdae3f65bbde13772b12e
