@@ -129,7 +129,7 @@ dev-python/pybedtools 0.12.0: Use BED and GFF files from python using BEDtools
 dev-python/pyct 0.6.0: Python packaging Common Tasks
 dev-python/pyerfa 2.0.1.5: Python bindings for ERFA
 dev-python/pyerrors 2.16.0: Error propagation and statistical analysis for Markov chain Monte Carlos
-dev-python/pyfaidx 0.9.0.4: Efficient pythonic random access to fasta subsequences
+dev-python/pyfaidx 0.9.1.1: Efficient pythonic random access to fasta subsequences
 dev-python/pynndescent 0.6.0: Fast approximate nearest-neighbour search via Nearest-Neighbour Descent
 dev-python/pynwb 2.8.1: A Python API for working with Neurodata stored in the NWB Format
 dev-python/pyout 0.7.3: Terminal styling for structured data
