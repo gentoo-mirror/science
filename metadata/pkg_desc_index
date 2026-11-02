@@ -84,9 +84,9 @@ dev-python/gammapy 1.0: A Python package for gamma-ray astronomy
 dev-python/geopandas 1.0.1: Python tools for geographic data
 dev-python/gffpandas 1.2.0-r1: Python library to Filter and sort GFF3 annotations
 dev-python/google-cloud-storage 2.17.0: Google Cloud Storage API client library
-dev-python/google-crc32c 1.8.0: A python wrapper of the C library crc32c
+dev-python/google-crc32c 1.9.0: A python wrapper of the C library crc32c
 dev-python/gwcs 0.18.3-r1: Generalized World Coordinate System
-dev-python/hdbscan 0.8.44: A high performance implementation of HDBSCAN clustering.
+dev-python/hdbscan 0.8.44-r1: A high performance implementation of HDBSCAN clustering
 dev-python/hdf5storage 0.1.19 9999: Read/write Python types to/from HDF5 files, including MATLAB v7.3 MAT files
 dev-python/hdmf 3.14.3: The Hierarchical Data Modeling Framework
 dev-python/hdmf-zarr 0.5.0: Zarr I/O backend for HDMF
@@ -257,7 +257,7 @@ sci-biology/brat_nova 20160103: Bisulfite-aware short read mapper, FM-index, acc
 sci-biology/brkraw 0.3.11: Fast and easy statistical learning on NeuroImaging data
 sci-biology/bru2nii 1.0.20180303: Converts Bruker ParaVision MRI data to the NIfTI file format
 sci-biology/btl_bloomfilter 1.2.1: BTL C/C common bloom filters
-sci-biology/bx-python 0.14.0: Library for rapid implementation of genome scale analyses
+sci-biology/bx-python 0.15.1: Library for rapid implementation of genome scale analyses
 sci-biology/cast-bin 20080813: Predict low-complexity regions in putative proteins
 sci-biology/cdbfasta 0.1: FASTA record indexing/retrievieng utility
 sci-biology/cluster 1.59: Hierarchical, k-means, k-medians clustering for expression/microarray analysis
