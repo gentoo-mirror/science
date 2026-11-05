@@ -164,7 +164,10 @@ sci-visualization/mricrogl:dicom - Adds limited read support for the DICOM imagi
 sys-cluster/modules:man-install - install man files in global location
 sys-cluster/modules:new-features - enable all new features
 sys-cluster/modules:shell-setup - install shell initialization and completion files
+sys-devel/DPC++:cpu - use the cpu backend
 sys-devel/DPC++:cuda - use the cuda backend
+sys-devel/DPC++:default-lld - use lld as the default linker for dpc++
 sys-devel/DPC++:esimd_emulator - enable ESIMD CPU emulation
 sys-devel/DPC++:hip - use the HIP backend
+sys-devel/DPC++:jit - enable kernel JIT compiler for HIP and CUDA
 sys-devel/oneDPL:esimd_emulator - enable ESIMD CPU emulation

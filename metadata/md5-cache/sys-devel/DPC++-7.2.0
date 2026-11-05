@@ -1,0 +1,16 @@
+BDEPEND=virtual/pkgconfig app-alternatives/ninja >=dev-build/cmake-3.28.5 doc? ( app-text/doxygen media-gfx/graphviz virtual/latex-base || ( ( dev-lang/python:3.15 dev-python/sphinx[python_targets_python3_15(-)] dev-python/recommonmark[python_targets_python3_15(-)] dev-python/myst-parser[python_targets_python3_15(-)] ) ( dev-lang/python:3.14 dev-python/sphinx[python_targets_python3_14(-)] dev-python/recommonmark[python_targets_python3_14(-)] dev-python/myst-parser[python_targets_python3_14(-)] ) ( dev-lang/python:3.13 dev-python/sphinx[python_targets_python3_13(-)] dev-python/recommonmark[python_targets_python3_13(-)] dev-python/myst-parser[python_targets_python3_13(-)] ) ( dev-lang/python:3.12 dev-python/sphinx[python_targets_python3_12(-)] dev-python/recommonmark[python_targets_python3_12(-)] dev-python/myst-parser[python_targets_python3_12(-)] ) ) )
+DEFINED_PHASES=compile configure install prepare setup test
+DEPEND=dev-libs/boost:= >=dev-libs/level-zero-1.32.0:= dev-libs/intel-compute-runtime dev-libs/opencl-icd-loader >=dev-util/opencl-headers-2025.06.13 >=dev-util/spirv-headers-1.4.357.0 dev-util/spirv-tools media-libs/libva dev-build/libtool >=dev-cpp/parallel-hashmap-1.3.12 cuda? ( dev-util/nvidia-cuda-toolkit:=[profiler] ) hip? ( dev-util/hip:= ) zstd? ( app-arch/zstd )
+DESCRIPTION=oneAPI Data Parallel C++ compiler
+EAPI=8
+HOMEPAGE=https://github.com/intel/llvm
+INHERIT=cmake python-any-r1 toolchain-funcs flag-o-matic docs
+IUSE=cuda hip test jit debug +zstd cpu +default-lld doc
+KEYWORDS=~amd64
+LICENSE=Apache-2.0 MIT
+RDEPEND=dev-libs/boost:= >=dev-libs/level-zero-1.32.0:= dev-libs/intel-compute-runtime dev-libs/opencl-icd-loader >=dev-util/opencl-headers-2025.06.13 >=dev-util/spirv-headers-1.4.357.0 dev-util/spirv-tools media-libs/libva dev-build/libtool >=dev-cpp/parallel-hashmap-1.3.12 cuda? ( dev-util/nvidia-cuda-toolkit:=[profiler] ) hip? ( dev-util/hip:= ) zstd? ( app-arch/zstd )
+RESTRICT=!test? ( test )
+SLOT=0/9
+SRC_URI=https://github.com/intel/llvm/archive/refs/tags/v7.2.0.tar.gz -> DPC++-7.2.0.tar.gz https://github.com/intel/vc-intrinsics/archive/4fc83e12979096db72c129bd432238d5ca397e4d.tar.gz -> DPC++-7.2.0-vc-intrinsics-4fc83e12979096db72c129bd432238d5ca397e4d.tar.gz https://github.com/ktprime/emhash/archive/5e131ba09a5290823fe71099d9c35eb5df5345b6.tar.gz -> DPC++-7.2.0-emhash-5e131ba09a5290823fe71099d9c35eb5df5345b6.tar.gz https://github.com/oneapi-src/unified-memory-framework/archive/refs/tags/v1.1.0.tar.gz -> DPC++-7.2.0-unified-memory-framework-1.1.0.tar.gz
+_eclasses_=toolchain-funcs	58a918e3a42d0156f010dcfd43725be5	flag-o-matic	fd3558f73f6503093adee69adf41020d	multiprocessing	45d0620f25c2f063ad6276ecd9ed9399	ninja-utils	d063ea1900a793f93eb095010d6d9156	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	3530055400d05e64deaba3042af30af6	eapi9-pipestatus	d2c134036ac31c3085aebc9147f572bd	python-utils-r1	025367880f07ae6444e6035a49db0dab	python-any-r1	891415dfe39ad9b41b461f2b86354af0	docs	006125f2158d2f16904ebd9114336058
+_md5_=d07f2a1fe1d7deb99bdccc7a9c5985e4
