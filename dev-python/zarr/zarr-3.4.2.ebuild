@@ -9,7 +9,7 @@ PYTHON_COMPAT=( python3_{13..14} )
 inherit distutils-r1
 
 DESCRIPTION="Chunked, compressed, N-dimensional arrays for Python"
-HOMEPAGE=https://zarr.readthedocs.io/
+HOMEPAGE="https://zarr.readthedocs.io/"
 SRC_URI="https://github.com/zarr-developers/zarr-python/archive/v${PV}.tar.gz -> ${P}.gh.tar.gz"
 
 S="${WORKDIR}/zarr-python-${PV}"
